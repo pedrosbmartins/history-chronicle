@@ -5,9 +5,12 @@ interface Newsitem {
   headline: string
   year: number
   imageURL: string
+  title: string
+  url: string
   hasImage?: boolean
   hasTopDivider?: boolean
   hasBottomDivider?: boolean
+  headlineStyle?: string
 }
 
 const data = todayJSON as Newsitem[]
@@ -36,13 +39,23 @@ Handlebars.registerHelper('placeholderText', () => {
   return result
 })
 
+function randomHeadlineStyle() {
+  const transform = Math.random() < 0.75 ? 'uppercase' : 'none'
+  const style = Math.random() < 0.75 ? 'italic' : 'normal'
+  const weight = Math.random() < 0.5 ? '800' : '400'
+  return `text-transform: ${transform}; font-style: ${style}; font-weight: ${weight};`
+}
+
 $newsitems.forEach(($item, i) => {
   if (data[i]) {
+    const headlineStyle = randomHeadlineStyle()
+    console.log(data[i].year, headlineStyle)
     const newsitem = {
       ...data[i],
       hasImage: $item.classList.contains('display-image'),
       hasBottomDivider: $item.classList.contains('divider-bottom'),
-      hasTopDivider: $item.classList.contains('divider-top')
+      hasTopDivider: $item.classList.contains('divider-top'),
+      headlineStyle
     }
     $item.innerHTML = template(newsitem)
   }

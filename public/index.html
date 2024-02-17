@@ -8,6 +8,10 @@
       href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic"
+      rel="stylesheet"
+    />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
@@ -19,13 +23,13 @@
             <div class='h-[1px] w-full bg-gray-200'></div>
           </div>
         {{/if}}
-        <h1 class='text-2xl text-center uppercase italic font-extrabold'>{{headline}}</h1>
+        <h1 class='text-2xl text-center' style='{{headlineStyle}}'>{{headline}}</h1>
         <div class='h-[1px] w-[50%] px-4 mx-auto mt-2 mb-1 bg-gray-200'></div>
-        <a href='{{url}}'><h2 class='text-xs mb-1 text-center text-gray-400'>{{title}}
+        <a href='{{url}}' class='mt-1 mb-2'><h2 class='text-xs text-center text-gray-400'>{{title}}
             &#183;
             {{year}}</h2></a>
         {{#if hasImage}}
-          <div class='min-h-[150px] flex-1 my-2 bg-gray-100'></div>
+          <div class='min-h-[150px] flex-1 mb-2 bg-gray-100'></div>
         {{/if}}
         {{#placeholderText}}{{/placeholderText}}
         {{#if hasBottomDivider}}
