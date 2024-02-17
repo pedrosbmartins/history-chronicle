@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Chomsky;
+    src: url(/fonts/Chomsky.woff2) format('woff2');
+  }
+  html {
+    font-family: 'Noticia Text', system-ui, sans-serif;
+  }
+}

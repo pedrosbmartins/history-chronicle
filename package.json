@@ -1,0 +1,29 @@
+{
+  "name": "history-chronicle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently -n w: yarn:watch:*",
+    "build": "tsc && yarn styles && yarn browserify",
+    "watch:tsc": "tsc -w",
+    "browserify": "browserify build/src/index.js -o public/js/bundle.js",
+    "watch:browserify": "watchify build/src/index.js -o public/js/bundle.js -v",
+    "styles": "tailwindcss -v -i ./src/input.css -o ./public/css/styles.css",
+    "watch:styles": "tailwindcss -i ./src/input.css -o ./public/css/styles.css --watch",
+    "watch:public": "live-server ./public"
+  },
+  "resolutions": {
+    "strip-ansi": "6.0.1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "concurrently": "^8.2.2",
+    "handlebars": "^4.7.8",
+    "live-server": "1.2.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "watchify": "^4.0.0"
+  }
+}
