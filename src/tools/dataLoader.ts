@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
 import { Command } from 'commander'
+import { existsSync, mkdirSync } from 'fs'
 import { writeFile } from 'fs/promises'
 import OpenAI from 'openai'
+import path from 'path'
 
 const program = new Command()
 
@@ -17,6 +19,11 @@ program
 
     const month = String(options.month).padStart(2, '0')
     const day = String(options.day).padStart(2, '0')
+
+    if (!isDateValid(Number(month), Number(day))) {
+      console.warn(`Invalid date: month ${month}, day ${day}`)
+      process.exit(1)
+    }
 
     console.info('===========================')
     console.info('The History Chronicle')
@@ -36,8 +43,10 @@ program
 
     events = events.map((event: any, i: number) => ({ ...event, headline: headlines[i] }))
 
-    const filePath = `./data/${month}/${month}${day}.json`
+    const directory = path.join('.', 'data', month)
+    const filePath = path.join(directory, `${month}${day}.json`)
     console.info(`Writing to file ${filePath}`)
+    if (!existsSync(directory)) mkdirSync(directory)
     await writeFile(filePath, JSON.stringify(events))
 
     console.info('Done')
@@ -88,4 +97,23 @@ async function generateHeadlines(events: Array<{ originalText: string }>) {
   const headlines = JSON.parse(completion.choices[0].message.content!) as any[]
   console.info(`OpenAI: generated ${headlines.length} headlines for ${events.length} events`)
   return headlines
+}
+
+function daysInMonth(month: number) {
+  // month is 1 indexed: 1-12
+  switch (month) {
+    case 2:
+      return 29
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+      return 30
+    default:
+      return 31
+  }
+}
+
+function isDateValid(month: number, day: number) {
+  return month >= 1 && month <= 12 && day >= 1 && day <= daysInMonth(month)
 }
