@@ -1,78 +1,116 @@
 [
   {
-    "headline": "Gunman Kills Five, Injures Twenty-One in Northern Illinois University Shooting",
-    "year": 2008
+    "originalText": "A gunman opened fire into a crowded lecture hall at Northern Illinois University in DeKalb, killing five people and injuring twenty-one others.",
+    "year": 2008,
+    "subtitle": "2008 Northern Illinois University shooting",
+    "url": "https://en.wikipedia.org/wiki/2008_Northern_Illinois_University_shooting"
   },
   {
-    "headline": "Zahedan Bombings Claim 18 Lives, Targets Revolutionary Guards",
-    "year": 2007
+    "originalText": "The first of several bombings in Zahedan, Iran, killed 18 members of the Revolutionary Guards.",
+    "year": 2007,
+    "subtitle": "2007 Zahedan bombings",
+    "url": "https://en.wikipedia.org/wiki/2007_Zahedan_bombings"
   },
   {
-    "headline": "YouTube Founded by Former PayPal Employees",
-    "year": 2005
+    "originalText": "The video-sharing web site YouTube was founded by three former PayPal employees.",
+    "year": 2005,
+    "subtitle": "Online video platform",
+    "url": "https://en.wikipedia.org/wiki/Online_video_platform"
   },
   {
-    "headline": "Sri Temasek Declared National Monument in Singapore",
-    "year": 1992
+    "originalText": "Sri Temasek (pictured), the official residence of the prime minister of Singapore, was declared a national monument.",
+    "year": 1992,
+    "subtitle": "Sri Temasek",
+    "url": "https://en.wikipedia.org/wiki/Sri_Temasek"
   },
   {
-    "headline": "Voyager 1 Captures Pale Blue Dot Photo from Record Distance",
-    "year": 1990
+    "originalText": "NASA's Voyager 1 space probe took the Pale Blue Dot photograph of Earth (cropped version pictured) from a record distance of 40.5 au (6.06 billion km; 3.76 billion mi).",
+    "year": 1990,
+    "subtitle": "NASA",
+    "url": "https://en.wikipedia.org/wiki/NASA"
   },
   {
-    "headline": "Ayatollah Issues Fatwa Against Salman Rushdie",
-    "year": 1989
+    "originalText": "Ayatollah Ruhollah Khomeini of Iran issued a fatwa calling for the death of Salman Rushdie, the author of The Satanic Verses, a novel considered to be blasphemous by some Muslims.",
+    "year": 1989,
+    "subtitle": "Ruhollah Khomeini",
+    "url": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini"
   },
   {
-    "headline": "Valentine's Day Tragedy: Dublin Nightclub Fire Kills 48",
-    "year": 1981
+    "originalText": "48 people died when a fire broke out during a Valentine's Day dance at a Dublin nightclub.",
+    "year": 1981,
+    "subtitle": "Stardust fire",
+    "url": "https://en.wikipedia.org/wiki/Stardust_fire"
   },
   {
-    "headline": "US Ambassador Adolph Dubs Killed in Afghanistan Kidnapping",
-    "year": 1979
+    "originalText": "Adolph Dubs, United States Ambassador to Afghanistan, was kidnapped by unknown agents and killed during a gun battle between Afghan police and the perpetrators.",
+    "year": 1979,
+    "subtitle": "Adolph Dubs",
+    "url": "https://en.wikipedia.org/wiki/Adolph_Dubs"
   },
   {
-    "headline": "Lawrencium Synthesized at UC Berkeley",
-    "year": 1961
+    "originalText": "Lawrencium, the radioactive synthetic element with atomic number 103, was first synthesized at the Lawrence Radiation Laboratory on the campus of the University of California, Berkeley.",
+    "year": 1961,
+    "subtitle": "Lawrencium",
+    "url": "https://en.wikipedia.org/wiki/Lawrencium"
   },
   {
-    "headline": "WWII: General von Arnim Launches Offensive in Tunisia",
-    "year": 1943
+    "originalText": "World War II: General Hans-Jürgen von Arnim's 5th Panzer Army launched a concerted attack against Allied positions in Tunisia.",
+    "year": 1943,
+    "subtitle": "World War II",
+    "url": "https://en.wikipedia.org/wiki/World_War_II"
   },
   {
-    "headline": "Singapore Naval Base Opens as British Defense Strategy",
-    "year": 1938
+    "originalText": "The Singapore Naval Base, the cornerstone of the Singapore strategy, a British naval defence policy, was opened.",
+    "year": 1938,
+    "subtitle": "Singapore Naval Base",
+    "url": "https://en.wikipedia.org/wiki/Singapore_Naval_Base"
   },
   {
-    "headline": "Computing-Tabulating-Recording Company Renamed IBM",
-    "year": 1924
+    "originalText": "The Computing-Tabulating-Recording Company was renamed as International Business Machines (IBM), later growing into one of the world's largest companies by market capitalization.",
+    "year": 1924,
+    "subtitle": "Computing-Tabulating-Recording Company",
+    "url": "https://en.wikipedia.org/wiki/Computing-Tabulating-Recording_Company"
   },
   {
-    "headline": "Battle of Bereza Kartuska Marks Start of Polish–Soviet War",
-    "year": 1919
+    "originalText": "The Battle of Bereza Kartuska, the first serious armed conflict of the Polish–Soviet War, took place near present-day Biaroza, Belarus.",
+    "year": 1919,
+    "subtitle": "Battle of Bereza Kartuska",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Bereza_Kartuska"
   },
   {
-    "headline": "Gertie the Dinosaur Released, Influences Future Animators",
-    "year": 1914
+    "originalText": "The animated film Gertie the Dinosaur was released, later greatly influencing future animators such as the Fleischer brothers and Walt Disney.",
+    "year": 1914,
+    "subtitle": "Gertie the Dinosaur",
+    "url": "https://en.wikipedia.org/wiki/Gertie_the_Dinosaur"
   },
   {
-    "headline": "Hospital for Sick Children Founded in London",
-    "year": 1852
+    "originalText": "The Hospital for Sick Children, the first hospital in England to provide in-patient beds specifically for children, was founded in London.",
+    "year": 1852,
+    "subtitle": "Great Ormond Street Hospital",
+    "url": "https://en.wikipedia.org/wiki/Great_Ormond_Street_Hospital"
   },
   {
-    "headline": "Serb Chieftains Elect Đorđe Petrović as Leader, Launch Uprising Against Ottoman Empire",
-    "year": 1804
+    "originalText": "Serb chieftains elected Đorđe Petrović as their leader and began an uprising against the Ottoman Empire.",
+    "year": 1804,
+    "subtitle": "Karađorđe",
+    "url": "https://en.wikipedia.org/wiki/Kara%C4%91or%C4%91e"
   },
   {
-    "headline": "Patriots Defeat Loyalist Militia in Georgia Skirmish",
-    "year": 1779
+    "originalText": "American Revolutionary War: A militia of Patriots decisively defeated and scattered a Loyalist militia that was on its way to British-controlled Augusta, Georgia.",
+    "year": 1779,
+    "subtitle": "American Revolutionary War",
+    "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War"
   },
   {
-    "headline": "Captain James Cook Killed by Native Hawaiians in Hawaii",
-    "year": 1779
+    "originalText": "Native Hawaiians killed the English explorer Captain James Cook after he attempted to kidnap Kalaniʻōpuʻu, the ruling chief of the island of Hawaii.",
+    "year": 1779,
+    "subtitle": "Death of James Cook",
+    "url": "https://en.wikipedia.org/wiki/Death_of_James_Cook"
   },
   {
-    "headline": "Arauco War Ignites with Mapuche Attacks in Colonial Chile",
-    "year": 1655
+    "originalText": "Arauco War: A series of coordinated Mapuche attacks took place against Spanish settlements and forts in colonial Chile, beginning a ten-year period of warfare.",
+    "year": 1655,
+    "subtitle": "Arauco War",
+    "url": "https://en.wikipedia.org/wiki/Arauco_War"
   }
 ]

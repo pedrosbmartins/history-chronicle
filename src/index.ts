@@ -4,8 +4,7 @@ import todayJSON from '../data/today.json'
 interface Newsitem {
   headline: string
   year: number
-  imageURL: string
-  title: string
+  subtitle: string
   url: string
   hasImage?: boolean
   hasTopDivider?: boolean
@@ -41,7 +40,7 @@ Handlebars.registerHelper('placeholderText', () => {
 
 function randomHeadlineStyle() {
   const transform = Math.random() < 0.75 ? 'uppercase' : ''
-  const style = Math.random() < 0.75 ? 'font-italic' : ''
+  const style = Math.random() < 0.75 ? 'italic' : ''
   const weight = Math.random() < 0.5 ? 'font-extrabold' : 'font-normal'
   return `${transform} ${style} ${weight}`
 }

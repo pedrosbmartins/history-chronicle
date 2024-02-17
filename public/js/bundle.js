@@ -1,118 +1,130 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 module.exports=[
     {
-        "headline": "Gunman Kills Five, Injures Twenty-One in Northern Illinois University Shooting",
-        "year": 2008,
-        "title": "2008 Northern Illinois University shooting",
-        "url": "https://en.wikipedia.org/wiki/2008_Northern_Illinois_University_shooting"
+        "originalText": "The Burmese military staged the 2021 Myanmar coup d'état, which deposed the democratically-elected government of Aung San Suu Kyi, and sparked nationwide protests and a civil war.",
+        "year": 2021,
+        "subtitle": "Tatmadaw",
+        "url": "https://en.wikipedia.org/wiki/Tatmadaw",
+        "headline": "2021 Myanmar coup d'état deposes Aung San Suu Kyi government"
     },
     {
-        "headline": "Zahedan Bombings Claim 18 Lives, Targets Revolutionary Guards",
-        "year": 2007,
-        "title": "2007 Zahedan bombings",
-        "url": "https://en.wikipedia.org/wiki/2007_Zahedan_bombings"
+        "originalText": "Following an Egyptian Premier League match in Port Said, Al Masry fans rioted and violently attacked Al Ahly supporters, resulting in 74 deaths.",
+        "year": 2012,
+        "subtitle": "Egyptian Premier League",
+        "url": "https://en.wikipedia.org/wiki/Egyptian_Premier_League",
+        "headline": "74 killed in Port Said riot after Egyptian Premier League match"
     },
     {
-        "headline": "YouTube Founded by Former PayPal Employees",
-        "year": 2005,
-        "title": "Online video platform",
-        "url": "https://en.wikipedia.org/wiki/Online_video_platform"
+        "originalText": "Jóhanna Sigurðardóttir (pictured) became the first female prime minister of Iceland.",
+        "year": 2009,
+        "subtitle": "Jóhanna Sigurðardóttir",
+        "url": "https://en.wikipedia.org/wiki/J%C3%B3hanna_Sigur%C3%B0ard%C3%B3ttir",
+        "headline": "Jóhanna Sigurðardóttir becomes first female prime minister of Iceland"
     },
     {
-        "headline": "Sri Temasek Declared National Monument in Singapore",
-        "year": 1992,
-        "title": "Sri Temasek",
-        "url": "https://en.wikipedia.org/wiki/Sri_Temasek"
+        "originalText": "All seven crew members aboard Space Shuttle Columbia were killed when the orbiter disintegrated over Texas during reentry.",
+        "year": 2003,
+        "subtitle": "Space Shuttle Columbia",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia",
+        "headline": "Space Shuttle Columbia crew killed in reentry disaster"
     },
     {
-        "headline": "Voyager 1 Captures Pale Blue Dot Photo from Record Distance",
-        "year": 1990,
-        "title": "NASA",
-        "url": "https://en.wikipedia.org/wiki/NASA"
+        "originalText": "The Timor Leste Defence Force was established from the erstwhile anti-Indonesian independence movement Falintil.",
+        "year": 2001,
+        "subtitle": "Timor Leste Defence Force",
+        "url": "https://en.wikipedia.org/wiki/Timor_Leste_Defence_Force",
+        "headline": "Timor Leste Defence Force established from Falintil movement"
     },
     {
-        "headline": "Ayatollah Issues Fatwa Against Salman Rushdie",
-        "year": 1989,
-        "title": "Ruhollah Khomeini",
-        "url": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini"
+        "originalText": "Aeroflot Flight 7841 crashed shortly after takeoff from Minsk National Airport, killing fifty-eight people on board.",
+        "year": 1985,
+        "subtitle": "Aeroflot Flight 7841",
+        "url": "https://en.wikipedia.org/wiki/Aeroflot_Flight_7841",
+        "headline": "Aeroflot Flight 7841 crashes after takeoff, 58 dead"
     },
     {
-        "headline": "Valentine's Day Tragedy: Dublin Nightclub Fire Kills 48",
-        "year": 1981,
-        "title": "Stardust fire",
-        "url": "https://en.wikipedia.org/wiki/Stardust_fire"
-    },
-    {
-        "headline": "US Ambassador Adolph Dubs Killed in Afghanistan Kidnapping",
+        "originalText": "Ayatollah Ruhollah Khomeini returned from exile and soon led the Iranian Revolution to overthrow the Pahlavi dynasty.",
         "year": 1979,
-        "title": "Adolph Dubs",
-        "url": "https://en.wikipedia.org/wiki/Adolph_Dubs"
+        "subtitle": "Ruhollah Khomeini",
+        "url": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini",
+        "headline": "Ayatollah Khomeini leads Iranian Revolution to overthrow Pahlavi dynasty"
     },
     {
-        "headline": "Lawrencium Synthesized at UC Berkeley",
-        "year": 1961,
-        "title": "Lawrencium",
-        "url": "https://en.wikipedia.org/wiki/Lawrencium"
+        "originalText": "After having served 42 days in prison for the sexual assault of a 13-year-old girl, Polish film director Roman Polanski fled the United States before the formal sentencing hearing.",
+        "year": 1978,
+        "subtitle": "Roman Polanski sexual abuse case",
+        "url": "https://en.wikipedia.org/wiki/Roman_Polanski_sexual_abuse_case",
+        "headline": "Roman Polanski flees US after serving prison time for sexual assault"
     },
     {
-        "headline": "WWII: General von Arnim Launches Offensive in Tunisia",
-        "year": 1943,
-        "title": "World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II"
+        "originalText": "Kuala Lumpur (pictured), the capital of Malaysia, was granted city status.",
+        "year": 1972,
+        "subtitle": "Kuala Lumpur",
+        "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+        "headline": "Kuala Lumpur granted city status in Malaysia"
     },
     {
-        "headline": "Singapore Naval Base Opens as British Defense Strategy",
-        "year": 1938,
-        "title": "Singapore Naval Base",
-        "url": "https://en.wikipedia.org/wiki/Singapore_Naval_Base"
+        "originalText": "Four African American students staged the first Greensboro sit-ins at a lunch counter in Greensboro, North Carolina.",
+        "year": 1960,
+        "subtitle": "African Americans",
+        "url": "https://en.wikipedia.org/wiki/African_Americans",
+        "headline": "First Greensboro sit-ins staged by African American students"
     },
     {
-        "headline": "Computing-Tabulating-Recording Company Renamed IBM",
-        "year": 1924,
-        "title": "Computing-Tabulating-Recording Company",
-        "url": "https://en.wikipedia.org/wiki/Computing-Tabulating-Recording_Company"
+        "originalText": "Invented by German engineer Felix Wankel, the first working prototype of the Wankel rotary engine ran for the first time at the research and development department of NSU Motorenwerke AG.",
+        "year": 1957,
+        "subtitle": "Felix Wankel",
+        "url": "https://en.wikipedia.org/wiki/Felix_Wankel",
+        "headline": "First working prototype of Wankel rotary engine runs in Germany"
     },
     {
-        "headline": "Battle of Bereza Kartuska Marks Start of Polish–Soviet War",
-        "year": 1919,
-        "title": "Battle of Bereza Kartuska",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Bereza_Kartuska"
+        "originalText": "Voice of America, the official external radio and television service of the United States federal government, began broadcasting to Germany during World War II.",
+        "year": 1942,
+        "subtitle": "Voice of America",
+        "url": "https://en.wikipedia.org/wiki/Voice_of_America",
+        "headline": "Voice of America begins broadcasting to Germany during World War II"
     },
     {
-        "headline": "Gertie the Dinosaur Released, Influences Future Animators",
-        "year": 1914,
-        "title": "Gertie the Dinosaur",
-        "url": "https://en.wikipedia.org/wiki/Gertie_the_Dinosaur"
+        "originalText": "Giacomo Puccini's opera La bohème premiered at the Teatro Regio in Turin, Italy, eventually becoming one of the most frequently performed operas internationally.",
+        "year": 1896,
+        "subtitle": "Giacomo Puccini",
+        "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini",
+        "headline": "La bohème opera premieres at Teatro Regio in Turin, Italy"
     },
     {
-        "headline": "Hospital for Sick Children Founded in London",
-        "year": 1852,
-        "title": "Great Ormond Street Hospital",
-        "url": "https://en.wikipedia.org/wiki/Great_Ormond_Street_Hospital"
+        "originalText": "More than 1,200 people died in the most destructive recorded eruption of Mayon in the Philippines.",
+        "year": 1814,
+        "subtitle": "Mayon",
+        "url": "https://en.wikipedia.org/wiki/Mayon",
+        "headline": "Over 1,200 die in destructive eruption of Mayon in the Philippines"
     },
     {
-        "headline": "Serb Chieftains Elect Đorđe Petrović as Leader, Launch Uprising Against Ottoman Empire",
-        "year": 1804,
-        "title": "Karađorđe",
-        "url": "https://en.wikipedia.org/wiki/Kara%C4%91or%C4%91e"
+        "originalText": "Sino-Dutch conflicts: The Dutch East India Company's rule in Taiwan ended after a siege by the Ming loyalist Koxinga.",
+        "year": 1662,
+        "subtitle": "Sino-Dutch conflicts",
+        "url": "https://en.wikipedia.org/wiki/Sino-Dutch_conflicts",
+        "headline": "Dutch East India Company's rule in Taiwan ends after siege by Koxinga"
     },
     {
-        "headline": "Patriots Defeat Loyalist Militia in Georgia Skirmish",
-        "year": 1779,
-        "title": "American Revolutionary War",
-        "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War"
+        "originalText": "The First Peace of Thorn was signed, ending the Polish–Lithuanian–Teutonic War.",
+        "year": 1411,
+        "subtitle": "Peace of Thorn (1411)",
+        "url": "https://en.wikipedia.org/wiki/Peace_of_Thorn_(1411)",
+        "headline": "First Peace of Thorn signed, ending Polish–Lithuanian–Teutonic War"
     },
     {
-        "headline": "Captain James Cook Killed by Native Hawaiians in Hawaii",
-        "year": 1779,
-        "title": "Death of James Cook",
-        "url": "https://en.wikipedia.org/wiki/Death_of_James_Cook"
+        "originalText": "The Teutonic Knights successfully besieged the hillfort of Medvėgalis in Samogitia, Lithuania, and baptised the defenders in the Catholic rite.",
+        "year": 1329,
+        "subtitle": "Teutonic Order",
+        "url": "https://en.wikipedia.org/wiki/Teutonic_Order",
+        "headline": "Teutonic Knights baptise defenders after besieging Medvėgalis hillfort"
     },
     {
-        "headline": "Arauco War Ignites with Mapuche Attacks in Colonial Chile",
-        "year": 1655,
-        "title": "Arauco War",
-        "url": "https://en.wikipedia.org/wiki/Arauco_War"
+        "originalText": "Fourteen-year-old Edward III was crowned King of England, but with the country ruled by his mother Queen Isabella and her lover Roger Mortimer.",
+        "year": 1327,
+        "subtitle": "Edward III of England",
+        "url": "https://en.wikipedia.org/wiki/Edward_III_of_England",
+        "headline": "Fourteen-year-old Edward III crowned King of England"
     }
 ]
 
@@ -144,7 +156,7 @@ handlebars_1.default.registerHelper('placeholderText', () => {
 });
 function randomHeadlineStyle() {
     const transform = Math.random() < 0.75 ? 'uppercase' : '';
-    const style = Math.random() < 0.75 ? 'font-italic' : '';
+    const style = Math.random() < 0.75 ? 'italic' : '';
     const weight = Math.random() < 0.5 ? 'font-extrabold' : 'font-normal';
     return `${transform} ${style} ${weight}`;
 }

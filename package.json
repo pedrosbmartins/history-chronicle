@@ -11,17 +11,24 @@
     "watch:browserify": "watchify build/src/index.js -o public/js/bundle.js -v",
     "styles": "tailwindcss -v -i ./src/input.css -o ./public/css/styles.css",
     "watch:styles": "tailwindcss -i ./src/input.css -o ./public/css/styles.css --watch",
-    "watch:public": "live-server ./public"
+    "watch:public": "live-server ./public",
+    "dataloader": "node ./build/src/tools/dataLoader.js"
   },
   "resolutions": {
     "strip-ansi": "6.0.1"
   },
+  "bin": {
+    "dataloader": "./build/src/tools/dataLoader.js"
+  },
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^20.11.19",
     "browserify": "^17.0.0",
+    "commander": "^12.0.0",
     "concurrently": "^8.2.2",
     "handlebars": "^4.7.8",
     "live-server": "1.2.1",
+    "openai": "^4.28.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3",
     "watchify": "^4.0.0"
