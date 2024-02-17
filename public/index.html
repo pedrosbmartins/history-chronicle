@@ -24,7 +24,7 @@
           </div>
         {{/if}}
         <a href='{{url}}'>
-          <h1 class='text-2xl text-center {{headlineStyle}}'>{{headline}}</h1>
+          <h1 class='text-xl text-center md:text-2xl {{headlineStyle}}'>{{headline}}</h1>
         </a>
         <div class='h-[1px] w-[50%] px-4 mx-auto mt-2 mb-1 bg-gray-200'></div>
         <a href='{{url}}' class='mt-1 mb-2'>
@@ -47,16 +47,18 @@
       </div>
     </script>
 
-    <div class="max-w-[1280px] mx-[auto]">
+    <div class="w-full mx-[auto] lg:max-w-[1280px]">
       <div>
-        <h1 class="font-[Chomsky] text-7xl text-center">The History Chronicle</h1>
+        <h1 class="font-[Chomsky] text-4xl text-center md:text-5xl lg:text-7xl">
+          The History Chronicle
+        </h1>
         <div class="text-center my-2 py-1 border-gray-700 border-t border-b-2">
-          <h2 id="header-date-label" class="text-xs uppercase"></h2>
+          <h2 id="header-date-label" class="text-xs uppercase lg:text-sm"></h2>
         </div>
       </div>
       <div class="flex flex-col">
-        <div class="flex flex-row">
-          <div class="max-w-[30%] flex flex-col">
+        <div class="flex flex-col lg:flex-row">
+          <div class="flex flex-col basis-[30%]">
             <div class="flex flex-row flex-1">
               <div class="flex-1 basis-1"><div class="newsitem"></div></div>
               <div class="flex-1 basis-1"><div class="newsitem"></div></div>
@@ -71,7 +73,7 @@
               <div class="newsitem display-image divider-bottom"></div>
             </div>
             <div class="flex flex-col">
-              <div class="flex flex-row flex-1">
+              <div class="flex-1 flex flex-col sm:flex-row">
                 <div class="flex-1"><div class="newsitem"></div></div>
                 <div class="flex-1"><div class="newsitem"></div></div>
                 <div class="flex-1"><div class="newsitem"></div></div>
@@ -79,11 +81,11 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-row">
-          <div class="min-w-[30%] flex-1">
+        <div class="flex flex-col md:flex-row">
+          <div class="basis-[30%]">
             <div class="newsitem display-image divider-top"></div>
           </div>
-          <div class="flex flex-col">
+          <div class="flex flex-col flex-1">
             <div class="flex flex-row">
               <div class="flex-1"><div class="newsitem"></div></div>
               <div class="flex-1"><div class="newsitem"></div></div>
@@ -94,16 +96,16 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-row">
-          <div class="max-w-[30%] flex-1"><div class="newsitem"></div></div>
+        <div class="flex flex-col sm:flex-row">
+          <div class="flex-1"><div class="newsitem"></div></div>
           <div class="flex-1"><div class="newsitem"></div></div>
           <div class="flex-1"><div class="newsitem"></div></div>
         </div>
         <div class="flex flex-row">
           <div class="flex-1"><div class="newsitem divider-top display-image"></div></div>
-          <div class="max-w-[30%]"><div class="newsitem display-image"></div></div>
+          <div class=""><div class="newsitem display-image"></div></div>
         </div>
-        <div class="flex flex-row">
+        <div class="flex flex-col sm:flex-row">
           <div class="flex-1"><div class="newsitem"></div></div>
           <div class="flex-1"><div class="newsitem"></div></div>
           <div class="max-w-[30%]"><div class="newsitem"></div></div>
