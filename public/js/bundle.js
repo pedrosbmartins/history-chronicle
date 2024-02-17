@@ -125,11 +125,11 @@ handlebars_1.default.registerHelper('placeholderText', placeholderText);
 const $dateLabel = document.getElementById('header-date-label');
 const $newsitems = document.querySelectorAll('.newsitem');
 $dateLabel.innerText = data.dateLabel;
+const randomizedEvents = data.events.sort(() => 0.5 - Math.random());
 $newsitems.forEach(($item, i) => {
-    const { events } = data;
-    if (events[i]) {
+    if (randomizedEvents[i]) {
         const headlineStyle = randomHeadlineStyle();
-        const newsitem = Object.assign(Object.assign({}, events[i]), { hasImage: $item.classList.contains('display-image'), hasBottomDivider: $item.classList.contains('divider-bottom'), hasTopDivider: $item.classList.contains('divider-top'), headlineStyle });
+        const newsitem = Object.assign(Object.assign({}, randomizedEvents[i]), { hasImage: $item.classList.contains('display-image'), hasBottomDivider: $item.classList.contains('divider-bottom'), hasTopDivider: $item.classList.contains('divider-top'), headlineStyle });
         $item.innerHTML = template(newsitem);
     }
 });

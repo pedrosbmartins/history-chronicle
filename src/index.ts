@@ -29,12 +29,12 @@ const $newsitems = document.querySelectorAll<HTMLDivElement>('.newsitem')
 
 $dateLabel.innerText = data.dateLabel
 
+const randomizedEvents = data.events.sort(() => 0.5 - Math.random())
 $newsitems.forEach(($item, i) => {
-  const { events } = data
-  if (events[i]) {
+  if (randomizedEvents[i]) {
     const headlineStyle = randomHeadlineStyle()
     const newsitem = {
-      ...events[i],
+      ...randomizedEvents[i],
       hasImage: $item.classList.contains('display-image'),
       hasBottomDivider: $item.classList.contains('divider-bottom'),
       hasTopDivider: $item.classList.contains('divider-top'),
