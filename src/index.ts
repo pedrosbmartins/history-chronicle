@@ -40,10 +40,10 @@ Handlebars.registerHelper('placeholderText', () => {
 })
 
 function randomHeadlineStyle() {
-  const transform = Math.random() < 0.75 ? 'uppercase' : 'none'
-  const style = Math.random() < 0.75 ? 'italic' : 'normal'
-  const weight = Math.random() < 0.5 ? '800' : '400'
-  return `text-transform: ${transform}; font-style: ${style}; font-weight: ${weight};`
+  const transform = Math.random() < 0.75 ? 'uppercase' : ''
+  const style = Math.random() < 0.75 ? 'font-italic' : ''
+  const weight = Math.random() < 0.5 ? 'font-extrabold' : 'font-normal'
+  return `${transform} ${style} ${weight}`
 }
 
 $newsitems.forEach(($item, i) => {
