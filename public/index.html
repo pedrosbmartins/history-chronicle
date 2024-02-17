@@ -21,10 +21,12 @@
         {{/if}}
         <h1 class='text-2xl text-center uppercase italic font-extrabold'>{{headline}}</h1>
         <div class='h-[1px] w-[50%] px-4 mx-auto mt-2 mb-1 bg-gray-200'></div>
+        <a href='{{url}}'><h2 class='text-xs mb-1 text-center text-gray-400'>{{title}}
+            &#183;
+            {{year}}</h2></a>
         {{#if hasImage}}
           <div class='min-h-[150px] flex-1 my-2 bg-gray-100'></div>
         {{/if}}
-        <h2 class='text-xs mb-1 text-center text-gray-400'>{{year}}</h2>
         {{#placeholderText}}{{/placeholderText}}
         {{#if hasBottomDivider}}
           <div class='w-[98%] mx-auto my-4'>

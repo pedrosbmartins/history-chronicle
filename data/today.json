@@ -1,78 +1,116 @@
 [
   {
     "headline": "Gunman Kills Five, Injures Twenty-One in Northern Illinois University Shooting",
-    "year": 2008
+    "year": 2008,
+    "title": "2008 Northern Illinois University shooting",
+    "url": "https://en.wikipedia.org/wiki/2008_Northern_Illinois_University_shooting"
   },
   {
     "headline": "Zahedan Bombings Claim 18 Lives, Targets Revolutionary Guards",
-    "year": 2007
+    "year": 2007,
+    "title": "2007 Zahedan bombings",
+    "url": "https://en.wikipedia.org/wiki/2007_Zahedan_bombings"
   },
   {
     "headline": "YouTube Founded by Former PayPal Employees",
-    "year": 2005
+    "year": 2005,
+    "title": "Online video platform",
+    "url": "https://en.wikipedia.org/wiki/Online_video_platform"
   },
   {
     "headline": "Sri Temasek Declared National Monument in Singapore",
-    "year": 1992
+    "year": 1992,
+    "title": "Sri Temasek",
+    "url": "https://en.wikipedia.org/wiki/Sri_Temasek"
   },
   {
     "headline": "Voyager 1 Captures Pale Blue Dot Photo from Record Distance",
-    "year": 1990
+    "year": 1990,
+    "title": "NASA",
+    "url": "https://en.wikipedia.org/wiki/NASA"
   },
   {
     "headline": "Ayatollah Issues Fatwa Against Salman Rushdie",
-    "year": 1989
+    "year": 1989,
+    "title": "Ruhollah Khomeini",
+    "url": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini"
   },
   {
     "headline": "Valentine's Day Tragedy: Dublin Nightclub Fire Kills 48",
-    "year": 1981
+    "year": 1981,
+    "title": "Stardust fire",
+    "url": "https://en.wikipedia.org/wiki/Stardust_fire"
   },
   {
     "headline": "US Ambassador Adolph Dubs Killed in Afghanistan Kidnapping",
-    "year": 1979
+    "year": 1979,
+    "title": "Adolph Dubs",
+    "url": "https://en.wikipedia.org/wiki/Adolph_Dubs"
   },
   {
     "headline": "Lawrencium Synthesized at UC Berkeley",
-    "year": 1961
+    "year": 1961,
+    "title": "Lawrencium",
+    "url": "https://en.wikipedia.org/wiki/Lawrencium"
   },
   {
     "headline": "WWII: General von Arnim Launches Offensive in Tunisia",
-    "year": 1943
+    "year": 1943,
+    "title": "World War II",
+    "url": "https://en.wikipedia.org/wiki/World_War_II"
   },
   {
     "headline": "Singapore Naval Base Opens as British Defense Strategy",
-    "year": 1938
+    "year": 1938,
+    "title": "Singapore Naval Base",
+    "url": "https://en.wikipedia.org/wiki/Singapore_Naval_Base"
   },
   {
     "headline": "Computing-Tabulating-Recording Company Renamed IBM",
-    "year": 1924
+    "year": 1924,
+    "title": "Computing-Tabulating-Recording Company",
+    "url": "https://en.wikipedia.org/wiki/Computing-Tabulating-Recording_Company"
   },
   {
     "headline": "Battle of Bereza Kartuska Marks Start of Polish–Soviet War",
-    "year": 1919
+    "year": 1919,
+    "title": "Battle of Bereza Kartuska",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Bereza_Kartuska"
   },
   {
     "headline": "Gertie the Dinosaur Released, Influences Future Animators",
-    "year": 1914
+    "year": 1914,
+    "title": "Gertie the Dinosaur",
+    "url": "https://en.wikipedia.org/wiki/Gertie_the_Dinosaur"
   },
   {
     "headline": "Hospital for Sick Children Founded in London",
-    "year": 1852
+    "year": 1852,
+    "title": "Great Ormond Street Hospital",
+    "url": "https://en.wikipedia.org/wiki/Great_Ormond_Street_Hospital"
   },
   {
     "headline": "Serb Chieftains Elect Đorđe Petrović as Leader, Launch Uprising Against Ottoman Empire",
-    "year": 1804
+    "year": 1804,
+    "title": "Karađorđe",
+    "url": "https://en.wikipedia.org/wiki/Kara%C4%91or%C4%91e"
   },
   {
     "headline": "Patriots Defeat Loyalist Militia in Georgia Skirmish",
-    "year": 1779
+    "year": 1779,
+    "title": "American Revolutionary War",
+    "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War"
   },
   {
     "headline": "Captain James Cook Killed by Native Hawaiians in Hawaii",
-    "year": 1779
+    "year": 1779,
+    "title": "Death of James Cook",
+    "url": "https://en.wikipedia.org/wiki/Death_of_James_Cook"
   },
   {
     "headline": "Arauco War Ignites with Mapuche Attacks in Colonial Chile",
-    "year": 1655
+    "year": 1655,
+    "title": "Arauco War",
+    "url": "https://en.wikipedia.org/wiki/Arauco_War"
   }
 ]
