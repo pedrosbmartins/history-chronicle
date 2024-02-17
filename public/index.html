@@ -23,7 +23,9 @@
             <div class='h-[1px] w-full bg-gray-200'></div>
           </div>
         {{/if}}
-        <h1 class='text-2xl text-center {{headlineStyle}}'>{{headline}}</h1>
+        <a href='{{url}}'>
+          <h1 class='text-2xl text-center {{headlineStyle}}'>{{headline}}</h1>
+        </a>
         <div class='h-[1px] w-[50%] px-4 mx-auto mt-2 mb-1 bg-gray-200'></div>
         <a href='{{url}}' class='mt-1 mb-2'>
           <h2 class='text-xs text-center text-gray-400'>
@@ -49,7 +51,7 @@
       <div>
         <h1 class="font-[Chomsky] text-7xl text-center">The History Chronicle</h1>
         <div class="text-center my-2 py-1 border-gray-700 border-t border-b-2">
-          <h2 class="text-xs uppercase">February 14th &#183; Issue 46</h2>
+          <h2 id="header-date-label" class="text-xs uppercase"></h2>
         </div>
       </div>
       <div class="flex flex-col">

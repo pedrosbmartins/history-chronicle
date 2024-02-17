@@ -1,132 +1,114 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-module.exports=[
-    {
-        "originalText": "The Burmese military staged the 2021 Myanmar coup d'état, which deposed the democratically-elected government of Aung San Suu Kyi, and sparked nationwide protests and a civil war.",
-        "year": 2021,
-        "subtitle": "Tatmadaw",
-        "url": "https://en.wikipedia.org/wiki/Tatmadaw",
-        "headline": "2021 Myanmar coup d'état deposes Aung San Suu Kyi government"
-    },
-    {
-        "originalText": "Following an Egyptian Premier League match in Port Said, Al Masry fans rioted and violently attacked Al Ahly supporters, resulting in 74 deaths.",
-        "year": 2012,
-        "subtitle": "Egyptian Premier League",
-        "url": "https://en.wikipedia.org/wiki/Egyptian_Premier_League",
-        "headline": "74 killed in Port Said riot after Egyptian Premier League match"
-    },
-    {
-        "originalText": "Jóhanna Sigurðardóttir (pictured) became the first female prime minister of Iceland.",
-        "year": 2009,
-        "subtitle": "Jóhanna Sigurðardóttir",
-        "url": "https://en.wikipedia.org/wiki/J%C3%B3hanna_Sigur%C3%B0ard%C3%B3ttir",
-        "headline": "Jóhanna Sigurðardóttir becomes first female prime minister of Iceland"
-    },
-    {
-        "originalText": "All seven crew members aboard Space Shuttle Columbia were killed when the orbiter disintegrated over Texas during reentry.",
-        "year": 2003,
-        "subtitle": "Space Shuttle Columbia",
-        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia",
-        "headline": "Space Shuttle Columbia crew killed in reentry disaster"
-    },
-    {
-        "originalText": "The Timor Leste Defence Force was established from the erstwhile anti-Indonesian independence movement Falintil.",
-        "year": 2001,
-        "subtitle": "Timor Leste Defence Force",
-        "url": "https://en.wikipedia.org/wiki/Timor_Leste_Defence_Force",
-        "headline": "Timor Leste Defence Force established from Falintil movement"
-    },
-    {
-        "originalText": "Aeroflot Flight 7841 crashed shortly after takeoff from Minsk National Airport, killing fifty-eight people on board.",
-        "year": 1985,
-        "subtitle": "Aeroflot Flight 7841",
-        "url": "https://en.wikipedia.org/wiki/Aeroflot_Flight_7841",
-        "headline": "Aeroflot Flight 7841 crashes after takeoff, 58 dead"
-    },
-    {
-        "originalText": "Ayatollah Ruhollah Khomeini returned from exile and soon led the Iranian Revolution to overthrow the Pahlavi dynasty.",
-        "year": 1979,
-        "subtitle": "Ruhollah Khomeini",
-        "url": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini",
-        "headline": "Ayatollah Khomeini leads Iranian Revolution to overthrow Pahlavi dynasty"
-    },
-    {
-        "originalText": "After having served 42 days in prison for the sexual assault of a 13-year-old girl, Polish film director Roman Polanski fled the United States before the formal sentencing hearing.",
-        "year": 1978,
-        "subtitle": "Roman Polanski sexual abuse case",
-        "url": "https://en.wikipedia.org/wiki/Roman_Polanski_sexual_abuse_case",
-        "headline": "Roman Polanski flees US after serving prison time for sexual assault"
-    },
-    {
-        "originalText": "Kuala Lumpur (pictured), the capital of Malaysia, was granted city status.",
-        "year": 1972,
-        "subtitle": "Kuala Lumpur",
-        "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
-        "headline": "Kuala Lumpur granted city status in Malaysia"
-    },
-    {
-        "originalText": "Four African American students staged the first Greensboro sit-ins at a lunch counter in Greensboro, North Carolina.",
-        "year": 1960,
-        "subtitle": "African Americans",
-        "url": "https://en.wikipedia.org/wiki/African_Americans",
-        "headline": "First Greensboro sit-ins staged by African American students"
-    },
-    {
-        "originalText": "Invented by German engineer Felix Wankel, the first working prototype of the Wankel rotary engine ran for the first time at the research and development department of NSU Motorenwerke AG.",
-        "year": 1957,
-        "subtitle": "Felix Wankel",
-        "url": "https://en.wikipedia.org/wiki/Felix_Wankel",
-        "headline": "First working prototype of Wankel rotary engine runs in Germany"
-    },
-    {
-        "originalText": "Voice of America, the official external radio and television service of the United States federal government, began broadcasting to Germany during World War II.",
-        "year": 1942,
-        "subtitle": "Voice of America",
-        "url": "https://en.wikipedia.org/wiki/Voice_of_America",
-        "headline": "Voice of America begins broadcasting to Germany during World War II"
-    },
-    {
-        "originalText": "Giacomo Puccini's opera La bohème premiered at the Teatro Regio in Turin, Italy, eventually becoming one of the most frequently performed operas internationally.",
-        "year": 1896,
-        "subtitle": "Giacomo Puccini",
-        "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini",
-        "headline": "La bohème opera premieres at Teatro Regio in Turin, Italy"
-    },
-    {
-        "originalText": "More than 1,200 people died in the most destructive recorded eruption of Mayon in the Philippines.",
-        "year": 1814,
-        "subtitle": "Mayon",
-        "url": "https://en.wikipedia.org/wiki/Mayon",
-        "headline": "Over 1,200 die in destructive eruption of Mayon in the Philippines"
-    },
-    {
-        "originalText": "Sino-Dutch conflicts: The Dutch East India Company's rule in Taiwan ended after a siege by the Ming loyalist Koxinga.",
-        "year": 1662,
-        "subtitle": "Sino-Dutch conflicts",
-        "url": "https://en.wikipedia.org/wiki/Sino-Dutch_conflicts",
-        "headline": "Dutch East India Company's rule in Taiwan ends after siege by Koxinga"
-    },
-    {
-        "originalText": "The First Peace of Thorn was signed, ending the Polish–Lithuanian–Teutonic War.",
-        "year": 1411,
-        "subtitle": "Peace of Thorn (1411)",
-        "url": "https://en.wikipedia.org/wiki/Peace_of_Thorn_(1411)",
-        "headline": "First Peace of Thorn signed, ending Polish–Lithuanian–Teutonic War"
-    },
-    {
-        "originalText": "The Teutonic Knights successfully besieged the hillfort of Medvėgalis in Samogitia, Lithuania, and baptised the defenders in the Catholic rite.",
-        "year": 1329,
-        "subtitle": "Teutonic Order",
-        "url": "https://en.wikipedia.org/wiki/Teutonic_Order",
-        "headline": "Teutonic Knights baptise defenders after besieging Medvėgalis hillfort"
-    },
-    {
-        "originalText": "Fourteen-year-old Edward III was crowned King of England, but with the country ruled by his mother Queen Isabella and her lover Roger Mortimer.",
-        "year": 1327,
-        "subtitle": "Edward III of England",
-        "url": "https://en.wikipedia.org/wiki/Edward_III_of_England",
-        "headline": "Fourteen-year-old Edward III crowned King of England"
-    }
-]
+module.exports={
+    "dateLabel": "November 30 · Issue 335",
+    "events": [
+        {
+            "originalText": "a magnitude 7.1 earthquake hit Anchorage, Alaska (pictured) and caused over 100 injuries.",
+            "year": 2018,
+            "subtitle": "2018 Anchorage earthquake",
+            "url": "https://en.wikipedia.org/wiki/2018_Anchorage_earthquake",
+            "headline": "Magnitude 7.1 Earthquake Hits Anchorage, Alaska, Causing Over 100 Injuries"
+        },
+        {
+            "originalText": "John Sentamu was enthroned as Archbishop of York, becoming the first black archbishop in the Church of England.",
+            "year": 2005,
+            "subtitle": "John Sentamu",
+            "url": "https://en.wikipedia.org/wiki/John_Sentamu",
+            "headline": "John Sentamu Enthroned as First Black Archbishop of York"
+        },
+        {
+            "originalText": "Marconi Electronic Systems and British Aerospace merged to form BAE Systems, one of the world's largest defence companies.",
+            "year": 1999,
+            "subtitle": "Marconi Electronic Systems",
+            "url": "https://en.wikipedia.org/wiki/Marconi_Electronic_Systems",
+            "headline": "Marconi Electronic Systems and British Aerospace Merge to Form BAE Systems"
+        },
+        {
+            "originalText": "A series of protests by anti-globalization activists against the World Trade Organization Ministerial Conference of 1999 in Seattle forced the cancellation of the opening ceremonies.",
+            "year": 1999,
+            "subtitle": "1999 Seattle WTO protests",
+            "url": "https://en.wikipedia.org/wiki/1999_Seattle_WTO_protests",
+            "headline": "Anti-Globalization Protests Force Cancellation of WTO Ministerial Conference Opening Ceremonies"
+        },
+        {
+            "originalText": "The Wall, a rock opera and concept album by the English band Pink Floyd, was first released.",
+            "year": 1979,
+            "subtitle": "The Wall",
+            "url": "https://en.wikipedia.org/wiki/The_Wall",
+            "headline": "Pink Floyd's 'The Wall' Rock Opera and Concept Album Released"
+        },
+        {
+            "originalText": "A meteorite crashed through a roof in Sylacauga, Alabama, and hit a sleeping woman in the first verified case of a human being injured by an extraterrestrial object.",
+            "year": 1954,
+            "subtitle": "Sylacauga (meteorite)",
+            "url": "https://en.wikipedia.org/wiki/Sylacauga_(meteorite)",
+            "headline": "Meteorite Crashes Through Roof in Sylacauga, Alabama, Injuring Sleeping Woman"
+        },
+        {
+            "originalText": "Mutesa II, Kabaka of Buganda, was temporarily deposed and exiled to London by Andrew Cohen, the British governor of Uganda.",
+            "year": 1953,
+            "subtitle": "Mutesa II of Buganda",
+            "url": "https://en.wikipedia.org/wiki/Mutesa_II_of_Buganda",
+            "headline": "Mutesa II, Kabaka of Buganda, Temporarily Deposed and Exiled to London"
+        },
+        {
+            "originalText": "After the United Nations voted to adopt a partition plan for Palestine, a civil war broke out between the region's Jewish and Arab communities.",
+            "year": 1947,
+            "subtitle": "United Nations Partition Plan for Palestine",
+            "url": "https://en.wikipedia.org/wiki/United_Nations_Partition_Plan_for_Palestine",
+            "headline": "Civil War Breaks Out in Palestine After UN Adopts Partition Plan"
+        },
+        {
+            "originalText": "World War II: Japanese warships defeated the U.S. Navy in a nighttime naval battle off Tassafaronga, Guadalcanal.",
+            "year": 1942,
+            "subtitle": "World War II",
+            "url": "https://en.wikipedia.org/wiki/World_War_II",
+            "headline": "Japanese Warships Defeat U.S. Navy in Naval Battle off Tassafaronga, Guadalcanal"
+        },
+        {
+            "originalText": "English mathematician Alan Turing published the first details of the Turing machine (model pictured), an abstract device that can simulate the logic of any computer algorithm by manipulating symbols.",
+            "year": 1936,
+            "subtitle": "Alan Turing",
+            "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+            "headline": "Alan Turing Publishes Details of Turing Machine, Abstract Device for Computer Algorithm Simulation"
+        },
+        {
+            "originalText": "Flying Scotsman became the first steam locomotive officially to exceed 100 miles per hour (161 km/h).",
+            "year": 1934,
+            "subtitle": "LNER Class A3 4472 Flying Scotsman",
+            "url": "https://en.wikipedia.org/wiki/LNER_Class_A3_4472_Flying_Scotsman",
+            "headline": "Flying Scotsman First Steam Locomotive to Exceed 100 MPH"
+        },
+        {
+            "originalText": "The first international football match (pictured) took place at Hamilton Crescent, Glasgow, between Scotland and England.",
+            "year": 1872,
+            "subtitle": "1872 Scotland v England football match",
+            "url": "https://en.wikipedia.org/wiki/1872_Scotland_v_England_football_match",
+            "headline": "First International Football Match Takes Place in Glasgow Between Scotland and England"
+        },
+        {
+            "originalText": "Russian warships led by Pavel Nakhimov destroyed an Ottoman fleet of frigates at the Battle of Sinop, prompting France and the United Kingdom to enter the Crimean War.",
+            "year": 1853,
+            "subtitle": "Pavel Nakhimov",
+            "url": "https://en.wikipedia.org/wiki/Pavel_Nakhimov",
+            "headline": "Russian Warships Destroy Ottoman Fleet at Battle of Sinop, Leading to Crimean War"
+        },
+        {
+            "originalText": "An expedition led by Francisco Javier de Balmis departed A Coruña, Spain, with the aim of vaccinating millions in South America and Asia against smallpox.",
+            "year": 1803,
+            "subtitle": "Balmis Expedition",
+            "url": "https://en.wikipedia.org/wiki/Balmis_Expedition",
+            "headline": "Francisco Javier de Balmis Leads Expedition to Vaccinate Against Smallpox in South America and Asia"
+        },
+        {
+            "originalText": "Great Northern War: Swedish forces led by King Charles XII defeated the Russian army at the Battle of Narva.",
+            "year": 1700,
+            "subtitle": "Great Northern War",
+            "url": "https://en.wikipedia.org/wiki/Great_Northern_War",
+            "headline": "Swedish Forces Defeat Russian Army at Battle of Narva in Great Northern War"
+        }
+    ]
+}
 
 },{}],2:[function(require,module,exports){
 "use strict";
@@ -137,13 +119,24 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const handlebars_1 = __importDefault(require("handlebars"));
 const today_json_1 = __importDefault(require("../data/today.json"));
 const data = today_json_1.default;
+const templateSource = document.getElementById('newsitem-template').innerHTML;
+const template = handlebars_1.default.compile(templateSource);
+handlebars_1.default.registerHelper('placeholderText', placeholderText);
+const $dateLabel = document.getElementById('header-date-label');
 const $newsitems = document.querySelectorAll('.newsitem');
-var source = document.getElementById('newsitem-template').innerHTML;
-var template = handlebars_1.default.compile(source);
+$dateLabel.innerText = data.dateLabel;
+$newsitems.forEach(($item, i) => {
+    const { events } = data;
+    if (events[i]) {
+        const headlineStyle = randomHeadlineStyle();
+        const newsitem = Object.assign(Object.assign({}, events[i]), { hasImage: $item.classList.contains('display-image'), hasBottomDivider: $item.classList.contains('divider-bottom'), hasTopDivider: $item.classList.contains('divider-top'), headlineStyle });
+        $item.innerHTML = template(newsitem);
+    }
+});
 function placeholderTextLine(size) {
     return `<div class="flex-1 h-8 bg-gray-200" style="width: ${size}%"></div>`;
 }
-handlebars_1.default.registerHelper('placeholderText', () => {
+function placeholderText() {
     const fullLineCount = 3;
     const fullLine = placeholderTextLine(100);
     const partialLineSize = Math.round(100 * (0.25 + Math.random() * 0.75));
@@ -153,21 +146,13 @@ handlebars_1.default.registerHelper('placeholderText', () => {
           ${partialLine}
         </div>`;
     return result;
-});
+}
 function randomHeadlineStyle() {
     const transform = Math.random() < 0.75 ? 'uppercase' : '';
     const style = Math.random() < 0.75 ? 'italic' : '';
     const weight = Math.random() < 0.5 ? 'font-extrabold' : 'font-normal';
     return `${transform} ${style} ${weight}`;
 }
-$newsitems.forEach(($item, i) => {
-    if (data[i]) {
-        const headlineStyle = randomHeadlineStyle();
-        console.log(data[i].year, headlineStyle);
-        const newsitem = Object.assign(Object.assign({}, data[i]), { hasImage: $item.classList.contains('display-image'), hasBottomDivider: $item.classList.contains('divider-bottom'), hasTopDivider: $item.classList.contains('divider-top'), headlineStyle });
-        $item.innerHTML = template(newsitem);
-    }
-});
 
 },{"../data/today.json":1,"handlebars":3}],3:[function(require,module,exports){
 'use strict';

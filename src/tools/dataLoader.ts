@@ -6,6 +6,8 @@ import { writeFile } from 'fs/promises'
 import OpenAI from 'openai'
 import path from 'path'
 
+const BASE_YEAR = 2000 // any leap year
+
 const program = new Command()
 
 program
@@ -40,14 +42,9 @@ program
     }))
 
     const headlines = await generateHeadlines(events)
-
     events = events.map((event: any, i: number) => ({ ...event, headline: headlines[i] }))
 
-    const directory = path.join('.', 'data', month)
-    const filePath = path.join(directory, `${month}${day}.json`)
-    console.info(`Writing to file ${filePath}`)
-    if (!existsSync(directory)) mkdirSync(directory)
-    await writeFile(filePath, JSON.stringify(events))
+    await persistData(events, month, day)
 
     console.info('Done')
   })
@@ -99,6 +96,18 @@ async function generateHeadlines(events: Array<{ originalText: string }>) {
   return headlines
 }
 
+async function persistData(events: any[], month: string, day: string) {
+  const date = new Date(BASE_YEAR, Number(month) - 1, Number(day))
+  const dateLabel = date.toLocaleString('en-US', { month: 'long', day: 'numeric' })
+  const issueNo = daysIntoYear(Number(month) - 1, Number(day))
+  const data = { dateLabel: `${dateLabel} · Issue ${issueNo}`, events }
+  const directory = path.join('.', 'data', month)
+  const filePath = path.join(directory, `${month}${day}.json`)
+  console.info(`Writing to file ${filePath}`)
+  if (!existsSync(directory)) mkdirSync(directory)
+  await writeFile(filePath, JSON.stringify(data))
+}
+
 function daysInMonth(month: number) {
   // month is 1 indexed: 1-12
   switch (month) {
@@ -116,4 +125,8 @@ function daysInMonth(month: number) {
 
 function isDateValid(month: number, day: number) {
   return month >= 1 && month <= 12 && day >= 1 && day <= daysInMonth(month)
+}
+
+function daysIntoYear(month: number, day: number) {
+  return (Date.UTC(BASE_YEAR, month, day) - Date.UTC(BASE_YEAR, 0, 0)) / 24 / 60 / 60 / 1000
 }
