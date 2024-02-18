@@ -12,8 +12,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      - name: Update today.json file
+      - name: Update today.json
         run: bin/update
+      - name: Build
+        run: yarn && yarn build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
