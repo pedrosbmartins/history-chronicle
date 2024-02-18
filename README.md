@@ -1,4 +1,4 @@
-![The History Chronicle](public/images/header.png)
+[![The History Chronicle](public/images/header.png)](https://pedrosbmartins.github.io/history-chronicle/)
 
 [EXTRA! EXTRA! Read all about it!](https://pedrosbmartins.github.io/history-chronicle/)
 
