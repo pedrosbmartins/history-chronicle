@@ -604,8 +604,8 @@ html {
   bottom: 0px;
 }
 
-.left-\[5px\] {
-  left: 5px;
+.left-5 {
+  left: 1.25rem;
 }
 
 .right-0 {
@@ -618,10 +618,6 @@ html {
 
 .top-0 {
   top: 0px;
-}
-
-.left-5 {
-  left: 1.25rem;
 }
 
 .mx-\[auto\] {
@@ -656,16 +652,16 @@ html {
   margin-bottom: 1px;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .block {
@@ -700,6 +696,10 @@ html {
   height: 12px;
 }
 
+.h-\[16px\] {
+  height: 16px;
+}
+
 .h-\[1px\] {
   height: 1px;
 }
@@ -716,20 +716,16 @@ html {
   height: 100%;
 }
 
-.h-\[25px\] {
-  height: 25px;
-}
-
-.h-\[16px\] {
-  height: 16px;
-}
-
 .min-h-\[150px\] {
   min-height: 150px;
 }
 
 .min-h-\[30px\] {
   min-height: 30px;
+}
+
+.w-\[16px\] {
+  width: 16px;
 }
 
 .w-\[30\%\] {
@@ -948,14 +944,6 @@ html {
   width: 100%;
 }
 
-.w-\[25px\] {
-  width: 25px;
-}
-
-.w-\[16px\] {
-  width: 16px;
-}
-
 .max-w-\[30\%\] {
   max-width: 30%;
 }
@@ -1085,9 +1073,9 @@ html {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-sm {
@@ -1103,11 +1091,6 @@ html {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-extrabold {

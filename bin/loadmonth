@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]; then
+  echo "Provide the month argument (number 1-12)"
+  exit 1
+fi
+
+for ((i=1;i<=31;i++)); do
+  yarn dataloader --month $1 --day $i
+done

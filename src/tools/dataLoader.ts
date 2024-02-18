@@ -79,7 +79,7 @@ async function generateHeadlines(events: Array<{ originalText: string }>) {
     'You are an expert AI Journalism Assistant.',
     'You are given a list of sentences and must respond with a list of direct, short headlines in a professional newspaper style.',
     'Make sure to include the most important information, such as the name of places and/or people.',
-    'Return only a JSON array, like this: ["Headline 1...", "Headline 2...", ...]',
+    'Return only a JSON array, directly and with no header or extra information, like this: ["Headline 1...", "Headline 2...", ...]',
     'Sentences:',
     '```',
     events.map(event => `- ${event.originalText}`).join('\n'),
