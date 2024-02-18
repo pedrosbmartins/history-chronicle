@@ -2,6 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The History Chronicle</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -50,12 +51,41 @@
     </script>
 
     <div class="w-full mx-[auto] lg:max-w-[1280px]">
-      <div>
-        <h1 class="font-[Chomsky] text-4xl text-center md:text-5xl lg:text-7xl">
-          The History Chronicle
-        </h1>
-        <div class="text-center my-2 py-1 border-gray-700 border-t border-b-2">
+      <div class="flex flex-col p-1">
+        <div class="flex flex-row justify-stretch">
+          <div class="flex-1 flex w-[60px] items-center justify-center">
+            <div class="border border-black text-xs font-sans p-2 text-center hidden md:block">
+              "The News of History, <br />
+              on This Day."
+            </div>
+          </div>
+          <div class="flex items-center justify-center">
+            <h1 class="font-[Chomsky] text-3xl text-center md:text-5xl lg:text-7xl">
+              The History Chronicle
+            </h1>
+          </div>
+          <div class="flex-1 flex w-[60px] items-center justify-center">
+            <div class="border border-black text-xs font-sans p-2 text-center hidden md:block">
+              <a href="https://github.com/pedrosbmartins/history-chronicle"
+                >Visit the digital repository <br />
+                for the source.</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="text-center my-2 py-1 border-gray-700 border-t border-b-2 relative">
+          <div class="absolute top-0 left-5 h-full flex items-center">
+            <h2 id="header-issue-label" class="text-xs uppercase lg:text-sm"></h2>
+          </div>
           <h2 id="header-date-label" class="text-xs uppercase lg:text-sm"></h2>
+          <div class="absolute top-0 right-5 h-full flex items-center">
+            <h2 class="text-xs uppercase lg:text-sm">Two cents</h2>
+            <div class="ml-2">
+              <a href="https://github.com/pedrosbmartins/history-chronicle"
+                ><img src="./images/github.png" alt="Digital repository" class="w-[16px] h-[16px]"
+              /></a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="flex flex-col">

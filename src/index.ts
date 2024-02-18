@@ -3,6 +3,7 @@ import todayJSON from '../data/today.json'
 
 interface Data {
   dateLabel: string
+  issue: string
   events: Newsitem[]
 }
 
@@ -24,9 +25,13 @@ const templateSource = document.getElementById('newsitem-template')!.innerHTML
 const template = Handlebars.compile<Newsitem>(templateSource)
 
 const $dateLabel = document.getElementById('header-date-label') as HTMLHeadingElement
+const $issueLabel = document.getElementById('header-issue-label') as HTMLHeadingElement
 const $newsitems = document.querySelectorAll<HTMLDivElement>('.newsitem')
 
 $dateLabel.innerText = data.dateLabel
+$issueLabel.innerText = data.issue
+
+document.title = `The History Chronicle · ${data.dateLabel}`
 
 const events = data.events.sort(() => 0.5 - Math.random())
 $newsitems.forEach(($item, i) => {

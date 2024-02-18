@@ -1,6 +1,7 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 module.exports={
-    "dateLabel": "November 30 · Issue 335",
+    "dateLabel": "November 30",
+    "issue": "Issue 335",
     "events": [
         {
             "originalText": "a magnitude 7.1 earthquake hit Anchorage, Alaska (pictured) and caused over 100 injuries.",
@@ -122,8 +123,11 @@ const data = today_json_1.default;
 const templateSource = document.getElementById('newsitem-template').innerHTML;
 const template = handlebars_1.default.compile(templateSource);
 const $dateLabel = document.getElementById('header-date-label');
+const $issueLabel = document.getElementById('header-issue-label');
 const $newsitems = document.querySelectorAll('.newsitem');
 $dateLabel.innerText = data.dateLabel;
+$issueLabel.innerText = data.issue;
+document.title = `The History Chronicle · ${data.dateLabel}`;
 const events = data.events.sort(() => 0.5 - Math.random());
 $newsitems.forEach(($item, i) => {
     if (events[i]) {

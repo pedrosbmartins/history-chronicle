@@ -100,7 +100,7 @@ async function persistData(events: any[], month: string, day: string) {
   const date = new Date(BASE_YEAR, Number(month) - 1, Number(day))
   const dateLabel = date.toLocaleString('en-US', { month: 'long', day: 'numeric' })
   const issueNo = daysIntoYear(Number(month) - 1, Number(day))
-  const data = { dateLabel: `${dateLabel} · Issue ${issueNo}`, events }
+  const data = { dateLabel: dateLabel, issue: `Issue ${issueNo}`, events }
   const directory = path.join('.', 'data', month)
   const filePath = path.join(directory, `${month}${day}.json`)
   console.info(`Writing to file ${filePath}`)
