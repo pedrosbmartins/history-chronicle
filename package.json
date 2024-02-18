@@ -12,6 +12,7 @@
     "styles": "tailwindcss -v -i ./src/input.css -o ./public/css/styles.css",
     "watch:styles": "tailwindcss -i ./src/input.css -o ./public/css/styles.css --watch",
     "watch:public": "live-server ./public",
+    "deploy": "yarn build && gh-pages -d public",
     "dataloader": "node ./build/src/tools/dataLoader.js",
     "screenshot": "node ./build/src/tools/screenshot.js"
   },
@@ -22,13 +23,15 @@
     "dataloader": "./build/src/tools/dataLoader.js",
     "screenshot": "./build/src/tools/screenshot.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  },
   "devDependencies": {
     "@types/node": "^20.11.19",
     "browserify": "^17.0.0",
     "commander": "^12.0.0",
     "concurrently": "^8.2.2",
-    "handlebars": "^4.7.8",
+    "gh-pages": "^6.1.1",
     "live-server": "1.2.1",
     "openai": "^4.28.0",
     "puppeteer": "^22.1.0",
