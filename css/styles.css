@@ -445,9 +445,13 @@ video {
 }
 
 @font-face {
-  font-family: Chomsky;
+  font-family: 'Chomsky';
 
-  src: url(/fonts/Chomsky.woff2) format('woff2');
+  src: url('../fonts/Chomsky.woff2') format('woff2'), url('../fonts/Chomsky.woff') format('woff');
+
+  font-weight: normal;
+
+  font-style: normal;
 }
 
 html {
