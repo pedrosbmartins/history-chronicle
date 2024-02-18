@@ -1,8 +1,8 @@
 ![The History Chronicle](public/images/header.png)
 
-Historical events that happened _on this day_, presented as a newspaper. That's pretty much it!
-
 [EXTRA! EXTRA! Read all about it!](https://pedrosbmartins.github.io/history-chronicle/)
+
+Historical events that happened _on this day_, presented as a newspaper.
 
 ### Details
 
