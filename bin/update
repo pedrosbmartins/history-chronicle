@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+month=$(date +%m)
+date=$(date +%m%d)
+
+cat "./data/$month/$date.json" > ./data/today.json
