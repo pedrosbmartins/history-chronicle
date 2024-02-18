@@ -6,11 +6,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  update_deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Update today.json file
         run: bin/update
       - name: Deploy to GitHub Pages
-        run: yarn && yarn deploy
+        run: |
+          git config --global user.name 'Pedro Martins'
+          git config --global user.email 'pedrosbarbosamartins@gmail.com'
+          yarn && yarn deploy
