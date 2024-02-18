@@ -1,0 +1,149 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The History Chronicle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic"
+      rel="stylesheet"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script id="newsitem-template" type="text/x-handlebars-template">
+      <div class='flex flex-col h-full p-2 border-r border-gray-100'>
+        {{#if hasTopDivider}}
+          <div class='w-[98%] mx-auto my-4'>
+            <div class='h-[2px] w-full bg-gray-400 mb-[1px]'></div>
+            <div class='h-[1px] w-full bg-gray-200'></div>
+          </div>
+        {{/if}}
+        <a href='{{url}}'>
+          <h1 class='text-xl text-center md:text-2xl {{headlineStyle}}'>{{headline}}</h1>
+        </a>
+        <div class='h-[1px] w-[50%] px-4 mx-auto mt-2 mb-1 bg-gray-200'></div>
+        <a href='{{url}}' class='mt-1 mb-2'>
+          <h2 class='text-sm text-center text-gray-600'>
+            {{subtitle}}
+            &#183;
+            {{year}}
+          </h2>
+        </a>
+        {{#if hasImage}}
+          <div class='min-h-[150px] flex-1 mb-2 bg-gray-100'></div>
+        {{/if}}
+        <div class='relative flex-1 min-h-[30px] bg-repeat-round bg-[url("../images/text.png")]'>
+          <div class='absolute {{lastTextLineEnd}} h-[12px] bottom-0 right-0 bg-white'></div>
+        </div>
+        {{#if hasBottomDivider}}
+          <div class='w-[98%] mx-auto my-4'>
+            <div class='h-[2px] w-full bg-gray-400 mb-[1px]'></div>
+            <div class='h-[1px] w-full bg-gray-200'></div>
+          </div>
+        {{/if}}
+      </div>
+    </script>
+
+    <div class="w-full mx-[auto] lg:max-w-[1280px]">
+      <div class="flex flex-col p-1">
+        <div class="flex flex-row justify-stretch">
+          <div class="flex-1 flex w-[60px] items-center justify-center">
+            <div class="border border-black text-xs font-sans p-2 text-center hidden md:block">
+              "The Facts of History, <br />
+              On This Day."
+            </div>
+          </div>
+          <div class="flex items-center justify-center">
+            <h1 class="font-[Chomsky] text-3xl text-center md:text-5xl lg:text-7xl">
+              The History Chronicle
+            </h1>
+          </div>
+          <div class="flex-1 flex w-[60px] items-center justify-center">
+            <div class="border border-black text-xs font-sans p-2 text-center hidden md:block">
+              <a href="https://github.com/pedrosbmartins/history-chronicle"
+                >Visit the digital repository <br />
+                for the source.</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="text-center my-2 py-1 border-gray-700 border-t border-b-2 relative">
+          <div class="absolute top-0 left-5 h-full flex items-center">
+            <h2 id="header-issue-label" class="text-xs uppercase lg:text-sm"></h2>
+          </div>
+          <h2 id="header-date-label" class="text-xs uppercase lg:text-sm"></h2>
+          <div class="absolute top-0 right-5 h-full flex items-center">
+            <h2 class="text-xs uppercase lg:text-sm">Two cents</h2>
+            <div class="ml-2">
+              <a href="https://github.com/pedrosbmartins/history-chronicle"
+                ><img src="./images/github.png" alt="Digital repository" class="w-[16px] h-[16px]"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <div class="flex flex-col lg:flex-row">
+          <div class="flex flex-col basis-[30%]">
+            <div class="flex flex-row flex-1">
+              <div class="flex-1 basis-1"><div class="newsitem"></div></div>
+              <div class="flex-1 basis-1"><div class="newsitem"></div></div>
+            </div>
+            <div class="flex flex-row flex-1">
+              <div class="flex-1 basis-1"><div class="newsitem"></div></div>
+              <div class="flex-1"><div class="newsitem"></div></div>
+            </div>
+          </div>
+          <div class="flex flex-col flex-1">
+            <div class="w-full h-[400px]">
+              <div class="newsitem display-image divider-bottom"></div>
+            </div>
+            <div class="flex flex-col flex-1">
+              <div class="flex-1 flex flex-col sm:flex-row">
+                <div class="flex-1"><div class="newsitem"></div></div>
+                <div class="flex-1"><div class="newsitem"></div></div>
+                <div class="flex-1"><div class="newsitem"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row">
+          <div class="basis-[30%]">
+            <div class="newsitem display-image divider-top"></div>
+          </div>
+          <div class="flex flex-col flex-1">
+            <div class="flex flex-row">
+              <div class="flex-1"><div class="newsitem"></div></div>
+              <div class="flex-1"><div class="newsitem"></div></div>
+            </div>
+            <div class="flex flex-row">
+              <div class="flex-1"><div class="newsitem"></div></div>
+              <div class="flex-1"><div class="newsitem"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col sm:flex-row">
+          <div class="flex-1"><div class="newsitem"></div></div>
+          <div class="flex-1"><div class="newsitem"></div></div>
+          <div class="flex-1"><div class="newsitem"></div></div>
+        </div>
+        <div class="flex flex-row">
+          <div class="flex-1"><div class="newsitem divider-top display-image"></div></div>
+          <div class=""><div class="newsitem display-image"></div></div>
+        </div>
+        <div class="flex flex-col sm:flex-row">
+          <div class="flex-1"><div class="newsitem"></div></div>
+          <div class="flex-1"><div class="newsitem"></div></div>
+          <div class="max-w-[30%]"><div class="newsitem"></div></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/bundle.js" type="application/javascript"></script>
+  </body>
+</html>
