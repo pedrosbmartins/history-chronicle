@@ -12,8 +12,9 @@ jobs:
       - uses: actions/checkout@v3
       - name: Update today.json file
         run: bin/update
-      - name: Deploy to GitHub Pages
-        run: |
-          git config --global user.name 'Pedro Martins'
-          git config --global user.email 'pedrosbarbosamartins@gmail.com'
-          yarn && yarn deploy
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
