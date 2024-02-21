@@ -82,7 +82,7 @@ async function generateHeadlines(events: Array<{ originalText: string }>) {
     'Return only a JSON array, directly and with no header or extra information, like this: ["Headline 1...", "Headline 2...", ...]',
     'Sentences:',
     '```',
-    events.map(event => `- ${event.originalText}`).join('\n'),
+    events.map(event => `- ${event.originalText.replace(/"/g, '\\"')}`).join('\n'),
     '```'
   ].join('\n')
   console.info('OpenAI: generating event headlines...')
