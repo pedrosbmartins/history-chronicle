@@ -1,5 +1,115 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-module.exports={ "dateLabel": "February 27", "issue": "Issue 58", "events": [{ "originalText": "Russian statesman and politician Boris Nemtsov, an outspoken critic of Vladimir Putin, was assassinated in central Moscow.", "year": 2015, "subtitle": "Boris Nemtsov", "url": "https://en.wikipedia.org/wiki/Boris_Nemtsov", "headline": "Boris Nemtsov Assassinated in Central Moscow" }, { "originalText": "Violent riots, perceived to have been instigated by a train fire that killed 59 Hindu pilgrims, broke out in the Indian state of Gujarat, killing at least 1,000 people, mostly Muslims, over three days.", "year": 2002, "subtitle": "2002 Gujarat riots", "url": "https://en.wikipedia.org/wiki/2002_Gujarat_riots", "headline": "Violent Riots Erupt in Gujarat, India" }, { "originalText": "The multimedia franchise Pokémon was launched with the release of the video games Pocket Monsters: Red and Green.", "year": 1996, "subtitle": "Media franchise", "url": "https://en.wikipedia.org/wiki/Media_franchise", "headline": "Pokémon Franchise Launched with Red and Green Games" }, { "originalText": "A wave of protests, riots and looting known as the Caracazo resulted in a death toll of between 276 and 2,000 people in the Venezuelan capital Caracas and its surrounding towns.", "year": 1989, "subtitle": "Caracazo", "url": "https://en.wikipedia.org/wiki/Caracazo", "headline": "Caracazo Protests Result in Hundreds Dead in Caracas" }, { "originalText": "The Armenian community of Sumgait in Azerbaijan was the target of a violent pogrom.", "year": 1988, "subtitle": "Sumgait", "url": "https://en.wikipedia.org/wiki/Sumgait", "headline": "Armenian Community Targeted in Sumgait Pogrom" }, { "originalText": "The D'Oyly Carte Opera Company, known for its performances of Gilbert and Sullivan's Savoy operas, gave its final performance.", "year": 1982, "subtitle": "D'Oyly Carte Opera Company", "url": "https://en.wikipedia.org/wiki/D'Oyly_Carte_Opera_Company", "headline": "D'Oyly Carte Opera Company Gives Final Performance" }, { "originalText": "The Sunday People revealed that the notorious pornographer James Humphreys had bribed a senior London police officer with a holiday to Cyprus and Beirut.", "year": 1972, "subtitle": "The Sunday People", "url": "https://en.wikipedia.org/wiki/The_Sunday_People", "headline": "Notorious Pornographer Bribes London Police Officer" }, { "originalText": "Two dissident Republic of Vietnam Air Force pilots bombed the Independence Palace in Saigon in a failed attempt to assassinate President Ngo Dinh Diem.", "year": 1962, "subtitle": "South Vietnam Air Force", "url": "https://en.wikipedia.org/wiki/South_Vietnam_Air_Force", "headline": "Failed Assassination Attempt on President Ngo Dinh Diem" }, { "originalText": "American biochemists Martin Kamen and Sam Ruben discovered carbon-14, a radioactive isotope of carbon, which is now used extensively as the basis of the radiocarbon dating method to date archaeological and geological samples.", "year": 1940, "subtitle": "Martin Kamen", "url": "https://en.wikipedia.org/wiki/Martin_Kamen", "headline": "Biochemists Discover Carbon-14 Isotope" }, { "originalText": "The Reichstag building, the seat of the German parliament in Berlin, was set on fire in a pivotal event in the establishment of the Nazi regime.", "year": 1933, "subtitle": "Reichstag building", "url": "https://en.wikipedia.org/wiki/Reichstag_building", "headline": "Reichstag Building Set on Fire in Berlin" }, { "originalText": "FC Bayern Munich, Germany's most successful football club, was founded.", "year": 1900, "subtitle": "FC Bayern Munich", "url": "https://en.wikipedia.org/wiki/FC_Bayern_Munich", "headline": "FC Bayern Munich Founded" }, { "originalText": "During the First Boer War, the British suffer a disastrious defeat at Majbua Hill", "year": 1881, "subtitle": "First Boer War", "url": "https://en.wikipedia.org/wiki/First_Boer_War", "headline": "British Suffer Defeat at Majuba Hill" }, { "originalText": "The current flag of Japan was first adopted as a civil ensign for Japanese merchant ships.", "year": 1870, "subtitle": "Flag of Japan", "url": "https://en.wikipedia.org/wiki/Flag_of_Japan", "headline": "Japan Adopts Current Flag as Civil Ensign" }, { "originalText": "American Revolutionary War: A Patriot victory at the Battle of Moore's Creek Bridge resulted in the arrests of 850 Loyalists over the following days.", "year": 1776, "subtitle": "American Revolutionary War", "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War", "headline": "Patriot Victory at Battle of Moore's Creek Bridge" }, { "originalText": "Sweden signed the Treaty of Stolbovo to end the Ingrian War with Russia, making large territorial gains.", "year": 1617, "subtitle": "Treaty of Stolbovo", "url": "https://en.wikipedia.org/wiki/Treaty_of_Stolbovo", "headline": "Sweden Signs Treaty of Stolbovo to End Ingrian War" }, { "originalText": "The Treaty of Berwick was signed, setting the terms under which an English fleet and army could enter Scotland to expel French troops defending the regency of Mary of Guise (pictured).", "year": 1560, "subtitle": "Treaty of Berwick (1560)", "url": "https://en.wikipedia.org/wiki/Treaty_of_Berwick_(1560)", "headline": "Treaty of Berwick Signed to Expel French Troops from Scotland" }] }
+module.exports={
+    "dateLabel": "November 30",
+    "issue": "Issue 335",
+    "events": [
+        {
+            "originalText": "a magnitude 7.1 earthquake hit Anchorage, Alaska (pictured) and caused over 100 injuries.",
+            "year": 2018,
+            "subtitle": "2018 Anchorage earthquake",
+            "url": "https://en.wikipedia.org/wiki/2018_Anchorage_earthquake",
+            "headline": "Magnitude 7.1 Earthquake Hits Anchorage, Alaska, Causing Over 100 Injuries"
+        },
+        {
+            "originalText": "John Sentamu was enthroned as Archbishop of York, becoming the first black archbishop in the Church of England.",
+            "year": 2005,
+            "subtitle": "John Sentamu",
+            "url": "https://en.wikipedia.org/wiki/John_Sentamu",
+            "headline": "John Sentamu Enthroned as First Black Archbishop of York"
+        },
+        {
+            "originalText": "Marconi Electronic Systems and British Aerospace merged to form BAE Systems, one of the world's largest defence companies.",
+            "year": 1999,
+            "subtitle": "Marconi Electronic Systems",
+            "url": "https://en.wikipedia.org/wiki/Marconi_Electronic_Systems",
+            "headline": "Marconi Electronic Systems and British Aerospace Merge to Form BAE Systems"
+        },
+        {
+            "originalText": "A series of protests by anti-globalization activists against the World Trade Organization Ministerial Conference of 1999 in Seattle forced the cancellation of the opening ceremonies.",
+            "year": 1999,
+            "subtitle": "1999 Seattle WTO protests",
+            "url": "https://en.wikipedia.org/wiki/1999_Seattle_WTO_protests",
+            "headline": "Anti-Globalization Protests Force Cancellation of WTO Ministerial Conference Opening Ceremonies"
+        },
+        {
+            "originalText": "The Wall, a rock opera and concept album by the English band Pink Floyd, was first released.",
+            "year": 1979,
+            "subtitle": "The Wall",
+            "url": "https://en.wikipedia.org/wiki/The_Wall",
+            "headline": "Pink Floyd's 'The Wall' Rock Opera and Concept Album Released"
+        },
+        {
+            "originalText": "A meteorite crashed through a roof in Sylacauga, Alabama, and hit a sleeping woman in the first verified case of a human being injured by an extraterrestrial object.",
+            "year": 1954,
+            "subtitle": "Sylacauga (meteorite)",
+            "url": "https://en.wikipedia.org/wiki/Sylacauga_(meteorite)",
+            "headline": "Meteorite Crashes Through Roof in Sylacauga, Alabama, Injuring Sleeping Woman"
+        },
+        {
+            "originalText": "Mutesa II, Kabaka of Buganda, was temporarily deposed and exiled to London by Andrew Cohen, the British governor of Uganda.",
+            "year": 1953,
+            "subtitle": "Mutesa II of Buganda",
+            "url": "https://en.wikipedia.org/wiki/Mutesa_II_of_Buganda",
+            "headline": "Mutesa II, Kabaka of Buganda, Temporarily Deposed and Exiled to London"
+        },
+        {
+            "originalText": "After the United Nations voted to adopt a partition plan for Palestine, a civil war broke out between the region's Jewish and Arab communities.",
+            "year": 1947,
+            "subtitle": "United Nations Partition Plan for Palestine",
+            "url": "https://en.wikipedia.org/wiki/United_Nations_Partition_Plan_for_Palestine",
+            "headline": "Civil War Breaks Out in Palestine After UN Adopts Partition Plan"
+        },
+        {
+            "originalText": "World War II: Japanese warships defeated the U.S. Navy in a nighttime naval battle off Tassafaronga, Guadalcanal.",
+            "year": 1942,
+            "subtitle": "World War II",
+            "url": "https://en.wikipedia.org/wiki/World_War_II",
+            "headline": "Japanese Warships Defeat U.S. Navy in Naval Battle off Tassafaronga, Guadalcanal"
+        },
+        {
+            "originalText": "English mathematician Alan Turing published the first details of the Turing machine (model pictured), an abstract device that can simulate the logic of any computer algorithm by manipulating symbols.",
+            "year": 1936,
+            "subtitle": "Alan Turing",
+            "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+            "headline": "Alan Turing Publishes Details of Turing Machine, Abstract Device for Computer Algorithm Simulation"
+        },
+        {
+            "originalText": "Flying Scotsman became the first steam locomotive officially to exceed 100 miles per hour (161 km/h).",
+            "year": 1934,
+            "subtitle": "LNER Class A3 4472 Flying Scotsman",
+            "url": "https://en.wikipedia.org/wiki/LNER_Class_A3_4472_Flying_Scotsman",
+            "headline": "Flying Scotsman First Steam Locomotive to Exceed 100 MPH"
+        },
+        {
+            "originalText": "The first international football match (pictured) took place at Hamilton Crescent, Glasgow, between Scotland and England.",
+            "year": 1872,
+            "subtitle": "1872 Scotland v England football match",
+            "url": "https://en.wikipedia.org/wiki/1872_Scotland_v_England_football_match",
+            "headline": "First International Football Match Takes Place in Glasgow Between Scotland and England"
+        },
+        {
+            "originalText": "Russian warships led by Pavel Nakhimov destroyed an Ottoman fleet of frigates at the Battle of Sinop, prompting France and the United Kingdom to enter the Crimean War.",
+            "year": 1853,
+            "subtitle": "Pavel Nakhimov",
+            "url": "https://en.wikipedia.org/wiki/Pavel_Nakhimov",
+            "headline": "Russian Warships Destroy Ottoman Fleet at Battle of Sinop, Leading to Crimean War"
+        },
+        {
+            "originalText": "An expedition led by Francisco Javier de Balmis departed A Coruña, Spain, with the aim of vaccinating millions in South America and Asia against smallpox.",
+            "year": 1803,
+            "subtitle": "Balmis Expedition",
+            "url": "https://en.wikipedia.org/wiki/Balmis_Expedition",
+            "headline": "Francisco Javier de Balmis Leads Expedition to Vaccinate Against Smallpox in South America and Asia"
+        },
+        {
+            "originalText": "Great Northern War: Swedish forces led by King Charles XII defeated the Russian army at the Battle of Narva.",
+            "year": 1700,
+            "subtitle": "Great Northern War",
+            "url": "https://en.wikipedia.org/wiki/Great_Northern_War",
+            "headline": "Swedish Forces Defeat Russian Army at Battle of Narva in Great Northern War"
+        }
+    ]
+}
 
 },{}],2:[function(require,module,exports){
 "use strict";
