@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+for ((i=1;i<=12;i++)); do  
+  for ((j=1;j<=31;j++)); do
+    month=$(printf %02d $i)
+    day=$(printf %02d $j)
+    path="data/$month/$month$day.json"
+
+    if [ ! -f $path ]; then
+      continue
+    fi
+
+    items=$(cat $path | jq | grep '"originalText"' | wc -l)
+    headlines=$(cat $path | jq | grep '"headline"' | wc -l)
+
+    if [ $headlines != $items ]; then
+      echo $path
+    fi
+  done
+done
+
+echo done

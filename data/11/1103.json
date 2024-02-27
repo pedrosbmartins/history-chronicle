@@ -1,1 +1,125 @@
-{"dateLabel":"November 3","issue":"Issue 308","events":[{"originalText":"Abdullah Çatlı, a leader of the ultra-nationalist Grey Wolves, was killed in a car crash near Susurluk, Turkey, sparking a scandal that exposed the depth of the state's complicity in organized crime.","year":1996,"subtitle":"Abdullah Çatlı","url":"https://en.wikipedia.org/wiki/Abdullah_%C3%87atl%C4%B1","headline":"Abdullah Çatlı killed in car crash near Susurluk, Turkey"},{"originalText":"U.S. president Richard Nixon made a plea for support from the \"silent majority\", referring to those Americans who did not join in the large demonstrations against the Vietnam War at the time.","year":1969,"subtitle":"Richard Nixon","url":"https://en.wikipedia.org/wiki/Richard_Nixon","headline":"Richard Nixon appeals to 'silent majority' for support"},{"originalText":"The Soviet Union launched Sputnik 2, carrying the space dog Laika as the first living creature to enter orbit around Earth.","year":1957,"subtitle":"Sputnik 2","url":"https://en.wikipedia.org/wiki/Sputnik_2","headline":"Soviet Union launches Sputnik 2 with space dog Laika"},{"originalText":"Suez Crisis: During an invasion of the Gaza Strip, Israeli soldiers shot and killed hundreds of Palestinian refugees and local inhabitants in Khan Yunis.","year":1956,"subtitle":"Suez Crisis","url":"https://en.wikipedia.org/wiki/Suez_Crisis","headline":"Israeli soldiers kill hundreds in Gaza Strip invasion"},{"originalText":"The first film featuring the giant monster known as Godzilla was released nationwide in Japan.","year":1954,"subtitle":"Godzilla (1954 film)","url":"https://en.wikipedia.org/wiki/Godzilla_(1954_film)","headline":"First Godzilla film released in Japan"},{"originalText":"The Chicago Daily Tribune published the erroneous headline \"Dewey Defeats Truman\" (pictured) in its early morning edition shortly after incumbent U.S. president Harry S. Truman officially upset the heavily favored governor of New York Thomas Dewey in the presidential election.","year":1948,"subtitle":"Chicago Tribune","url":"https://en.wikipedia.org/wiki/Chicago_Tribune","headline":"Chicago Daily Tribune publishes 'Dewey Defeats Truman' headline"},{"originalText":"The Holocaust: The largest massacre of Jews by German forces began at Majdanek concentration camp (execution trenches pictured).","year":1943,"subtitle":"The Holocaust","url":"https://en.wikipedia.org/wiki/The_Holocaust","headline":"Largest massacre of Jews at Majdanek concentration camp"},{"originalText":"World War II: U.S. Marines and U.S. Army forces began an attempt to encircle and destroy a regiment of Imperial Japanese Army troops on Guadalcanal.","year":1942,"subtitle":"World War II","url":"https://en.wikipedia.org/wiki/World_War_II","headline":"U.S. forces attempt to encircle Japanese troops on Guadalcanal"},{"originalText":"Almost 98 percent of reported votes in a Greek referendum supported the restoration of George II as King of the Hellenes.","year":1935,"subtitle":"1935 Greek monarchy referendum","url":"https://en.wikipedia.org/wiki/1935_Greek_monarchy_referendum","headline":"Greek referendum supports restoration of George II as King"},{"originalText":"The Fashoda Incident ended with French forces withdrawing after several months of military stalemate with the British in Fashoda (now in South Sudan).","year":1898,"subtitle":"Fashoda Incident","url":"https://en.wikipedia.org/wiki/Fashoda_Incident","headline":"Fashoda Incident ends with French forces withdrawing"},{"originalText":"Indigenous Mapuche began an uprising against the occupation of Araucanía by Chile.","year":1881,"subtitle":"Mapuche","url":"https://en.wikipedia.org/wiki/Mapuche","headline":"Indigenous Mapuche uprising against Chilean occupation"},{"originalText":"The current melody of Kimigayo, the national anthem of Japan, was adopted.","year":1880,"subtitle":"Kimigayo","url":"https://en.wikipedia.org/wiki/Kimigayo","headline":"Kimigayo national anthem melody adopted in Japan"},{"originalText":"A new constitution drafted by Johan Rudolph Thorbecke was proclaimed, limiting the powers of the Dutch monarchy.","year":1848,"subtitle":"Constitution of the Netherlands","url":"https://en.wikipedia.org/wiki/Constitution_of_the_Netherlands","headline":"New constitution limiting Dutch monarchy powers proclaimed"},{"originalText":"French invasion of Russia: As Napoleon's Grande Armée began its retreat, its rear guard was defeated at the Battle of Vyazma.","year":1812,"subtitle":"French invasion of Russia","url":"https://en.wikipedia.org/wiki/French_invasion_of_Russia","headline":"Napoleon's Grande Armée defeated at Battle of Vyazma"},{"originalText":"War of the Third Coalition: The Treaty of Potsdam was signed compelling Prussia to join the coalition if it failed to negotiate peace between Russia and France.","year":1805,"subtitle":"War of the Third Coalition","url":"https://en.wikipedia.org/wiki/War_of_the_Third_Coalition","headline":"Treaty of Potsdam compels Prussia to join Third Coalition"},{"originalText":"French Revolution: Playwright, journalist and outspoken feminist Olympe de Gouges  was guillotined.","year":1793,"subtitle":"French Revolution","url":"https://en.wikipedia.org/wiki/French_Revolution","headline":"Olympe de Gouges guillotined during French Revolution"},{"originalText":"The Parliament of England passed the first Act of Supremacy, making King Henry VIII head of the Church of England, supplanting the pope and the Catholic Church.","year":1534,"subtitle":"Parliament of England","url":"https://en.wikipedia.org/wiki/Parliament_of_England","headline":"Act of Supremacy makes Henry VIII head of Church of England"}]}
+{
+  "dateLabel": "November 3",
+  "issue": "Issue 308",
+  "events": [
+    {
+      "originalText": "Abdullah Çatlı, a leader of the ultra-nationalist Grey Wolves, was killed in a car crash near Susurluk, Turkey, sparking a scandal that exposed the depth of the state's complicity in organized crime.",
+      "year": 1996,
+      "subtitle": "Abdullah Çatlı",
+      "url": "https://en.wikipedia.org/wiki/Abdullah_%C3%87atl%C4%B1",
+      "headline": "Grey Wolves Leader Abdullah Çatlı Killed in Car Crash Near Susurluk, Turkey"
+    },
+    {
+      "originalText": "U.S. president Richard Nixon made a plea for support from the \"silent majority\", referring to those Americans who did not join in the large demonstrations against the Vietnam War at the time.",
+      "year": 1969,
+      "subtitle": "Richard Nixon",
+      "url": "https://en.wikipedia.org/wiki/Richard_Nixon",
+      "headline": "President Nixon Appeals to 'Silent Majority' Amid Vietnam War Protests"
+    },
+    {
+      "originalText": "The Soviet Union launched Sputnik 2, carrying the space dog Laika as the first living creature to enter orbit around Earth.",
+      "year": 1957,
+      "subtitle": "Sputnik 2",
+      "url": "https://en.wikipedia.org/wiki/Sputnik_2",
+      "headline": "Soviet Union Launches Sputnik 2 with Space Dog Laika Aboard"
+    },
+    {
+      "originalText": "Suez Crisis: During an invasion of the Gaza Strip, Israeli soldiers shot and killed hundreds of Palestinian refugees and local inhabitants in Khan Yunis.",
+      "year": 1956,
+      "subtitle": "Suez Crisis",
+      "url": "https://en.wikipedia.org/wiki/Suez_Crisis",
+      "headline": "Israeli Soldiers Kill Hundreds in Gaza Strip Invasion During Suez Crisis"
+    },
+    {
+      "originalText": "The first film featuring the giant monster known as Godzilla was released nationwide in Japan.",
+      "year": 1954,
+      "subtitle": "Godzilla (1954 film)",
+      "url": "https://en.wikipedia.org/wiki/Godzilla_(1954_film)",
+      "headline": "First Godzilla Film Released Nationwide in Japan"
+    },
+    {
+      "originalText": "The Chicago Daily Tribune published the erroneous headline \"Dewey Defeats Truman\" (pictured) in its early morning edition shortly after incumbent U.S. president Harry S. Truman officially upset the heavily favored governor of New York Thomas Dewey in the presidential election.",
+      "year": 1948,
+      "subtitle": "Chicago Tribune",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Tribune",
+      "headline": "Chicago Daily Tribune Mistakenly Prints 'Dewey Defeats Truman' Headline"
+    },
+    {
+      "originalText": "The Holocaust: The largest massacre of Jews by German forces began at Majdanek concentration camp (execution trenches pictured).",
+      "year": 1943,
+      "subtitle": "The Holocaust",
+      "url": "https://en.wikipedia.org/wiki/The_Holocaust",
+      "headline": "Largest Massacre of Jews by German Forces Begins at Majdanek Concentration Camp"
+    },
+    {
+      "originalText": "World War II: U.S. Marines and U.S. Army forces began an attempt to encircle and destroy a regiment of Imperial Japanese Army troops on Guadalcanal.",
+      "year": 1942,
+      "subtitle": "World War II",
+      "url": "https://en.wikipedia.org/wiki/World_War_II",
+      "headline": "U.S. Forces Attempt to Encircle and Destroy Japanese Troops on Guadalcanal"
+    },
+    {
+      "originalText": "Almost 98 percent of reported votes in a Greek referendum supported the restoration of George II as King of the Hellenes.",
+      "year": 1935,
+      "subtitle": "1935 Greek monarchy referendum",
+      "url": "https://en.wikipedia.org/wiki/1935_Greek_monarchy_referendum",
+      "headline": "Greek Referendum Supports Restoration of George II as King"
+    },
+    {
+      "originalText": "The Fashoda Incident ended with French forces withdrawing after several months of military stalemate with the British in Fashoda (now in South Sudan).",
+      "year": 1898,
+      "subtitle": "Fashoda Incident",
+      "url": "https://en.wikipedia.org/wiki/Fashoda_Incident",
+      "headline": "French Forces Withdraw from Fashoda After Military Stalemate with British"
+    },
+    {
+      "originalText": "Indigenous Mapuche began an uprising against the occupation of Araucanía by Chile.",
+      "year": 1881,
+      "subtitle": "Mapuche",
+      "url": "https://en.wikipedia.org/wiki/Mapuche",
+      "headline": "Indigenous Mapuche Uprising Against Chilean Occupation of Araucanía"
+    },
+    {
+      "originalText": "The current melody of Kimigayo, the national anthem of Japan, was adopted.",
+      "year": 1880,
+      "subtitle": "Kimigayo",
+      "url": "https://en.wikipedia.org/wiki/Kimigayo",
+      "headline": "Current Melody of Kimigayo National Anthem of Japan Adopted"
+    },
+    {
+      "originalText": "A new constitution drafted by Johan Rudolph Thorbecke was proclaimed, limiting the powers of the Dutch monarchy.",
+      "year": 1848,
+      "subtitle": "Constitution of the Netherlands",
+      "url": "https://en.wikipedia.org/wiki/Constitution_of_the_Netherlands",
+      "headline": "New Constitution Limiting Dutch Monarchy Powers Proclaimed"
+    },
+    {
+      "originalText": "French invasion of Russia: As Napoleon's Grande Armée began its retreat, its rear guard was defeated at the Battle of Vyazma.",
+      "year": 1812,
+      "subtitle": "French invasion of Russia",
+      "url": "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
+      "headline": "Napoleon's Grande Armée Defeated at Battle of Vyazma During French Invasion of Russia"
+    },
+    {
+      "originalText": "War of the Third Coalition: The Treaty of Potsdam was signed compelling Prussia to join the coalition if it failed to negotiate peace between Russia and France.",
+      "year": 1805,
+      "subtitle": "War of the Third Coalition",
+      "url": "https://en.wikipedia.org/wiki/War_of_the_Third_Coalition",
+      "headline": "Treaty of Potsdam Compels Prussia to Join Third Coalition"
+    },
+    {
+      "originalText": "French Revolution: Playwright, journalist and outspoken feminist Olympe de Gouges  was guillotined.",
+      "year": 1793,
+      "subtitle": "French Revolution",
+      "url": "https://en.wikipedia.org/wiki/French_Revolution",
+      "headline": "Feminist Olympe de Gouges Guillotined During French Revolution"
+    },
+    {
+      "originalText": "The Parliament of England passed the first Act of Supremacy, making King Henry VIII head of the Church of England, supplanting the pope and the Catholic Church.",
+      "year": 1534,
+      "subtitle": "Parliament of England",
+      "url": "https://en.wikipedia.org/wiki/Parliament_of_England",
+      "headline": "King Henry VIII Becomes Head of Church of England with First Act of Supremacy"
+    }
+  ]
+}

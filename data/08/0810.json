@@ -1,1 +1,160 @@
-{"dateLabel":"August 10","issue":"Issue 223","events":[{"originalText":"Having already caused severe flooding in the Philippines, Typhoon Lekima made landfall in Zhejiang, China, and went on to become the costliest typhoon in Chinese history.","year":2019,"subtitle":"Typhoon Lekima","url":"https://en.wikipedia.org/wiki/Typhoon_Lekima","headline":"Typhoon Lekima hits Zhejiang, China, becoming costliest in Chinese history"},{"originalText":"Jeffrey Epstein, an American financier and convicted sex offender, was found dead in his cell at the Metropolitan Correctional Center, New York.","year":2019,"subtitle":"Jeffrey Epstein","url":"https://en.wikipedia.org/wiki/Jeffrey_Epstein","headline":"American financier Jeffrey Epstein found dead in New York cell"},{"originalText":"Amid large protests against the impending demolition of the Queen's Pier, in Hong Kong, the High Court dismissed legal attempts to preserve the landmark.","year":2007,"subtitle":"Queen's Pier","url":"https://en.wikipedia.org/wiki/Queen's_Pier","headline":"High Court dismisses legal attempts to save Queen's Pier in Hong Kong"},{"originalText":"The Civil Liberties Act of 1988 became law, authorizing reparations to surviving Japanese Americans interned during World War II.","year":1988,"subtitle":"Civil Liberties Act of 1988","url":"https://en.wikipedia.org/wiki/Civil_Liberties_Act_of_1988","headline":"Civil Liberties Act of 1988 authorizes reparations for Japanese Americans"},{"originalText":"The Civil Liberties Act of 1988 became law, authorizing reparations to surviving Japanese Americans interned during World War II.","year":1988,"subtitle":"Civil Liberties Act of 1988","url":"https://en.wikipedia.org/wiki/Civil_Liberties_Act_of_1988","headline":"Heron Road Bridge collapse in Ottawa kills nine workers"},{"originalText":"The Heron Road Bridge in Ottawa, Canada, collapsed during its construction, killing nine workers.","year":1966,"subtitle":"Heron Road Workers Memorial Bridge","url":"https://en.wikipedia.org/wiki/Heron_Road_Workers_Memorial_Bridge","headline":"French Union withdraws forces from Operation Camargue in Vietnam"},{"originalText":"First Indochina War: The French Union withdrew its forces from Operation Camargue against the Việt Minh in central modern-day Vietnam.","year":1953,"subtitle":"First Indochina War","url":"https://en.wikipedia.org/wiki/First_Indochina_War","headline":"First major confrontation in Russo-Japanese War at Battle of Yellow Sea"},{"originalText":"First Indochina War: The French Union withdrew its forces from Operation Camargue against the Việt Minh in central modern-day Vietnam.","year":1953,"subtitle":"First Indochina War","url":"https://en.wikipedia.org/wiki/First_Indochina_War","headline":"Amalgamated Association of Iron, Steel and Tin Workers strike begins"},{"originalText":"Russo-Japanese War: The first major confrontation between modern steel battleship fleets took place in the Battle of the Yellow Sea.","year":1904,"subtitle":"Russo-Japanese War","url":"https://en.wikipedia.org/wiki/Russo-Japanese_War","headline":"German chemist Felix Hoffmann discovers improved method for aspirin synthesis"},{"originalText":"The Amalgamated Association of Iron, Steel and Tin Workers began an ultimately unsuccessful strike to reverse its declining fortunes and organize large numbers of new members.","year":1901,"subtitle":"Amalgamated Association of Iron and Steel Workers","url":"https://en.wikipedia.org/wiki/Amalgamated_Association_of_Iron_and_Steel_Workers","headline":"Brazilian military announces reprisals after Uruguay's Blanco Party refusal"},{"originalText":"German chemist Felix Hoffmann discovered an improved method of synthesizing aspirin.","year":1897,"subtitle":"Felix Hoffmann","url":"https://en.wikipedia.org/wiki/Felix_Hoffmann","headline":"Battle of Wilson's Creek fought in American Civil War"},{"originalText":"José Antônio Saraiva announced that the Brazilian military would exact reprisals after Uruguay's governing Blanco Party refused Brazil's demands, beginning the Uruguayan War.","year":1864,"subtitle":"José Antônio Saraiva","url":"https://en.wikipedia.org/wiki/Jos%C3%A9_Ant%C3%B4nio_Saraiva","headline":"German astronomer Friedrich Bessel deduces unseen companion of Sirius"},{"originalText":"American Civil War: The first major battle west of the Mississippi River, the Battle of Wilson's Creek, was fought.","year":1861,"subtitle":"American Civil War","url":"https://en.wikipedia.org/wiki/American_Civil_War","headline":"Louvre officially opens in Paris with extensive exhibition"},{"originalText":"From measurements of its motion, German astronomer Friedrich Bessel deduced that Sirius, the brightest star in the night sky, had an unseen companion (both pictured).","year":1844,"subtitle":"Friedrich Bessel","url":"https://en.wikipedia.org/wiki/Friedrich_Bessel","headline":"Paris insurrectionists storm Tuileries Palace, ending French monarchy"},{"originalText":"The Louvre (Louvre Pyramid pictured) in Paris, today the world's most visited museum, officially opened with an exhibition of 537 paintings and 184 objets d'art.","year":1793,"subtitle":"Louvre","url":"https://en.wikipedia.org/wiki/Louvre","headline":"First wave of Acadians expulsion begins in Canadian Maritime provinces"},{"originalText":"The Louvre (pyramid pictured) in Paris, today the world's most-visited museum, opened with an exhibition of 537 paintings and 184 objets d'art.","year":1793,"subtitle":"Louvre","url":"https://en.wikipedia.org/wiki/Louvre","headline":"Swedish warship Vasa sinks on maiden voyage to Thirty Years' War"},{"originalText":"French Revolution: Insurrectionists in Paris stormed the Tuileries Palace, effectively ending the French monarchy until it was restored in 1814.","year":1792,"subtitle":"French Revolution","url":"https://en.wikipedia.org/wiki/French_Revolution","headline":"Yekuno Amlak seizes imperial throne of Ethiopia, starting Solomonic dynasty"},{"originalText":"The first wave of the Expulsion of the Acadians from the present-day Canadian Maritime provinces by the British began with the Bay of Fundy campaign at Chignecto.","year":1755,"subtitle":"Expulsion of the Acadians","url":"https://en.wikipedia.org/wiki/Expulsion_of_the_Acadians","headline":"Otto I victorious at Battle of Lechfeld, holding off Magyar incursions"},{"originalText":"The Swedish warship Vasa sank shortly after departing Stockholm on her maiden voyage to take part in the Thirty Years' War.","year":1628,"subtitle":"Vasa (ship)","url":"https://en.wikipedia.org/wiki/Vasa_(ship)"},{"originalText":"Yekuno Amlak deposed the last Zagwe king and seized the imperial throne of Ethiopia, beginning the reign of the Solomonic dynasty, which would last for more than 700 years.","year":1270,"subtitle":"Yekuno Amlak","url":"https://en.wikipedia.org/wiki/Yekuno_Amlak"},{"originalText":"Yekuno Amlak deposed the last Zagwe king and seized the imperial throne of Ethiopia, beginning the reign of the Solomonic dynasty, which would last for more than 700 years.","year":1270,"subtitle":"Yekuno Amlak","url":"https://en.wikipedia.org/wiki/Yekuno_Amlak"},{"originalText":"Forces under Otto I were victorious at the Battle of Lechfeld near present-day Augsburg, Germany, holding off the incursions of the Magyars into Central Europe.","year":955,"subtitle":"Otto the Great","url":"https://en.wikipedia.org/wiki/Otto_the_Great"}]}
+{
+  "dateLabel": "August 10",
+  "issue": "Issue 223",
+  "events": [
+    {
+      "originalText": "Having already caused severe flooding in the Philippines, Typhoon Lekima made landfall in Zhejiang, China, and went on to become the costliest typhoon in Chinese history.",
+      "year": 2019,
+      "subtitle": "Typhoon Lekima",
+      "url": "https://en.wikipedia.org/wiki/Typhoon_Lekima",
+      "headline": "Typhoon Lekima Hits Zhejiang, China, Becomes Costliest in Chinese History"
+    },
+    {
+      "originalText": "Jeffrey Epstein, an American financier and convicted sex offender, was found dead in his cell at the Metropolitan Correctional Center, New York.",
+      "year": 2019,
+      "subtitle": "Jeffrey Epstein",
+      "url": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+      "headline": "Financier and Sex Offender Jeffrey Epstein Found Dead in New York Cell"
+    },
+    {
+      "originalText": "Amid large protests against the impending demolition of the Queen's Pier, in Hong Kong, the High Court dismissed legal attempts to preserve the landmark.",
+      "year": 2007,
+      "subtitle": "Queen's Pier",
+      "url": "https://en.wikipedia.org/wiki/Queen's_Pier",
+      "headline": "High Court Dismisses Legal Attempts to Preserve Queen's Pier in Hong Kong"
+    },
+    {
+      "originalText": "The Civil Liberties Act of 1988 became law, authorizing reparations to surviving Japanese Americans interned during World War II.",
+      "year": 1988,
+      "subtitle": "Civil Liberties Act of 1988",
+      "url": "https://en.wikipedia.org/wiki/Civil_Liberties_Act_of_1988",
+      "headline": "Civil Liberties Act of 1988 Authorizes Reparations for Japanese Americans"
+    },
+    {
+      "originalText": "The Civil Liberties Act of 1988 became law, authorizing reparations to surviving Japanese Americans interned during World War II.",
+      "year": 1988,
+      "subtitle": "Civil Liberties Act of 1988",
+      "url": "https://en.wikipedia.org/wiki/Civil_Liberties_Act_of_1988",
+      "headline": "Civil Liberties Act of 1988 Authorizes Reparations for Japanese Americans"
+    },
+    {
+      "originalText": "The Heron Road Bridge in Ottawa, Canada, collapsed during its construction, killing nine workers.",
+      "year": 1966,
+      "subtitle": "Heron Road Workers Memorial Bridge",
+      "url": "https://en.wikipedia.org/wiki/Heron_Road_Workers_Memorial_Bridge",
+      "headline": "Heron Road Bridge in Ottawa Collapses, Killing Nine Workers"
+    },
+    {
+      "originalText": "First Indochina War: The French Union withdrew its forces from Operation Camargue against the Việt Minh in central modern-day Vietnam.",
+      "year": 1953,
+      "subtitle": "First Indochina War",
+      "url": "https://en.wikipedia.org/wiki/First_Indochina_War",
+      "headline": "French Union Withdraws Forces from Operation Camargue in Vietnam"
+    },
+    {
+      "originalText": "First Indochina War: The French Union withdrew its forces from Operation Camargue against the Việt Minh in central modern-day Vietnam.",
+      "year": 1953,
+      "subtitle": "First Indochina War",
+      "url": "https://en.wikipedia.org/wiki/First_Indochina_War",
+      "headline": "French Union Withdraws Forces from Operation Camargue in Vietnam"
+    },
+    {
+      "originalText": "Russo-Japanese War: The first major confrontation between modern steel battleship fleets took place in the Battle of the Yellow Sea.",
+      "year": 1904,
+      "subtitle": "Russo-Japanese War",
+      "url": "https://en.wikipedia.org/wiki/Russo-Japanese_War",
+      "headline": "First Major Confrontation in Russo-Japanese War at Battle of Yellow Sea"
+    },
+    {
+      "originalText": "The Amalgamated Association of Iron, Steel and Tin Workers began an ultimately unsuccessful strike to reverse its declining fortunes and organize large numbers of new members.",
+      "year": 1901,
+      "subtitle": "Amalgamated Association of Iron and Steel Workers",
+      "url": "https://en.wikipedia.org/wiki/Amalgamated_Association_of_Iron_and_Steel_Workers",
+      "headline": "Amalgamated Association of Iron, Steel and Tin Workers Begin Strike"
+    },
+    {
+      "originalText": "German chemist Felix Hoffmann discovered an improved method of synthesizing aspirin.",
+      "year": 1897,
+      "subtitle": "Felix Hoffmann",
+      "url": "https://en.wikipedia.org/wiki/Felix_Hoffmann",
+      "headline": "Chemist Felix Hoffmann Discovers Improved Method of Synthesizing Aspirin"
+    },
+    {
+      "originalText": "José Antônio Saraiva announced that the Brazilian military would exact reprisals after Uruguay's governing Blanco Party refused Brazil's demands, beginning the Uruguayan War.",
+      "year": 1864,
+      "subtitle": "José Antônio Saraiva",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Ant%C3%B4nio_Saraiva",
+      "headline": "Brazilian Military to Exact Reprisals in Uruguayan War"
+    },
+    {
+      "originalText": "American Civil War: The first major battle west of the Mississippi River, the Battle of Wilson's Creek, was fought.",
+      "year": 1861,
+      "subtitle": "American Civil War",
+      "url": "https://en.wikipedia.org/wiki/American_Civil_War",
+      "headline": "First Major Battle West of Mississippi River in American Civil War"
+    },
+    {
+      "originalText": "From measurements of its motion, German astronomer Friedrich Bessel deduced that Sirius, the brightest star in the night sky, had an unseen companion (both pictured).",
+      "year": 1844,
+      "subtitle": "Friedrich Bessel",
+      "url": "https://en.wikipedia.org/wiki/Friedrich_Bessel",
+      "headline": "German Astronomer Friedrich Bessel Discovers Companion to Sirius"
+    },
+    {
+      "originalText": "The Louvre (Louvre Pyramid pictured) in Paris, today the world's most visited museum, officially opened with an exhibition of 537 paintings and 184 objets d'art.",
+      "year": 1793,
+      "subtitle": "Louvre",
+      "url": "https://en.wikipedia.org/wiki/Louvre",
+      "headline": "Louvre in Paris Officially Opens as World's Most Visited Museum"
+    },
+    {
+      "originalText": "The Louvre (pyramid pictured) in Paris, today the world's most-visited museum, opened with an exhibition of 537 paintings and 184 objets d'art.",
+      "year": 1793,
+      "subtitle": "Louvre",
+      "url": "https://en.wikipedia.org/wiki/Louvre",
+      "headline": "Louvre in Paris Opens with Exhibition of 537 Paintings and 184 Objets d'Art"
+    },
+    {
+      "originalText": "French Revolution: Insurrectionists in Paris stormed the Tuileries Palace, effectively ending the French monarchy until it was restored in 1814.",
+      "year": 1792,
+      "subtitle": "French Revolution",
+      "url": "https://en.wikipedia.org/wiki/French_Revolution",
+      "headline": "Insurrectionists Storm Tuileries Palace in French Revolution"
+    },
+    {
+      "originalText": "The first wave of the Expulsion of the Acadians from the present-day Canadian Maritime provinces by the British began with the Bay of Fundy campaign at Chignecto.",
+      "year": 1755,
+      "subtitle": "Expulsion of the Acadians",
+      "url": "https://en.wikipedia.org/wiki/Expulsion_of_the_Acadians",
+      "headline": "First Wave of Acadian Expulsion Begins in Canadian Maritime Provinces"
+    },
+    {
+      "originalText": "The Swedish warship Vasa sank shortly after departing Stockholm on her maiden voyage to take part in the Thirty Years' War.",
+      "year": 1628,
+      "subtitle": "Vasa (ship)",
+      "url": "https://en.wikipedia.org/wiki/Vasa_(ship)",
+      "headline": "Swedish Warship Vasa Sinks on Maiden Voyage to Thirty Years' War"
+    },
+    {
+      "originalText": "Yekuno Amlak deposed the last Zagwe king and seized the imperial throne of Ethiopia, beginning the reign of the Solomonic dynasty, which would last for more than 700 years.",
+      "year": 1270,
+      "subtitle": "Yekuno Amlak",
+      "url": "https://en.wikipedia.org/wiki/Yekuno_Amlak",
+      "headline": "Yekuno Amlak Seizes Imperial Throne of Ethiopia, Starting Solomonic Dynasty"
+    },
+    {
+      "originalText": "Yekuno Amlak deposed the last Zagwe king and seized the imperial throne of Ethiopia, beginning the reign of the Solomonic dynasty, which would last for more than 700 years.",
+      "year": 1270,
+      "subtitle": "Yekuno Amlak",
+      "url": "https://en.wikipedia.org/wiki/Yekuno_Amlak",
+      "headline": "Yekuno Amlak Seizes Imperial Throne of Ethiopia, Starting Solomonic Dynasty"
+    },
+    {
+      "originalText": "Forces under Otto I were victorious at the Battle of Lechfeld near present-day Augsburg, Germany, holding off the incursions of the Magyars into Central Europe.",
+      "year": 955,
+      "subtitle": "Otto the Great",
+      "url": "https://en.wikipedia.org/wiki/Otto_the_Great",
+      "headline": "Otto I Victorious at Battle of Lechfeld, Holding off Magyar Incursions"
+    }
+  ]
+}

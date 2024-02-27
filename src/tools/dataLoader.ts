@@ -34,17 +34,25 @@ program
     console.info('===========================')
 
     const rawEvents = await loadEvents(month, day)
-    let events = rawEvents.selected.map((event: any) => ({
-      originalText: event.text,
-      year: event.year,
-      subtitle: event.pages[0].titles.normalized,
-      url: event.pages[0].content_urls.desktop.page
-    }))
+    const events = Object.fromEntries(
+      rawEvents.map((event: any, i: number) => {
+        const id = (i + 1).toString().padStart(3, '0')
+        const params = {
+          originalText: event.text,
+          year: event.year,
+          subtitle: event.pages[0].titles.normalized,
+          url: event.pages[0].content_urls.desktop.page
+        }
+        return [id, params]
+      })
+    )
 
     const headlines = await generateHeadlines(events)
-    events = events.map((event: any, i: number) => ({ ...event, headline: headlines[i] }))
+    Object.entries(headlines).forEach(([id, headline]) => {
+      events[id].headline = headline
+    })
 
-    await persistData(events, month, day)
+    await persistData(Object.values(events), month, day)
 
     console.info('Done')
   })
@@ -70,19 +78,26 @@ async function loadEvents(month: string, day: string) {
     console.error(`Could not load data from Wikipedia: ${error}`)
     process.exit(1)
   }
-  return json
+  if (json.selected === undefined) {
+    console.error(`Could not load data from Wikipedia: ${JSON.stringify(json)}`)
+    process.exit(1)
+  }
+  return json.selected
 }
 
-async function generateHeadlines(events: Array<{ originalText: string }>) {
+async function generateHeadlines(events: Record<string, { originalText: string }>) {
   const openai = new OpenAI({ apiKey: process.env['OPENAI_API_KEY'] })
   const prompt = [
     'You are an expert AI Journalism Assistant.',
     'You are given a list of sentences and must respond with a list of direct, short headlines in a professional newspaper style.',
     'Make sure to include the most important information, such as the name of places and/or people.',
-    'Return only a JSON array, directly and with no header or extra information, like this: ["Headline 1...", "Headline 2...", ...]',
+    `Return only a JSON object, directly and with no header or extra information, like this: 
+{ "001": "Headline 1...", "002": "Headline 2...", ...}`,
     'Sentences:',
     '```',
-    events.map(event => `- ${event.originalText.replace(/"/g, '\\"')}`).join('\n'),
+    Object.entries(events)
+      .map(([id, event]) => `- ID ${id}: ${event.originalText.replace(/"/g, '\\"')}`)
+      .join('\n'),
     '```'
   ].join('\n')
   console.info('OpenAI: generating event headlines...')
@@ -91,8 +106,10 @@ async function generateHeadlines(events: Array<{ originalText: string }>) {
     model: 'gpt-3.5-turbo',
     temperature: 0
   })
-  const headlines = JSON.parse(completion.choices[0].message.content!) as any[]
-  console.info(`OpenAI: generated ${headlines.length} headlines for ${events.length} events`)
+  const headlines = JSON.parse(completion.choices[0].message.content!) as Record<string, string>
+  const headlineCount = Object.keys(headlines).length
+  const eventCount = Object.keys(events).length
+  console.info(`OpenAI: generated ${headlineCount} headlines for ${eventCount} events`)
   return headlines
 }
 

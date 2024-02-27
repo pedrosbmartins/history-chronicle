@@ -1,1 +1,132 @@
-{"dateLabel":"August 24","issue":"Issue 237","events":[{"originalText":"The International Astronomical Union passed a resolution redefining the term planet and classifying Pluto as a dwarf planet.","year":2006,"subtitle":"International Astronomical Union","url":"https://en.wikipedia.org/wiki/International_Astronomical_Union","headline":"Pluto reclassified as dwarf planet by International Astronomical Union"},{"originalText":"Eighty-nine people died after suicide bombers attacked two airliners flying out of Moscow's Domodedovo International Airport.","year":2004,"subtitle":"2004 Russian aircraft bombings","url":"https://en.wikipedia.org/wiki/2004_Russian_aircraft_bombings","headline":"Suicide bombers attack airliners at Moscow's Domodedovo International Airport, 89 dead"},{"originalText":"Hurricane Andrew, the third-most intense Category 5 cyclone to impact the United States in the 20th century, made landfall in southern Florida.","year":1992,"subtitle":"Hurricane Andrew","url":"https://en.wikipedia.org/wiki/Hurricane_Andrew","headline":"Hurricane Andrew makes landfall in southern Florida"},{"originalText":"Cultural Revolution: Red Guards vandalised the Jokhang, the holiest Buddhist temple in Tibet.","year":1966,"subtitle":"Cultural Revolution","url":"https://en.wikipedia.org/wiki/Cultural_Revolution","headline":"Red Guards vandalise Jokhang, holiest Buddhist temple in Tibet"},{"originalText":"Buddhist crisis: The U.S. State Department ordered Ambassador Henry Cabot Lodge Jr. (pictured) to encourage South Vietnamese Army officers to oust Ngo Dinh Diem if he did not willingly remove Ngo Dinh Nhu from his unofficial position of power.","year":1963,"subtitle":"Buddhist crisis","url":"https://en.wikipedia.org/wiki/Buddhist_crisis","headline":"U.S. State Department orders Ambassador Lodge to encourage ousting of Ngo Dinh Diem"},{"originalText":"World War II: At the Battle of the Eastern Solomons, bombers from the U.S. aircraft carrier Saratoga sank the Japanese aircraft carrier  Ryūjō near Santa Isabel Island, contributing to an Allied victory.","year":1942,"subtitle":"World War II","url":"https://en.wikipedia.org/wiki/World_War_II","headline":"U.S. bombers sink Japanese aircraft carrier Ryūjō at Battle of Eastern Solomons"},{"originalText":"Adolf Hitler ordered the suspension of the T4 euthanasia program of the mentally ill and disabled, although killings continued in secret for the remainder of World War II.","year":1941,"subtitle":"Adolf Hitler","url":"https://en.wikipedia.org/wiki/Adolf_Hitler","headline":"Hitler suspends T4 euthanasia program for mentally ill and disabled"},{"originalText":"The Royal Navy's R.38, the world's largest airship at the time, was destroyed by a structural failure over Hull, killing 44 of the 49 crew aboard.","year":1921,"subtitle":"Royal Navy","url":"https://en.wikipedia.org/wiki/Royal_Navy","headline":"Royal Navy's R.38 airship destroyed over Hull, 44 crew killed"},{"originalText":"World War I: The Battle of Cer ended with the first Allied victory of the war.","year":1914,"subtitle":"World War I","url":"https://en.wikipedia.org/wiki/World_War_I","headline":"Allied victory at Battle of Cer in World War I"},{"originalText":"The predominantly Māori New Zealand Native football team (pictured) played the last match of their 107-game tour, the longest in rugby union history.","year":1889,"subtitle":"Māori people","url":"https://en.wikipedia.org/wiki/M%C4%81ori_people","headline":"Māori New Zealand Native football team completes longest rugby union tour"},{"originalText":"89 New Zealand Native football team","year":1888,"subtitle":"File:StateLibQld 1 188931 New Zealand native Rugby Union team, prior to a match at Lord Sheffield's Park in 1888.jpg","url":"https://commons.wikimedia.org/wiki/File%3AStateLibQld_1_188931_New_Zealand_native_Rugby_Union_team%2C_prior_to_a_match_at_Lord_Sheffield's_Park_in_1888.jpg","headline":"Ohio Life Insurance and Trust Co. branch in New York City collapses, causing severe recession"},{"originalText":"The New York City branch of the Ohio Life Insurance and Trust Co. collapsed following widespread embezzlement, leading to a severe recession that caused about 5,000 businesses to fail.","year":1857,"subtitle":"Ohio Life Insurance and Trust Company","url":"https://en.wikipedia.org/wiki/Ohio_Life_Insurance_and_Trust_Company","headline":"British forces invade Washington, D.C., burn White House in War of 1812"},{"originalText":"War of 1812: British forces invaded Washington, D.C., setting fire to various U.S. government buildings, including the White House (damage depicted).","year":1814,"subtitle":"War of 1812","url":"https://en.wikipedia.org/wiki/War_of_1812","headline":"American Indians led by Joseph Brant defeat Pennsylvania militia near Aurora, Indiana"},{"originalText":"American Revolutionary War: Near present-day Aurora, Indiana, American Indians led by Joseph Brant killed or captured all members of a Pennsylvania militia.","year":1781,"subtitle":"American Revolutionary War","url":"https://en.wikipedia.org/wiki/American_Revolutionary_War","headline":"1662 Book of Common Prayer enforced in Church of England, leading to Great Ejection"},{"originalText":"The 1662 Book of Common Prayer was legally enforced as the liturgy of the Church of England, precipitating the Great Ejection of Dissenter ministers from their benefices.","year":1662,"subtitle":"Book of Common Prayer (1662)","url":"https://en.wikipedia.org/wiki/Book_of_Common_Prayer_(1662)","headline":"Dutch expedition establishes new colony at mouth of Valdivia River in Chile"},{"originalText":"A Dutch expedition arrived at the mouth of the Valdivia River, in present-day Chile, to establish a new colony in the ruins of the abandoned Spanish settlement of Valdivia.","year":1643,"subtitle":"Dutch expedition to Valdivia","url":"https://en.wikipedia.org/wiki/Dutch_expedition_to_Valdivia","headline":"Oldest known version of Gutenberg Bible completed"},{"originalText":"The oldest known version of the Gutenberg Bible, the first major book produced on a printing press, was completed.","year":1456,"subtitle":"Gutenberg Bible","url":"https://en.wikipedia.org/wiki/Gutenberg_Bible","headline":"Rome sacked by Visigoths under Alaric I after approximately 800 years"},{"originalText":"Rome was sacked for the first time in approximately 800 years by the Visigoths under Alaric I.","year":410,"subtitle":"Sack of Rome (410)","url":"https://en.wikipedia.org/wiki/Sack_of_Rome_(410)","headline":"Caesar's forces defeated by Pompeian Republicans at Caesar's Civil War"},{"originalText":"Caesar's Civil War: Forces loyal to Julius Caesar led by Gaius Scribonius Curio were defeated by Pompeian Republicans under Publius Attius Varus and King Juba I of Numidia.","year":-49,"subtitle":"Caesar's civil war","url":"https://en.wikipedia.org/wiki/Caesar's_civil_war"}]}
+{
+  "dateLabel": "August 24",
+  "issue": "Issue 237",
+  "events": [
+    {
+      "originalText": "The International Astronomical Union passed a resolution redefining the term planet and classifying Pluto as a dwarf planet.",
+      "year": 2006,
+      "subtitle": "International Astronomical Union",
+      "url": "https://en.wikipedia.org/wiki/International_Astronomical_Union",
+      "headline": "Pluto reclassified as dwarf planet by International Astronomical Union"
+    },
+    {
+      "originalText": "Eighty-nine people died after suicide bombers attacked two airliners flying out of Moscow's Domodedovo International Airport.",
+      "year": 2004,
+      "subtitle": "2004 Russian aircraft bombings",
+      "url": "https://en.wikipedia.org/wiki/2004_Russian_aircraft_bombings",
+      "headline": "Suicide bombers attack airliners at Moscow's Domodedovo International Airport, 89 dead"
+    },
+    {
+      "originalText": "Hurricane Andrew, the third-most intense Category 5 cyclone to impact the United States in the 20th century, made landfall in southern Florida.",
+      "year": 1992,
+      "subtitle": "Hurricane Andrew",
+      "url": "https://en.wikipedia.org/wiki/Hurricane_Andrew",
+      "headline": "Hurricane Andrew makes landfall in southern Florida"
+    },
+    {
+      "originalText": "Cultural Revolution: Red Guards vandalised the Jokhang, the holiest Buddhist temple in Tibet.",
+      "year": 1966,
+      "subtitle": "Cultural Revolution",
+      "url": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+      "headline": "Red Guards vandalise Jokhang, holiest Buddhist temple in Tibet"
+    },
+    {
+      "originalText": "Buddhist crisis: The U.S. State Department ordered Ambassador Henry Cabot Lodge Jr. (pictured) to encourage South Vietnamese Army officers to oust Ngo Dinh Diem if he did not willingly remove Ngo Dinh Nhu from his unofficial position of power.",
+      "year": 1963,
+      "subtitle": "Buddhist crisis",
+      "url": "https://en.wikipedia.org/wiki/Buddhist_crisis",
+      "headline": "U.S. State Department orders Ambassador Lodge to encourage ousting of Ngo Dinh Diem"
+    },
+    {
+      "originalText": "World War II: At the Battle of the Eastern Solomons, bombers from the U.S. aircraft carrier Saratoga sank the Japanese aircraft carrier  Ryūjō near Santa Isabel Island, contributing to an Allied victory.",
+      "year": 1942,
+      "subtitle": "World War II",
+      "url": "https://en.wikipedia.org/wiki/World_War_II",
+      "headline": "U.S. bombers sink Japanese aircraft carrier Ryūjō at Battle of Eastern Solomons"
+    },
+    {
+      "originalText": "Adolf Hitler ordered the suspension of the T4 euthanasia program of the mentally ill and disabled, although killings continued in secret for the remainder of World War II.",
+      "year": 1941,
+      "subtitle": "Adolf Hitler",
+      "url": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+      "headline": "Hitler suspends T4 euthanasia program for mentally ill and disabled"
+    },
+    {
+      "originalText": "The Royal Navy's R.38, the world's largest airship at the time, was destroyed by a structural failure over Hull, killing 44 of the 49 crew aboard.",
+      "year": 1921,
+      "subtitle": "Royal Navy",
+      "url": "https://en.wikipedia.org/wiki/Royal_Navy",
+      "headline": "Royal Navy's R.38 airship destroyed over Hull, 44 crew killed"
+    },
+    {
+      "originalText": "World War I: The Battle of Cer ended with the first Allied victory of the war.",
+      "year": 1914,
+      "subtitle": "World War I",
+      "url": "https://en.wikipedia.org/wiki/World_War_I",
+      "headline": "Allied victory at Battle of Cer in World War I"
+    },
+    {
+      "originalText": "The predominantly Māori New Zealand Native football team (pictured) played the last match of their 107-game tour, the longest in rugby union history.",
+      "year": 1889,
+      "subtitle": "Māori people",
+      "url": "https://en.wikipedia.org/wiki/M%C4%81ori_people",
+      "headline": "Māori New Zealand Native football team completes longest rugby union tour"
+    },
+    {
+      "originalText": "The New York City branch of the Ohio Life Insurance and Trust Co. collapsed following widespread embezzlement, leading to a severe recession that caused about 5,000 businesses to fail.",
+      "year": 1857,
+      "subtitle": "Ohio Life Insurance and Trust Company",
+      "url": "https://en.wikipedia.org/wiki/Ohio_Life_Insurance_and_Trust_Company",
+      "headline": "Ohio Life Insurance and Trust Co. branch in New York City collapses, causing severe recession"
+    },
+    {
+      "originalText": "War of 1812: British forces invaded Washington, D.C., setting fire to various U.S. government buildings, including the White House (damage depicted).",
+      "year": 1814,
+      "subtitle": "War of 1812",
+      "url": "https://en.wikipedia.org/wiki/War_of_1812",
+      "headline": "British forces invade Washington, D.C., burn White House in War of 1812"
+    },
+    {
+      "originalText": "American Revolutionary War: Near present-day Aurora, Indiana, American Indians led by Joseph Brant killed or captured all members of a Pennsylvania militia.",
+      "year": 1781,
+      "subtitle": "American Revolutionary War",
+      "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+      "headline": "American Indians led by Joseph Brant defeat Pennsylvania militia near Aurora, Indiana"
+    },
+    {
+      "originalText": "The 1662 Book of Common Prayer was legally enforced as the liturgy of the Church of England, precipitating the Great Ejection of Dissenter ministers from their benefices.",
+      "year": 1662,
+      "subtitle": "Book of Common Prayer (1662)",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Common_Prayer_(1662)",
+      "headline": "1662 Book of Common Prayer enforced in Church of England, leading to Great Ejection"
+    },
+    {
+      "originalText": "A Dutch expedition arrived at the mouth of the Valdivia River, in present-day Chile, to establish a new colony in the ruins of the abandoned Spanish settlement of Valdivia.",
+      "year": 1643,
+      "subtitle": "Dutch expedition to Valdivia",
+      "url": "https://en.wikipedia.org/wiki/Dutch_expedition_to_Valdivia",
+      "headline": "Dutch expedition establishes new colony at mouth of Valdivia River in Chile"
+    },
+    {
+      "originalText": "The oldest known version of the Gutenberg Bible, the first major book produced on a printing press, was completed.",
+      "year": 1456,
+      "subtitle": "Gutenberg Bible",
+      "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+      "headline": "Oldest known version of Gutenberg Bible completed"
+    },
+    {
+      "originalText": "Rome was sacked for the first time in approximately 800 years by the Visigoths under Alaric I.",
+      "year": 410,
+      "subtitle": "Sack of Rome (410)",
+      "url": "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)",
+      "headline": "Rome sacked by Visigoths under Alaric I after approximately 800 years"
+    },
+    {
+      "originalText": "Caesar's Civil War: Forces loyal to Julius Caesar led by Gaius Scribonius Curio were defeated by Pompeian Republicans under Publius Attius Varus and King Juba I of Numidia.",
+      "year": -49,
+      "subtitle": "Caesar's civil war",
+      "url": "https://en.wikipedia.org/wiki/Caesar's_civil_war",
+      "headline": "Caesar's forces defeated by Pompeian Republicans at Caesar's Civil War"
+    }
+  ]
+}
