@@ -1,5 +1,157 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-module.exports={ "dateLabel": "May 10", "issue": "Issue 131", "events": [{ "originalText": "Syrian civil war: The Syrian Democratic Forces, assisted by the U.S. military, captured the Tabqa Dam and surrounding countryside, completing the Battle of Tabqa.", "year": 2017, "subtitle": "Syrian civil war", "url": "https://en.wikipedia.org/wiki/Syrian_civil_war", "headline": "Syrian Democratic Forces Capture Tabqa Dam with U.S. Military Assistance" }, { "originalText": "One World Trade Center in New York City, the tallest building in the Western Hemisphere, was topped out at a height of 1,776 feet (541 m).", "year": 2013, "subtitle": "One World Trade Center", "url": "https://en.wikipedia.org/wiki/One_World_Trade_Center", "headline": "One World Trade Center Topped Out at 1,776 Feet in New York City" }, { "originalText": "Vladimir Arutyunian attempted to assassinate U.S. president George W. Bush and Georgian president Mikheil Saakashvili in Tbilisi using a hand grenade, which failed to detonate.", "year": 2005, "subtitle": "Vladimir Arutyunian", "url": "https://en.wikipedia.org/wiki/Vladimir_Arutyunian", "headline": "Assassination Attempt on U.S. President George W. Bush and Georgian President Mikheil Saakashvili in Tbilisi" }, { "originalText": "An earthquake registering 7.3 Mw struck near Qaen, Iran, killing at least 1,567 and leaving around 50,000 others homeless.", "year": 1997, "subtitle": "1997 Qayen earthquake", "url": "https://en.wikipedia.org/wiki/1997_Qayen_earthquake", "headline": "7.3 Magnitude Earthquake Strikes Near Qaen, Iran, Killing 1,567" }, { "originalText": "American serial killer John Wayne Gacy was executed by lethal injection for the murders of twelve teenage boys and young men in a series of killings committed between 1972 and 1978.", "year": 1994, "subtitle": "John Wayne Gacy", "url": "https://en.wikipedia.org/wiki/John_Wayne_Gacy", "headline": "Serial Killer John Wayne Gacy Executed for Murders of Twelve Teenage Boys" }, { "originalText": "World War II: German Deputy Führer Rudolf Hess parachuted into Scotland in an attempt to negotiate peace with the British government.", "year": 1941, "subtitle": "World War II", "url": "https://en.wikipedia.org/wiki/World_War_II", "headline": "German Deputy Führer Rudolf Hess Parachutes into Scotland in Peace Negotiation Attempt" }, { "originalText": "British prime minister Neville Chamberlain resigned and formally recommended Winston Churchill as his successor.", "year": 1940, "subtitle": "Neville Chamberlain", "url": "https://en.wikipedia.org/wiki/Neville_Chamberlain", "headline": "British Prime Minister Neville Chamberlain Resigns, Recommends Winston Churchill as Successor" }, { "originalText": "World War II: German forces commenced their invasion of Belgium.", "year": 1940, "subtitle": "World War II", "url": "https://en.wikipedia.org/wiki/World_War_II", "headline": "German Forces Invade Belgium in World War II" }, { "originalText": "Ernest Shackleton and five companions arrived at South Georgia, completing a 1,300 km (800 mi) lifeboat voyage over 16 days to obtain rescue for the Imperial Trans-Antarctic Expedition.", "year": 1916, "subtitle": "Ernest Shackleton", "url": "https://en.wikipedia.org/wiki/Ernest_Shackleton", "headline": "Ernest Shackleton Completes 1,300 km Lifeboat Voyage to South Georgia for Rescue" }, { "originalText": "Siamese–Vietnamese wars: Lê Văn Khôi escaped from prison to begin a revolt against Emperor Minh Mạng, primarily to avenge his adoptive father, Vietnamese general Lê Văn Duyệt.", "year": 1833, "subtitle": "Siamese–Vietnamese wars", "url": "https://en.wikipedia.org/wiki/Siamese%E2%80%93Vietnamese_wars", "headline": "Lê Văn Khôi Escapes Prison to Revolt Against Emperor Minh Mạng in Siamese–Vietnamese Wars" }, { "originalText": "American Revolutionary War: A small force of Patriots led by Ethan Allen and Benedict Arnold captured Fort Ticonderoga (depicted) in New York, without significant injury or incident.", "year": 1775, "subtitle": "American Revolutionary War", "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War", "headline": "Patriots Capture Fort Ticonderoga in New York During American Revolutionary War" }, { "originalText": "Dutch explorer Pieter Nuyts was appointed governor of Formosa (modern-day Taiwan) by the Dutch East India Company.", "year": 1627, "subtitle": "Pieter Nuyts", "url": "https://en.wikipedia.org/wiki/Pieter_Nuyts", "headline": "Pieter Nuyts Appointed Governor of Formosa by Dutch East India Company" }, { "originalText": "Chinese astronomers during the Han dynasty made the first precisely dated observation of a sunspot.", "year": -28, "subtitle": "Chinese astronomy", "url": "https://en.wikipedia.org/wiki/Chinese_astronomy", "headline": "Han Dynasty Astronomers Make First Precisely Dated Observation of Sunspot" }] }
+module.exports={
+    "dateLabel": "May 11",
+    "issue": "Issue 132",
+    "events": [
+        {
+            "originalText": "Palestinian-American journalist Shireen Abu Akleh is shot and killed while reporting on an Israel Defense Forces raid on the Jenin Refugee Camp.",
+            "year": 2022,
+            "subtitle": "Shireen Abu Akleh",
+            "url": "https://en.wikipedia.org/wiki/Shireen_Abu_Akleh",
+            "headline": "Palestinian-American journalist Shireen Abu Akleh shot and killed in Jenin Refugee Camp"
+        },
+        {
+            "originalText": "Myanmar civil war: Government troops killed 37 unarmed civilians in Mondaingbin.",
+            "year": 2022,
+            "subtitle": "Myanmar civil war (2021–present)",
+            "url": "https://en.wikipedia.org/wiki/Myanmar_civil_war_(2021%E2%80%93present)",
+            "headline": "Myanmar civil war: Government troops kill 37 civilians in Mondaingbin"
+        },
+        {
+            "originalText": "Two car bombs by unknown perpetrators exploded in Reyhanlı, Turkey, resulting in 52 killed and 140 injured.",
+            "year": 2013,
+            "subtitle": "2013 Reyhanlı car bombings",
+            "url": "https://en.wikipedia.org/wiki/2013_Reyhanl%C4%B1_car_bombings",
+            "headline": "52 killed in Reyhanlı car bomb explosions"
+        },
+        {
+            "originalText": "An earthquake registering Mw 5.1, the worst to hit the region for more than 50 years, struck near Lorca, Spain.",
+            "year": 2011,
+            "subtitle": "2011 Lorca earthquake",
+            "url": "https://en.wikipedia.org/wiki/2011_Lorca_earthquake",
+            "headline": "Mw 5.1 earthquake hits Lorca, Spain"
+        },
+        {
+            "originalText": "David Cameron took office as Prime Minister of the United Kingdom as the Conservatives and Liberal Democrats formed the country's first coalition government since the Second World War.",
+            "year": 2010,
+            "subtitle": "David Cameron",
+            "url": "https://en.wikipedia.org/wiki/David_Cameron",
+            "headline": "David Cameron becomes UK Prime Minister in coalition government"
+        },
+        {
+            "originalText": "Gordon Brown resigned as Prime Minister of the United Kingdom and Leader of the Labour Party after failing to strike a coalition agreement with the Liberal Democrats.",
+            "year": 2010,
+            "subtitle": "Gordon Brown",
+            "url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+            "headline": "Gordon Brown resigns as UK Prime Minister"
+        },
+        {
+            "originalText": "India began the Pokhran-II nuclear-weapons test, its first since the Smiling Buddha test 24 years earlier.",
+            "year": 1998,
+            "subtitle": "Pokhran-II",
+            "url": "https://en.wikipedia.org/wiki/Pokhran-II",
+            "headline": "India conducts Pokhran-II nuclear-weapons test"
+        },
+        {
+            "originalText": "Deep Blue (pictured) defeated Garry Kasparov in six games to become the first chess computer to win a match against a world champion.",
+            "year": 1997,
+            "subtitle": "Deep Blue (chess computer)",
+            "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+            "headline": "Deep Blue defeats Garry Kasparov in chess match"
+        },
+        {
+            "originalText": "Andrew Lloyd Webber's Cats, the first megamusical, opened at the New London Theatre.",
+            "year": 1981,
+            "subtitle": "Andrew Lloyd Webber",
+            "url": "https://en.wikipedia.org/wiki/Andrew_Lloyd_Webber",
+            "headline": "Andrew Lloyd Webber's Cats opens at New London Theatre"
+        },
+        {
+            "originalText": "Lubbock, Texas, was struck by a tornado that left 26 people dead.",
+            "year": 1970,
+            "subtitle": "Lubbock, Texas",
+            "url": "https://en.wikipedia.org/wiki/Lubbock%2C_Texas",
+            "headline": "Tornado leaves 26 dead in Lubbock, Texas"
+        },
+        {
+            "originalText": "African Americans rioted in Birmingham, Alabama, in response to two bombings, perceiving local police to be complicit with the perpetrators.",
+            "year": 1963,
+            "subtitle": "Birmingham riot of 1963",
+            "url": "https://en.wikipedia.org/wiki/Birmingham_riot_of_1963",
+            "headline": "African Americans riot in Birmingham, Alabama after bombings"
+        },
+        {
+            "originalText": "After a week-long standoff punctuated by military clashes, Japanese forces captured the city of Jinan, Shandong in China.",
+            "year": 1928,
+            "subtitle": "Jinan incident",
+            "url": "https://en.wikipedia.org/wiki/Jinan_incident",
+            "headline": "Japanese forces capture Jinan, Shandong in China"
+        },
+        {
+            "originalText": "Glacier National Park was established in the U.S. state of Montana.",
+            "year": 1910,
+            "subtitle": "Glacier National Park (U.S.)",
+            "url": "https://en.wikipedia.org/wiki/Glacier_National_Park_(U.S.)",
+            "headline": "Glacier National Park established in Montana"
+        },
+        {
+            "originalText": "In response to a 28-percent wage cut, 4,000 Pullman Palace Car Company workers went on strike in Illinois, bringing rail traffic west of Chicago to a halt.",
+            "year": 1894,
+            "subtitle": "Pullman Company",
+            "url": "https://en.wikipedia.org/wiki/Pullman_Company",
+            "headline": "Pullman Palace Car Company workers strike in Illinois"
+        },
+        {
+            "originalText": "Bandits attacked a U.S. Army paymaster's escort in the Arizona Territory, stealing more than $28,000.",
+            "year": 1889,
+            "subtitle": "Wham Paymaster robbery",
+            "url": "https://en.wikipedia.org/wiki/Wham_Paymaster_robbery",
+            "headline": "Bandits steal $28,000 from U.S. Army paymaster's escort"
+        },
+        {
+            "originalText": "A land dispute between the Southern Pacific Railroad and settlers in Hanford, California, turned deadly when a gun battle broke out, leaving seven dead.",
+            "year": 1880,
+            "subtitle": "Southern Pacific Transportation Company",
+            "url": "https://en.wikipedia.org/wiki/Southern_Pacific_Transportation_Company",
+            "headline": "Deadly gun battle in Hanford, California over land dispute"
+        },
+        {
+            "originalText": "Minnesota was carved out of the eastern half of the Minnesota Territory and admitted as the 32nd U.S. state.",
+            "year": 1858,
+            "subtitle": "Minnesota",
+            "url": "https://en.wikipedia.org/wiki/Minnesota",
+            "headline": "Minnesota admitted as 32nd U.S. state"
+        },
+        {
+            "originalText": "William Lawson, Gregory Blaxland and William Wentworth departed westward from Sydney on an expedition to become the first confirmed Europeans to cross the Blue Mountains (depicted).",
+            "year": 1813,
+            "subtitle": "William Lawson (explorer)",
+            "url": "https://en.wikipedia.org/wiki/William_Lawson_(explorer)",
+            "headline": "Lawson, Blaxland, and Wentworth cross Blue Mountains on expedition"
+        },
+        {
+            "originalText": "Spencer Perceval was shot in the lobby of the House of Commons, becoming the only British prime minister to be assassinated.",
+            "year": 1812,
+            "subtitle": "Spencer Perceval",
+            "url": "https://en.wikipedia.org/wiki/Spencer_Perceval",
+            "headline": "British Prime Minister Spencer Perceval assassinated in House of Commons"
+        },
+        {
+            "originalText": "War of the Austrian Succession: French forces defeated those of the Pragmatic Allies at the Battle of Fontenoy in the Austrian Netherlands in present-day Belgium.",
+            "year": 1745,
+            "subtitle": "War of the Austrian Succession",
+            "url": "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession",
+            "headline": "French forces defeat Pragmatic Allies at Battle of Fontenoy"
+        },
+        {
+            "originalText": "A copy of the Diamond Sutra was printed in Tang-dynasty China, making it the world's oldest dated printed book (frontispiece pictured).",
+            "year": 868,
+            "subtitle": "Diamond Sutra",
+            "url": "https://en.wikipedia.org/wiki/Diamond_Sutra",
+            "headline": "World's oldest dated printed book, Diamond Sutra, printed in Tang-dynasty China"
+        }
+    ]
+}
 
 },{}],2:[function(require,module,exports){
 "use strict";
