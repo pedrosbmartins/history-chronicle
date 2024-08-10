@@ -1,5 +1,164 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-module.exports={ "dateLabel": "August 9", "issue": "Issue 222", "events": [{ "originalText": "Michael Brown, an 18-year-old African-American man, was killed by a white police officer in Ferguson, Missouri, resulting in widespread protests and unrest.", "year": 2014, "subtitle": "Killing of Michael Brown", "url": "https://en.wikipedia.org/wiki/Killing_of_Michael_Brown", "headline": "Michael Brown Killed by White Police Officer in Ferguson, Missouri" }, { "originalText": "A civilian school bus in Dahyan, Yemen, was bombed by Saudi Arabia killing at least 40 children under 15.", "year": 2008, "subtitle": "Dahyan", "url": "https://en.wikipedia.org/wiki/Dahyan", "headline": "Saudi Arabia Bombs School Bus in Dahyan, Yemen, Killing 40 Children" }, { "originalText": "British police arrested 24 people for conspiring to detonate liquid explosives carried on board airliners travelling from the UK to the US and Canada.", "year": 2006, "subtitle": "2006 transatlantic aircraft plot", "url": "https://en.wikipedia.org/wiki/2006_transatlantic_aircraft_plot", "headline": "24 Arrested in UK for Conspiring to Detonate Liquid Explosives on Airliners" }, { "originalText": "A suicide bomber attacked a pizza restaurant in Jerusalem, killing 15 people and wounding 130 others.", "year": 2001, "subtitle": "Sbarro restaurant suicide bombing", "url": "https://en.wikipedia.org/wiki/Sbarro_restaurant_suicide_bombing", "headline": "Suicide Bomber Kills 15 at Pizza Restaurant in Jerusalem" }, { "originalText": "Wayne Gretzky was traded from the Edmonton Oilers to the Los Angeles Kings in one of the most controversial player transactions in ice hockey history.", "year": 1988, "subtitle": "Wayne Gretzky", "url": "https://en.wikipedia.org/wiki/Wayne_Gretzky", "headline": "Wayne Gretzky Traded to Los Angeles Kings from Edmonton Oilers" }, { "originalText": "On the verge of an impeachment and removal from office amidst the Watergate scandal, Richard Nixon became the first president of the United States to resign his office.", "year": 1974, "subtitle": "Impeachment process against Richard Nixon", "url": "https://en.wikipedia.org/wiki/Impeachment_process_against_Richard_Nixon", "headline": "Richard Nixon Resigns Amidst Watergate Scandal" }, { "originalText": "The Troubles: British forces began arresting and interning suspected Irish republican militants in Northern Ireland.", "year": 1971, "subtitle": "The Troubles", "url": "https://en.wikipedia.org/wiki/The_Troubles", "headline": "British Forces Arrest Irish Republican Militants in Northern Ireland" }, { "originalText": "Members of the Manson Family invaded a house and murdered actress Sharon Tate and four guests, before killing two more people the following night.", "year": 1969, "subtitle": "Manson Family", "url": "https://en.wikipedia.org/wiki/Manson_Family", "headline": "Manson Family Murders Actress Sharon Tate and Four Guests" }, { "originalText": "Members of the Manson Family invaded a house and murdered American actress Sharon Tate (pictured) and four guests in Los Angeles, before killing two more people the following night.", "year": 1969, "subtitle": "Manson Family", "url": "https://en.wikipedia.org/wiki/Manson_Family", "headline": "Manson Family Murders Actress Sharon Tate in Los Angeles" }, { "originalText": "The state of Singapore (flag pictured) was expelled from the Malaysian federation due to a heated ideological conflict between their respective ruling parties.", "year": 1965, "subtitle": "Singapore", "url": "https://en.wikipedia.org/wiki/Singapore", "headline": "Singapore Expelled from Malaysian Federation" }, { "originalText": "Led by Albert Kalonji, South Kasai declared its unilateral secession from the Republic of the Congo (Léopoldville).", "year": 1960, "subtitle": "Albert Kalonji", "url": "https://en.wikipedia.org/wiki/Albert_Kalonji", "headline": "South Kasai Declares Unilateral Secession from Republic of the Congo" }, { "originalText": "An estimated 20,000 women marched on Pretoria, South Africa, to protest the introduction of the Apartheid pass laws for black women in 1952.", "year": 1956, "subtitle": "Women's March (South Africa)", "url": "https://en.wikipedia.org/wiki/Women's_March_(South_Africa)", "headline": "20,000 Women March in Pretoria Against Apartheid Pass Laws" }, { "originalText": "About 20,000 women marched on Pretoria, South Africa, to protest the introduction of pass laws for black women under apartheid.", "year": 1956, "subtitle": "Women's March (South Africa)", "url": "https://en.wikipedia.org/wiki/Women's_March_(South_Africa)", "headline": "20,000 Women Protest Apartheid Pass Laws in Pretoria" }, { "originalText": "World War II: The USAAF bomber Bockscar dropped a Fat Man atomic bomb (replica pictured) on Nagasaki, Japan.", "year": 1945, "subtitle": "World War II", "url": "https://en.wikipedia.org/wiki/World_War_II", "headline": "USAAF Bomber Drops Atomic Bomb on Nagasaki, Japan" }, { "originalText": "The United States Forest Service authorized the use of Smokey Bear as its mascot to replace Bambi.", "year": 1944, "subtitle": "United States Forest Service", "url": "https://en.wikipedia.org/wiki/United_States_Forest_Service", "headline": "Smokey Bear Authorized as Mascot by US Forest Service" }, { "originalText": "World War II: In the first major naval engagement of the Guadalcanal campaign, Japan forced the U.S. Navy to withdraw from the Solomon Islands.", "year": 1942, "subtitle": "World War II", "url": "https://en.wikipedia.org/wiki/World_War_II", "headline": "Japan Forces US Navy to Withdraw from Solomon Islands" }, { "originalText": "Shostakovich's Symphony No. 7 was premiered in Leningrad while the city was under siege by Nazi forces.", "year": 1942, "subtitle": "Leningrad première of Shostakovich's Symphony No. 7", "url": "https://en.wikipedia.org/wiki/Leningrad_premi%C3%A8re_of_Shostakovich's_Symphony_No._7", "headline": "Shostakovich's Symphony No. 7 Premiered in Leningrad During Nazi Siege" }, { "originalText": "The Blue Lotus, the fifth volume of The Adventures of Tintin by the Belgian cartoonist Hergé and noted for its emphasis on countering negative misconceptions of Chinese people, began serialisation.", "year": 1934, "subtitle": "The Blue Lotus", "url": "https://en.wikipedia.org/wiki/The_Blue_Lotus", "headline": "The Blue Lotus Begins Serialisation in The Adventures of Tintin" }, { "originalText": "In a ceremony at Westminster Abbey, Edward VII and Alexandra were crowned King and Queen of the United Kingdom and the British Dominions, and Emperor and Empress of India.", "year": 1902, "subtitle": "Coronation of Edward VII and Alexandra", "url": "https://en.wikipedia.org/wiki/Coronation_of_Edward_VII_and_Alexandra", "headline": "Edward VII and Alexandra Crowned King and Queen of UK at Westminster Abbey" }, { "originalText": "The first meeting of the International Congress of Mathematicians was held in Zürich, Switzerland.", "year": 1897, "subtitle": "International Congress of Mathematicians", "url": "https://en.wikipedia.org/wiki/International_Congress_of_Mathematicians", "headline": "First International Congress of Mathematicians Held in Zürich" }, { "originalText": "Nez Perce War: Both the Nez Perce and the United States Army suffered numerous casualties at the Battle of the Big Hole, which ended inconclusively.", "year": 1877, "subtitle": "Nez Perce War", "url": "https://en.wikipedia.org/wiki/Nez_Perce_War", "headline": "Nez Perce War: Battle of the Big Hole Ends Inconclusively with Numerous Casualties" }, { "originalText": "American Civil War: After nearly being driven from the field in the early part of the Battle of Cedar Mountain, Confederate troops counter-attacked and achieved a victory.", "year": 1862, "subtitle": "American Civil War", "url": "https://en.wikipedia.org/wiki/American_Civil_War", "headline": "Confederate Troops Achieve Victory at Battle of Cedar Mountain" }] }
+module.exports={
+    "dateLabel": "August 10",
+    "issue": "Issue 223",
+    "events": [
+        {
+            "originalText": "Having already caused severe flooding in the Philippines, Typhoon Lekima made landfall in Zhejiang, China, and went on to become the costliest typhoon in Chinese history.",
+            "year": 2019,
+            "subtitle": "Typhoon Lekima",
+            "url": "https://en.wikipedia.org/wiki/Typhoon_Lekima",
+            "headline": "Typhoon Lekima Hits Zhejiang, China, Becomes Costliest in Chinese History"
+        },
+        {
+            "originalText": "Jeffrey Epstein, an American financier and convicted sex offender, was found dead in his cell at the Metropolitan Correctional Center, New York.",
+            "year": 2019,
+            "subtitle": "Jeffrey Epstein",
+            "url": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+            "headline": "Financier and Sex Offender Jeffrey Epstein Found Dead in New York Cell"
+        },
+        {
+            "originalText": "Amid large protests against the impending demolition of the Queen's Pier, in Hong Kong, the High Court dismissed legal attempts to preserve the landmark.",
+            "year": 2007,
+            "subtitle": "Queen's Pier",
+            "url": "https://en.wikipedia.org/wiki/Queen's_Pier",
+            "headline": "High Court Dismisses Legal Attempts to Preserve Queen's Pier in Hong Kong"
+        },
+        {
+            "originalText": "The Civil Liberties Act of 1988 became law, authorizing reparations to surviving Japanese Americans interned during World War II.",
+            "year": 1988,
+            "subtitle": "Civil Liberties Act of 1988",
+            "url": "https://en.wikipedia.org/wiki/Civil_Liberties_Act_of_1988",
+            "headline": "Civil Liberties Act of 1988 Authorizes Reparations for Japanese Americans"
+        },
+        {
+            "originalText": "The Civil Liberties Act of 1988 became law, authorizing reparations to surviving Japanese Americans interned during World War II.",
+            "year": 1988,
+            "subtitle": "Civil Liberties Act of 1988",
+            "url": "https://en.wikipedia.org/wiki/Civil_Liberties_Act_of_1988",
+            "headline": "Civil Liberties Act of 1988 Authorizes Reparations for Japanese Americans"
+        },
+        {
+            "originalText": "The Heron Road Bridge in Ottawa, Canada, collapsed during its construction, killing nine workers.",
+            "year": 1966,
+            "subtitle": "Heron Road Workers Memorial Bridge",
+            "url": "https://en.wikipedia.org/wiki/Heron_Road_Workers_Memorial_Bridge",
+            "headline": "Heron Road Bridge in Ottawa Collapses, Killing Nine Workers"
+        },
+        {
+            "originalText": "First Indochina War: The French Union withdrew its forces from Operation Camargue against the Việt Minh in central modern-day Vietnam.",
+            "year": 1953,
+            "subtitle": "First Indochina War",
+            "url": "https://en.wikipedia.org/wiki/First_Indochina_War",
+            "headline": "French Union Withdraws Forces from Operation Camargue in Vietnam"
+        },
+        {
+            "originalText": "First Indochina War: The French Union withdrew its forces from Operation Camargue against the Việt Minh in central modern-day Vietnam.",
+            "year": 1953,
+            "subtitle": "First Indochina War",
+            "url": "https://en.wikipedia.org/wiki/First_Indochina_War",
+            "headline": "French Union Withdraws Forces from Operation Camargue in Vietnam"
+        },
+        {
+            "originalText": "Russo-Japanese War: The first major confrontation between modern steel battleship fleets took place in the Battle of the Yellow Sea.",
+            "year": 1904,
+            "subtitle": "Russo-Japanese War",
+            "url": "https://en.wikipedia.org/wiki/Russo-Japanese_War",
+            "headline": "First Major Confrontation in Russo-Japanese War at Battle of Yellow Sea"
+        },
+        {
+            "originalText": "The Amalgamated Association of Iron, Steel and Tin Workers began an ultimately unsuccessful strike to reverse its declining fortunes and organize large numbers of new members.",
+            "year": 1901,
+            "subtitle": "Amalgamated Association of Iron and Steel Workers",
+            "url": "https://en.wikipedia.org/wiki/Amalgamated_Association_of_Iron_and_Steel_Workers",
+            "headline": "Amalgamated Association of Iron, Steel and Tin Workers Begin Strike"
+        },
+        {
+            "originalText": "German chemist Felix Hoffmann discovered an improved method of synthesizing aspirin.",
+            "year": 1897,
+            "subtitle": "Felix Hoffmann",
+            "url": "https://en.wikipedia.org/wiki/Felix_Hoffmann",
+            "headline": "Chemist Felix Hoffmann Discovers Improved Method of Synthesizing Aspirin"
+        },
+        {
+            "originalText": "José Antônio Saraiva announced that the Brazilian military would exact reprisals after Uruguay's governing Blanco Party refused Brazil's demands, beginning the Uruguayan War.",
+            "year": 1864,
+            "subtitle": "José Antônio Saraiva",
+            "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Ant%C3%B4nio_Saraiva",
+            "headline": "Brazilian Military to Exact Reprisals in Uruguayan War"
+        },
+        {
+            "originalText": "American Civil War: The first major battle west of the Mississippi River, the Battle of Wilson's Creek, was fought.",
+            "year": 1861,
+            "subtitle": "American Civil War",
+            "url": "https://en.wikipedia.org/wiki/American_Civil_War",
+            "headline": "First Major Battle West of Mississippi River in American Civil War"
+        },
+        {
+            "originalText": "From measurements of its motion, German astronomer Friedrich Bessel deduced that Sirius, the brightest star in the night sky, had an unseen companion (both pictured).",
+            "year": 1844,
+            "subtitle": "Friedrich Bessel",
+            "url": "https://en.wikipedia.org/wiki/Friedrich_Bessel",
+            "headline": "German Astronomer Friedrich Bessel Discovers Companion to Sirius"
+        },
+        {
+            "originalText": "The Louvre (Louvre Pyramid pictured) in Paris, today the world's most visited museum, officially opened with an exhibition of 537 paintings and 184 objets d'art.",
+            "year": 1793,
+            "subtitle": "Louvre",
+            "url": "https://en.wikipedia.org/wiki/Louvre",
+            "headline": "Louvre in Paris Officially Opens as World's Most Visited Museum"
+        },
+        {
+            "originalText": "The Louvre (pyramid pictured) in Paris, today the world's most-visited museum, opened with an exhibition of 537 paintings and 184 objets d'art.",
+            "year": 1793,
+            "subtitle": "Louvre",
+            "url": "https://en.wikipedia.org/wiki/Louvre",
+            "headline": "Louvre in Paris Opens with Exhibition of 537 Paintings and 184 Objets d'Art"
+        },
+        {
+            "originalText": "French Revolution: Insurrectionists in Paris stormed the Tuileries Palace, effectively ending the French monarchy until it was restored in 1814.",
+            "year": 1792,
+            "subtitle": "French Revolution",
+            "url": "https://en.wikipedia.org/wiki/French_Revolution",
+            "headline": "Insurrectionists Storm Tuileries Palace in French Revolution"
+        },
+        {
+            "originalText": "The first wave of the Expulsion of the Acadians from the present-day Canadian Maritime provinces by the British began with the Bay of Fundy campaign at Chignecto.",
+            "year": 1755,
+            "subtitle": "Expulsion of the Acadians",
+            "url": "https://en.wikipedia.org/wiki/Expulsion_of_the_Acadians",
+            "headline": "First Wave of Acadian Expulsion Begins in Canadian Maritime Provinces"
+        },
+        {
+            "originalText": "The Swedish warship Vasa sank shortly after departing Stockholm on her maiden voyage to take part in the Thirty Years' War.",
+            "year": 1628,
+            "subtitle": "Vasa (ship)",
+            "url": "https://en.wikipedia.org/wiki/Vasa_(ship)",
+            "headline": "Swedish Warship Vasa Sinks on Maiden Voyage to Thirty Years' War"
+        },
+        {
+            "originalText": "Yekuno Amlak deposed the last Zagwe king and seized the imperial throne of Ethiopia, beginning the reign of the Solomonic dynasty, which would last for more than 700 years.",
+            "year": 1270,
+            "subtitle": "Yekuno Amlak",
+            "url": "https://en.wikipedia.org/wiki/Yekuno_Amlak",
+            "headline": "Yekuno Amlak Seizes Imperial Throne of Ethiopia, Starting Solomonic Dynasty"
+        },
+        {
+            "originalText": "Yekuno Amlak deposed the last Zagwe king and seized the imperial throne of Ethiopia, beginning the reign of the Solomonic dynasty, which would last for more than 700 years.",
+            "year": 1270,
+            "subtitle": "Yekuno Amlak",
+            "url": "https://en.wikipedia.org/wiki/Yekuno_Amlak",
+            "headline": "Yekuno Amlak Seizes Imperial Throne of Ethiopia, Starting Solomonic Dynasty"
+        },
+        {
+            "originalText": "Forces under Otto I were victorious at the Battle of Lechfeld near present-day Augsburg, Germany, holding off the incursions of the Magyars into Central Europe.",
+            "year": 955,
+            "subtitle": "Otto the Great",
+            "url": "https://en.wikipedia.org/wiki/Otto_the_Great",
+            "headline": "Otto I Victorious at Battle of Lechfeld, Holding off Magyar Incursions"
+        }
+    ]
+}
 
 },{}],2:[function(require,module,exports){
 "use strict";
