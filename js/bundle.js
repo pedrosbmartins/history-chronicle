@@ -1,5 +1,157 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-module.exports={ "dateLabel": "February 8", "issue": "Issue 39", "events": [{ "originalText": "A freak storm triggered a series of avalanches that buried more than 3.5 km (2.2 mi) of road near the Salang Tunnel in Afghanistan, killing 175 people and trapping more than 2,500 travellers.", "year": 2010, "subtitle": "2010 Salang avalanches", "url": "https://en.wikipedia.org/wiki/2010_Salang_avalanches", "headline": "175 killed in avalanches near Salang Tunnel in Afghanistan" }, { "originalText": "The Irish-bred race horse Shergar was stolen by gunmen, who demanded a £2 million ransom.", "year": 1983, "subtitle": "Shergar", "url": "https://en.wikipedia.org/wiki/Shergar", "headline": "Race horse Shergar stolen by gunmen demanding £2 million ransom" }, { "originalText": "Local police in Orangeburg, South Carolina, fired into a crowd of people who were protesting segregation, killing three and injuring twenty-seven others.", "year": 1968, "subtitle": "Orangeburg, South Carolina", "url": "https://en.wikipedia.org/wiki/Orangeburg%2C_South_Carolina", "headline": "Police fire into crowd in Orangeburg, South Carolina, killing three" }, { "originalText": "After taking evasive action to avoid a mid-air collision just after taking off from New York's John F. Kennedy International Airport, Eastern Air Lines Flight 663 crashed into the Atlantic Ocean, killing all 84 people on board.", "year": 1965, "subtitle": "John F. Kennedy International Airport", "url": "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport", "headline": "Eastern Air Lines Flight 663 crashes after mid-air collision, killing all 84 on board" }, { "originalText": "The official groundbreaking of the Walk of Fame took place in Hollywood, California.", "year": 1960, "subtitle": "Groundbreaking", "url": "https://en.wikipedia.org/wiki/Groundbreaking", "headline": "Official groundbreaking of Walk of Fame in Hollywood, California" }, { "originalText": "The closing ceremony of the first Olympics held after World War II was held in St. Moritz, Switzerland.", "year": 1948, "subtitle": "1948 Winter Olympics", "url": "https://en.wikipedia.org/wiki/1948_Winter_Olympics", "headline": "Closing ceremony of first post-WWII Olympics held in St. Moritz, Switzerland" }, { "originalText": "Gee Jon became the first person in the United States to be executed by lethal gas.", "year": 1924, "subtitle": "Gee Jon", "url": "https://en.wikipedia.org/wiki/Gee_Jon", "headline": "First lethal gas execution in the United States" }, { "originalText": "William D. Boyce (pictured) established the Boy Scouts of America, expanding the Scout Movement into the United States.", "year": 1910, "subtitle": "William D. Boyce", "url": "https://en.wikipedia.org/wiki/William_D._Boyce", "headline": "William D. Boyce establishes Boy Scouts of America" }, { "originalText": "Angered by a controversial umpiring decision, cricket spectators rioted and attacked the England team during a match in Sydney, Australia.", "year": 1879, "subtitle": "Umpire (cricket)", "url": "https://en.wikipedia.org/wiki/Umpire_(cricket)", "headline": "Cricket spectators riot and attack England team in Sydney, Australia" }, { "originalText": "Richard Mentor Johnson became the only person ever to be elected Vice President of the United States by the Senate.", "year": 1837, "subtitle": "Richard Mentor Johnson", "url": "https://en.wikipedia.org/wiki/Richard_Mentor_Johnson", "headline": "Richard Mentor Johnson elected Vice President of the United States by Senate" }, { "originalText": "Robert Devereux, 2nd Earl of Essex, led a failed rebellion against Queen Elizabeth I of England.", "year": 1601, "subtitle": "Robert Devereux, 2nd Earl of Essex", "url": "https://en.wikipedia.org/wiki/Robert_Devereux%2C_2nd_Earl_of_Essex", "headline": "Robert Devereux leads failed rebellion against Queen Elizabeth I" }, { "originalText": "Mary, Queen of Scots (pictured), was executed at Fotheringhay Castle for her involvement in the Babington Plot to murder her cousin, Elizabeth I of England.", "year": 1587, "subtitle": "Mary, Queen of Scots", "url": "https://en.wikipedia.org/wiki/Mary%2C_Queen_of_Scots", "headline": "Mary, Queen of Scots, executed for involvement in Babington Plot" }] }
+module.exports={
+    "dateLabel": "February 9",
+    "issue": "Issue 40",
+    "events": [
+        {
+            "originalText": "Japanese figure skater Yuzuru Hanyu won the Four Continents Championships to become the only man to complete a Super Slam.",
+            "year": 2020,
+            "subtitle": "Figure skating",
+            "url": "https://en.wikipedia.org/wiki/Figure_skating",
+            "headline": "Yuzuru Hanyu Wins Four Continents Championships"
+        },
+        {
+            "originalText": "Two commuter trains collided head-on at Bad Aibling in southeastern Germany, killing 12 people and injuring 85.",
+            "year": 2016,
+            "subtitle": "Bad Aibling rail accident",
+            "url": "https://en.wikipedia.org/wiki/Bad_Aibling_rail_accident",
+            "headline": "12 Killed in Bad Aibling Train Collision"
+        },
+        {
+            "originalText": "The American submarine USS Greeneville collided with the Ehime Maru, a Japanese training vessel operated by a high school, sinking the latter ship and killing nine people on board.",
+            "year": 2001,
+            "subtitle": "USS Greeneville",
+            "url": "https://en.wikipedia.org/wiki/USS_Greeneville",
+            "headline": "USS Greeneville Collides with Japanese Training Vessel, 9 Dead"
+        },
+        {
+            "originalText": "Breaking a seventeen-month ceasefire, the Provisional Irish Republican Army detonated a powerful truck bomb in the London Docklands, killing two people and injuring more than a hundred others.",
+            "year": 1996,
+            "subtitle": "Provisional Irish Republican Army",
+            "url": "https://en.wikipedia.org/wiki/Provisional_Irish_Republican_Army",
+            "headline": "IRA Truck Bomb Kills 2 in London Docklands"
+        },
+        {
+            "originalText": "Researchers at the GSI Helmholtz Centre for Heavy Ion Research in Darmstadt, Germany, first created the chemical element copernicium.",
+            "year": 1996,
+            "subtitle": "GSI Helmholtz Centre for Heavy Ion Research",
+            "url": "https://en.wikipedia.org/wiki/GSI_Helmholtz_Centre_for_Heavy_Ion_Research",
+            "headline": "Copernicium Created at GSI Helmholtz Centre"
+        },
+        {
+            "originalText": "The Australian Defence Force was formed by the integration of the Australian Army, the Royal Australian Navy, and the Royal Australian Air Force.",
+            "year": 1976,
+            "subtitle": "Australian Defence Force",
+            "url": "https://en.wikipedia.org/wiki/Australian_Defence_Force",
+            "headline": "Australian Defence Force Formed"
+        },
+        {
+            "originalText": "An earthquake registering 6.6 Mw struck the northern San Fernando Valley near the Los Angeles district of Sylmar, killing 65 people.",
+            "year": 1971,
+            "subtitle": "1971 San Fernando earthquake",
+            "url": "https://en.wikipedia.org/wiki/1971_San_Fernando_earthquake",
+            "headline": "Earthquake in Sylmar Kills 65"
+        },
+        {
+            "originalText": "As Beatlemania swept the United States, the Beatles (pictured) made their first appearance on The Ed Sullivan Show before a record-breaking audience, beginning a musical phenomenon known as the British Invasion.",
+            "year": 1964,
+            "subtitle": "Beatlemania",
+            "url": "https://en.wikipedia.org/wiki/Beatlemania",
+            "headline": "Beatles Debut on The Ed Sullivan Show"
+        },
+        {
+            "originalText": "U.S. senator Joseph McCarthy accused 205 employees of the State Department of being communists, sparking a period of strong anti-communist sentiment known as McCarthyism.",
+            "year": 1950,
+            "subtitle": "Joseph McCarthy",
+            "url": "https://en.wikipedia.org/wiki/Joseph_McCarthy",
+            "headline": "McCarthy Accuses State Department Employees of Communism"
+        },
+        {
+            "originalText": "World War II: Allied aircraft unsuccessfully attacked a German destroyer in Førde Fjord, Norway.",
+            "year": 1945,
+            "subtitle": "World War II",
+            "url": "https://en.wikipedia.org/wiki/World_War_II",
+            "headline": "Allied Aircraft Attack German Destroyer in Førde Fjord"
+        },
+        {
+            "originalText": "World War II: Allied forces declared Guadalcanal secure, ending the Guadalcanal campaign as a significant strategic victory for Allied forces fighting Japan in the Pacific War.",
+            "year": 1943,
+            "subtitle": "World War II",
+            "url": "https://en.wikipedia.org/wiki/World_War_II",
+            "headline": "Guadalcanal Declared Secure by Allied Forces"
+        },
+        {
+            "originalText": "The Imperial Japanese Army began the Battle of Kranji as part of their campaign to capture Singapore.",
+            "year": 1942,
+            "subtitle": "Imperial Japanese Army",
+            "url": "https://en.wikipedia.org/wiki/Imperial_Japanese_Army",
+            "headline": "Imperial Japanese Army Begins Battle of Kranji"
+        },
+        {
+            "originalText": "Stanley Bruce became prime minister of Australia as leader of the country's first Coalition government.",
+            "year": 1923,
+            "subtitle": "Stanley Bruce",
+            "url": "https://en.wikipedia.org/wiki/Stanley_Bruce",
+            "headline": "Stanley Bruce Becomes Prime Minister of Australia"
+        },
+        {
+            "originalText": "The Svalbard Treaty was signed in Paris, recognizing Norwegian sovereignty over the Arctic archipelago of Svalbard.",
+            "year": 1920,
+            "subtitle": "Svalbard Treaty",
+            "url": "https://en.wikipedia.org/wiki/Svalbard_Treaty",
+            "headline": "Svalbard Treaty Signed, Recognizing Norwegian Sovereignty"
+        },
+        {
+            "originalText": "A meteor procession was observed along a great circle arc from Canada to Brazil, leading astronomers to conclude that its source was a small, short-lived natural satellite of the Earth.",
+            "year": 1913,
+            "subtitle": "Meteor procession",
+            "url": "https://en.wikipedia.org/wiki/Meteor_procession",
+            "headline": "Meteor Procession Observed from Canada to Brazil"
+        },
+        {
+            "originalText": "More than 3,000 women in London participated in the Mud March (pictured), the first large procession organised by the National Union of Women's Suffrage Societies.",
+            "year": 1907,
+            "subtitle": "Mud March (suffragists)",
+            "url": "https://en.wikipedia.org/wiki/Mud_March_(suffragists)",
+            "headline": "Mud March in London Organized by Suffrage Societies"
+        },
+        {
+            "originalText": "American Civil War: Jefferson Davis was named the provisional president of the Confederate States of America.",
+            "year": 1861,
+            "subtitle": "American Civil War",
+            "url": "https://en.wikipedia.org/wiki/American_Civil_War",
+            "headline": "Jefferson Davis Named Provisional President of Confederate States"
+        },
+        {
+            "originalText": "A series of hoof-like marks in the snow continuing through the countryside for some 40 to 100 miles (60 to 160 km) were discovered in Devon, England.",
+            "year": 1855,
+            "subtitle": "Devil's Footprints",
+            "url": "https://en.wikipedia.org/wiki/Devil's_Footprints",
+            "headline": "Hoof-like Marks Discovered in Devon, England"
+        },
+        {
+            "originalText": "After no candidate received a majority of electoral votes in the previous year's presidential election, the United States House of Representatives chose John Quincy Adams (pictured) as president in a contingent election.",
+            "year": 1825,
+            "subtitle": "United States Electoral College",
+            "url": "https://en.wikipedia.org/wiki/United_States_Electoral_College",
+            "headline": "John Quincy Adams Chosen as President by House of Representatives"
+        },
+        {
+            "originalText": "Quasi-War: USS Constellation captured the French frigate Insurgente in a single-ship action in the Caribbean Sea.",
+            "year": 1799,
+            "subtitle": "Quasi-War",
+            "url": "https://en.wikipedia.org/wiki/Quasi-War",
+            "headline": "USS Constellation Captures French Frigate Insurgente"
+        },
+        {
+            "originalText": "Caizhou, the capital of the Jin dynasty, was captured by the Mongol Empire and their Song allies, bringing an end to Jurchen rule.",
+            "year": 1234,
+            "subtitle": "Jin dynasty (1115–1234)",
+            "url": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115%E2%80%931234)",
+            "headline": "Mongol Empire Captures Caizhou, Capital of Jin Dynasty"
+        }
+    ]
+}
 
 },{}],2:[function(require,module,exports){
 "use strict";
