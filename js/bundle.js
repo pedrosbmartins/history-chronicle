@@ -1,5 +1,136 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-module.exports={ "dateLabel": "August 23", "issue": "Issue 236", "events": [{ "originalText": "A 5.8 MW earthquake struck the Piedmont region of Virginia, and was felt by more people than any other quake in U.S. history.", "year": 2011, "subtitle": "Moment magnitude scale", "url": "https://en.wikipedia.org/wiki/Moment_magnitude_scale", "headline": "5.8 MW Earthquake Hits Virginia, Largest in U.S. History" }, { "originalText": "A former Philippine National Police officer hijacked a tourist bus in Manila, holding its occupants hostage for nearly eleven hours and killing eight of them before being killed by police himself.", "year": 2010, "subtitle": "Philippine National Police", "url": "https://en.wikipedia.org/wiki/Philippine_National_Police", "headline": "Former Police Officer Hijacks Tourist Bus in Manila, Kills Eight" }, { "originalText": "Natascha Kampusch, who had been abducted at the age of ten in Vienna, escaped from her captor's house in Strasshof an der Nordbahn after more than eight years in captivity.", "year": 2006, "subtitle": "Natascha Kampusch", "url": "https://en.wikipedia.org/wiki/Natascha_Kampusch", "headline": "Natascha Kampusch Escapes Captivity After Eight Years" }, { "originalText": "Singing Revolution: Approximately two million people joined hands to form a human chain spanning 675.5 kilometres (419.7 mi) across the Estonian, Latvian and Lithuanian Soviet republics to demonstrate their desire for independence.", "year": 1989, "subtitle": "Singing Revolution", "url": "https://en.wikipedia.org/wiki/Singing_Revolution", "headline": "Two Million Join Hands in Singing Revolution for Independence" }, { "originalText": "King Michael dismissed the pro-Axis government of General Ion Antonescu, placing Romania on the side of the Allies for the remainder of World War II.", "year": 1944, "subtitle": "Michael I of Romania", "url": "https://en.wikipedia.org/wiki/Michael_I_of_Romania", "headline": "King Michael Dismisses Pro-Axis Government, Joins Allies" }, { "originalText": "Second World War: A decisive Soviet victory against German forces at the Battle of Kursk gave the Red Army the strategic initiative for the rest of the war.", "year": 1943, "subtitle": "World War II", "url": "https://en.wikipedia.org/wiki/World_War_II", "headline": "Soviet Victory at Battle of Kursk Shifts Strategic Initiative" }, { "originalText": "Nazi Germany and the Soviet Union signed the Molotov–Ribbentrop Pact, a ten-year mutual non-aggression treaty, which also secretly divided northern and eastern Europe into German and Soviet spheres of influence.", "year": 1939, "subtitle": "Molotov–Ribbentrop Pact", "url": "https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact", "headline": "Nazi Germany and Soviet Union Sign Non-Aggression Pact" }, { "originalText": "The Chesapeake–Potomac hurricane made landfall in the Outer Banks of North Carolina and went on to cause at least 47 deaths in the U.S. Mid-Atlantic region.", "year": 1933, "subtitle": "1933 Chesapeake–Potomac hurricane", "url": "https://en.wikipedia.org/wiki/1933_Chesapeake%E2%80%93Potomac_hurricane", "headline": "Chesapeake-Potomac Hurricane Causes 47 Deaths in U.S." }, { "originalText": "In their first major action of the First World War, the British Expeditionary Force engaged German troops in Mons, Belgium.", "year": 1914, "subtitle": "World War I", "url": "https://en.wikipedia.org/wiki/World_War_I", "headline": "British Expeditionary Force Engages German Troops in Mons" }, { "originalText": "The Southern Cross Expedition (dogsled team pictured), the first British venture of the Heroic Age of Antarctic Exploration, departed London.", "year": 1898, "subtitle": "Southern Cross Expedition", "url": "https://en.wikipedia.org/wiki/Southern_Cross_Expedition", "headline": "Southern Cross Expedition Departs for Antarctic Exploration" }, { "originalText": "The Albert Bridge, spanning the River Thames in London, opened to traffic.", "year": 1873, "subtitle": "Albert Bridge, London", "url": "https://en.wikipedia.org/wiki/Albert_Bridge%2C_London", "headline": "Albert Bridge Opens in London Over River Thames" }, { "originalText": "King George III issued a proclamation (copy pictured) that declared elements of the American colonies of Great Britain to be in a state of \"open and avowed rebellion\".", "year": 1775, "subtitle": "George III", "url": "https://en.wikipedia.org/wiki/George_III", "headline": "King George III Declares American Colonies in Rebellion" }, { "originalText": "Ottoman forces defeated the Safavids at the Battle of Chaldiran, gaining control of eastern Anatolia and northern Iraq.", "year": 1514, "subtitle": "Ottoman Empire", "url": "https://en.wikipedia.org/wiki/Ottoman_Empire", "headline": "Ottoman Forces Defeat Safavids at Battle of Chaldiran" }, { "originalText": "William Wallace, a leader of Scottish resistance against England during the Wars of Scottish Independence, was hanged, drawn and quartered.", "year": 1305, "subtitle": "William Wallace", "url": "https://en.wikipedia.org/wiki/William_Wallace", "headline": "Scottish Leader William Wallace Executed by Hanging" }] }
+module.exports={
+    "dateLabel": "August 24",
+    "issue": "Issue 237",
+    "events": [
+        {
+            "originalText": "The International Astronomical Union passed a resolution redefining the term planet and classifying Pluto as a dwarf planet.",
+            "year": 2006,
+            "subtitle": "International Astronomical Union",
+            "url": "https://en.wikipedia.org/wiki/International_Astronomical_Union",
+            "headline": "Pluto reclassified as dwarf planet by International Astronomical Union"
+        },
+        {
+            "originalText": "Eighty-nine people died after suicide bombers attacked two airliners flying out of Moscow's Domodedovo International Airport.",
+            "year": 2004,
+            "subtitle": "2004 Russian aircraft bombings",
+            "url": "https://en.wikipedia.org/wiki/2004_Russian_aircraft_bombings",
+            "headline": "Suicide bombers attack airliners at Moscow's Domodedovo International Airport, 89 dead"
+        },
+        {
+            "originalText": "Hurricane Andrew, the third-most intense Category 5 cyclone to impact the United States in the 20th century, made landfall in southern Florida.",
+            "year": 1992,
+            "subtitle": "Hurricane Andrew",
+            "url": "https://en.wikipedia.org/wiki/Hurricane_Andrew",
+            "headline": "Hurricane Andrew makes landfall in southern Florida"
+        },
+        {
+            "originalText": "Cultural Revolution: Red Guards vandalised the Jokhang, the holiest Buddhist temple in Tibet.",
+            "year": 1966,
+            "subtitle": "Cultural Revolution",
+            "url": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+            "headline": "Red Guards vandalise Jokhang, holiest Buddhist temple in Tibet"
+        },
+        {
+            "originalText": "Buddhist crisis: The U.S. State Department ordered Ambassador Henry Cabot Lodge Jr. (pictured) to encourage South Vietnamese Army officers to oust Ngo Dinh Diem if he did not willingly remove Ngo Dinh Nhu from his unofficial position of power.",
+            "year": 1963,
+            "subtitle": "Buddhist crisis",
+            "url": "https://en.wikipedia.org/wiki/Buddhist_crisis",
+            "headline": "U.S. State Department orders Ambassador Lodge to encourage ousting of Ngo Dinh Diem"
+        },
+        {
+            "originalText": "World War II: At the Battle of the Eastern Solomons, bombers from the U.S. aircraft carrier Saratoga sank the Japanese aircraft carrier  Ryūjō near Santa Isabel Island, contributing to an Allied victory.",
+            "year": 1942,
+            "subtitle": "World War II",
+            "url": "https://en.wikipedia.org/wiki/World_War_II",
+            "headline": "U.S. bombers sink Japanese aircraft carrier Ryūjō at Battle of Eastern Solomons"
+        },
+        {
+            "originalText": "Adolf Hitler ordered the suspension of the T4 euthanasia program of the mentally ill and disabled, although killings continued in secret for the remainder of World War II.",
+            "year": 1941,
+            "subtitle": "Adolf Hitler",
+            "url": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+            "headline": "Hitler suspends T4 euthanasia program for mentally ill and disabled"
+        },
+        {
+            "originalText": "The Royal Navy's R.38, the world's largest airship at the time, was destroyed by a structural failure over Hull, killing 44 of the 49 crew aboard.",
+            "year": 1921,
+            "subtitle": "Royal Navy",
+            "url": "https://en.wikipedia.org/wiki/Royal_Navy",
+            "headline": "Royal Navy's R.38 airship destroyed over Hull, 44 crew killed"
+        },
+        {
+            "originalText": "World War I: The Battle of Cer ended with the first Allied victory of the war.",
+            "year": 1914,
+            "subtitle": "World War I",
+            "url": "https://en.wikipedia.org/wiki/World_War_I",
+            "headline": "Allied victory at Battle of Cer in World War I"
+        },
+        {
+            "originalText": "The predominantly Māori New Zealand Native football team (pictured) played the last match of their 107-game tour, the longest in rugby union history.",
+            "year": 1889,
+            "subtitle": "Māori people",
+            "url": "https://en.wikipedia.org/wiki/M%C4%81ori_people",
+            "headline": "Māori New Zealand Native football team completes longest rugby union tour"
+        },
+        {
+            "originalText": "The New York City branch of the Ohio Life Insurance and Trust Co. collapsed following widespread embezzlement, leading to a severe recession that caused about 5,000 businesses to fail.",
+            "year": 1857,
+            "subtitle": "Ohio Life Insurance and Trust Company",
+            "url": "https://en.wikipedia.org/wiki/Ohio_Life_Insurance_and_Trust_Company",
+            "headline": "Ohio Life Insurance and Trust Co. branch in New York City collapses, causing severe recession"
+        },
+        {
+            "originalText": "War of 1812: British forces invaded Washington, D.C., setting fire to various U.S. government buildings, including the White House (damage depicted).",
+            "year": 1814,
+            "subtitle": "War of 1812",
+            "url": "https://en.wikipedia.org/wiki/War_of_1812",
+            "headline": "British forces invade Washington, D.C., burn White House in War of 1812"
+        },
+        {
+            "originalText": "American Revolutionary War: Near present-day Aurora, Indiana, American Indians led by Joseph Brant killed or captured all members of a Pennsylvania militia.",
+            "year": 1781,
+            "subtitle": "American Revolutionary War",
+            "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+            "headline": "American Indians led by Joseph Brant defeat Pennsylvania militia near Aurora, Indiana"
+        },
+        {
+            "originalText": "The 1662 Book of Common Prayer was legally enforced as the liturgy of the Church of England, precipitating the Great Ejection of Dissenter ministers from their benefices.",
+            "year": 1662,
+            "subtitle": "Book of Common Prayer (1662)",
+            "url": "https://en.wikipedia.org/wiki/Book_of_Common_Prayer_(1662)",
+            "headline": "1662 Book of Common Prayer enforced in Church of England, leading to Great Ejection"
+        },
+        {
+            "originalText": "A Dutch expedition arrived at the mouth of the Valdivia River, in present-day Chile, to establish a new colony in the ruins of the abandoned Spanish settlement of Valdivia.",
+            "year": 1643,
+            "subtitle": "Dutch expedition to Valdivia",
+            "url": "https://en.wikipedia.org/wiki/Dutch_expedition_to_Valdivia",
+            "headline": "Dutch expedition establishes new colony at mouth of Valdivia River in Chile"
+        },
+        {
+            "originalText": "The oldest known version of the Gutenberg Bible, the first major book produced on a printing press, was completed.",
+            "year": 1456,
+            "subtitle": "Gutenberg Bible",
+            "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+            "headline": "Oldest known version of Gutenberg Bible completed"
+        },
+        {
+            "originalText": "Rome was sacked for the first time in approximately 800 years by the Visigoths under Alaric I.",
+            "year": 410,
+            "subtitle": "Sack of Rome (410)",
+            "url": "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)",
+            "headline": "Rome sacked by Visigoths under Alaric I after approximately 800 years"
+        },
+        {
+            "originalText": "Caesar's Civil War: Forces loyal to Julius Caesar led by Gaius Scribonius Curio were defeated by Pompeian Republicans under Publius Attius Varus and King Juba I of Numidia.",
+            "year": -49,
+            "subtitle": "Caesar's civil war",
+            "url": "https://en.wikipedia.org/wiki/Caesar's_civil_war",
+            "headline": "Caesar's forces defeated by Pompeian Republicans at Caesar's Civil War"
+        }
+    ]
+}
 
 },{}],2:[function(require,module,exports){
 "use strict";
