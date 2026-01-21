@@ -1,5 +1,87 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-module.exports={ "dateLabel": "January 20", "issue": "Issue 20", "events": [{ "originalText": "A group of Taliban gunmen attacked the Inter-Continental Hotel in Kabul, Afghanistan, sparking a 12-hour battle that left at least 21 people dead.", "year": 2018, "subtitle": "Taliban", "url": "https://en.wikipedia.org/wiki/Taliban", "headline": "Taliban gunmen attack Inter-Continental Hotel in Kabul, Afghanistan, leaving 21 dead" }, { "originalText": "In Washington, D.C., Barack Obama was inaugurated (pictured) as the first African American president of the United States.", "year": 2009, "subtitle": "First inauguration of Barack Obama", "url": "https://en.wikipedia.org/wiki/First_inauguration_of_Barack_Obama", "headline": "Barack Obama inaugurated as first African American president of the United States" }, { "originalText": "During a national financial crisis, thousands of people protested (pictured) at the Icelandic parliament in Reykjavík.", "year": 2009, "subtitle": "2008–2011 Icelandic financial crisis", "url": "https://en.wikipedia.org/wiki/2008%E2%80%932011_Icelandic_financial_crisis", "headline": "Thousands protest at Icelandic parliament during national financial crisis" }, { "originalText": "Air Inter Flight 148 crashed into the Vosges while circling to land at Strasbourg Airport, France, resulting in 87 deaths.", "year": 1992, "subtitle": "Air Inter Flight 148", "url": "https://en.wikipedia.org/wiki/Air_Inter_Flight_148", "headline": "Air Inter Flight 148 crashes in France, 87 dead" }, { "originalText": "The Soviet Red Army violently cracked down on Azeri pro-independence demonstrations in Baku, Azerbaijan SSR.", "year": 1990, "subtitle": "Red Army", "url": "https://en.wikipedia.org/wiki/Red_Army", "headline": "Soviet Red Army cracks down on Azeri pro-independence demonstrations in Baku" }, { "originalText": "Bengali student activist Amanullah Asaduzzaman was shot and killed by East Pakistani police, an event that led to the Bangladesh Liberation War.", "year": 1969, "subtitle": "Amanullah Asaduzzaman", "url": "https://en.wikipedia.org/wiki/Amanullah_Asaduzzaman", "headline": "Bengali student activist shot and killed by East Pakistani police, sparking Bangladesh Liberation War" }, { "originalText": "The Houston Cougars upset the UCLA Bruins in what became known as the \"Game of the Century\", ending the Bruins' 47-game winning streak, and establishing college basketball as a sports commodity on American television.", "year": 1968, "subtitle": "Houston Cougars men's basketball", "url": "https://en.wikipedia.org/wiki/Houston_Cougars_men's_basketball", "headline": "Houston Cougars upset UCLA Bruins in 'Game of the Century'" }, { "originalText": "World War II: Germany began the evacuation of at least 1.8 million people from East Prussia in anticipation of the advancing Soviet Red Army, an operation that took nearly two months to complete.", "year": 1945, "subtitle": "World War II", "url": "https://en.wikipedia.org/wiki/World_War_II", "headline": "Germany evacuates 1.8 million people from East Prussia during World War II" }, { "originalText": "The Holocaust: Reinhard Heydrich and other senior Nazi officials met at the Wannsee Conference near Berlin to discuss the implementation of the \"Final Solution to the Jewish Question\".", "year": 1942, "subtitle": "The Holocaust", "url": "https://en.wikipedia.org/wiki/The_Holocaust", "headline": "Nazi officials meet at Wannsee Conference to discuss 'Final Solution to the Jewish Question'" }, { "originalText": "Honório Hermeto Carneiro Leão, Marquis of Paraná, became the de facto first prime minister of the Empire of Brazil.", "year": 1843, "subtitle": "Honório Hermeto Carneiro Leão, Marquis of Paraná", "url": "https://en.wikipedia.org/wiki/Hon%C3%B3rio_Hermeto_Carneiro_Le%C3%A3o%2C_Marquis_of_Paran%C3%A1", "headline": "Honório Hermeto Carneiro Leão becomes de facto first prime minister of Empire of Brazil" }, { "originalText": "Edward Balliol, whose father John was briefly King of Scotland, gave up his claim to the throne in exchange for an English pension.", "year": 1356, "subtitle": "Edward Balliol", "url": "https://en.wikipedia.org/wiki/Edward_Balliol", "headline": "Edward Balliol gives up claim to Scottish throne for English pension" }, { "originalText": "Simon de Montfort summoned local representatives to the Palace of Westminster to attend a parliament, considered the forerunner of the House of Commons of England.", "year": 1265, "subtitle": "Simon de Montfort, 6th Earl of Leicester", "url": "https://en.wikipedia.org/wiki/Simon_de_Montfort%2C_6th_Earl_of_Leicester", "headline": "Simon de Montfort summons local representatives to Palace of Westminster for parliament" }, { "originalText": "According to legend, Lalli slew Bishop Henry of Finland with an axe on the ice of Lake Köyliönjärvi in Köyliö.", "year": 1156, "subtitle": "Lalli", "url": "https://en.wikipedia.org/wiki/Lalli", "headline": "Legend of Lalli slaying Bishop Henry of Finland on Lake Köyliönjärvi" }] }
+module.exports={
+    "dateLabel": "January 21",
+    "issue": "Issue 21",
+    "events": [
+        {
+            "originalText": "Millions of people participated in the worldwide Women's March, to advocate for legislation and policies on human rights and other issues.",
+            "year": 2017,
+            "subtitle": "2017 Women's March",
+            "url": "https://en.wikipedia.org/wiki/2017_Women's_March",
+            "headline": "Millions worldwide join Women's March for human rights"
+        },
+        {
+            "originalText": "Demonstrations in Tirana against alleged corruption in the Albanian government led to the killings of four protesters by the Republican Guard.",
+            "year": 2011,
+            "subtitle": "2011 Albanian opposition demonstrations",
+            "url": "https://en.wikipedia.org/wiki/2011_Albanian_opposition_demonstrations",
+            "headline": "Four protesters killed in Tirana demonstrations against corruption"
+        },
+        {
+            "originalText": "The U.S. House of Representatives voted 395–28 to reprimand Newt Gingrich (pictured) for ethics violations, making him the first Speaker of the House to be so disciplined.",
+            "year": 1997,
+            "subtitle": "United States House of Representatives",
+            "url": "https://en.wikipedia.org/wiki/United_States_House_of_Representatives",
+            "headline": "U.S. House reprimands Newt Gingrich for ethics violations"
+        },
+        {
+            "originalText": "The DeLorean Motor Company completed the first production car of the DMC DeLorean at its factory in Northern Ireland.",
+            "year": 1981,
+            "subtitle": "DeLorean Motor Company",
+            "url": "https://en.wikipedia.org/wiki/DeLorean_Motor_Company",
+            "headline": "DeLorean Motor Company completes first DMC DeLorean production car"
+        },
+        {
+            "originalText": "The Concorde supersonic transports began scheduled commercial flights to London, Paris, Bahrain, and Rio de Janeiro.",
+            "year": 1976,
+            "subtitle": "Concorde",
+            "url": "https://en.wikipedia.org/wiki/Concorde",
+            "headline": "Concorde begins commercial flights to London, Paris, Bahrain, and Rio"
+        },
+        {
+            "originalText": "Tripura, formerly part of the independent Twipra Kingdom, became a state of India.",
+            "year": 1972,
+            "subtitle": "Tripura",
+            "url": "https://en.wikipedia.org/wiki/Tripura",
+            "headline": "Tripura becomes state of India"
+        },
+        {
+            "originalText": "Vietnam War: The Vietnamese People's Army attacked Khe Sanh Combat Base, a U.S. Marines outpost in Quảng Trị Province, South Vietnam, starting the Battle of Khe Sanh.",
+            "year": 1968,
+            "subtitle": "Vietnam War",
+            "url": "https://en.wikipedia.org/wiki/Vietnam_War",
+            "headline": "Vietnamese People's Army attacks Khe Sanh Combat Base in Vietnam War"
+        },
+        {
+            "originalText": "A B-52 bomber carrying four nuclear weapons crashed onto sea ice near Thule Air Base, Greenland, causing localized radioactive contamination.",
+            "year": 1968,
+            "subtitle": "Boeing B-52 Stratofortress",
+            "url": "https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress",
+            "headline": "B-52 bomber crashes near Thule Air Base, causing radioactive contamination"
+        },
+        {
+            "originalText": "The First Dáil  convened at the Mansion House in Dublin and adopted a declaration of independence calling for the establishment of the Irish Republic.",
+            "year": 1919,
+            "subtitle": "First Dáil",
+            "url": "https://en.wikipedia.org/wiki/First_D%C3%A1il",
+            "headline": "First Dáil convenes in Dublin, declares independence for Irish Republic"
+        },
+        {
+            "originalText": "French and Indian War: French regulars, Canadien militia and Indigenous forces ambushed Rogers' Rangers forces in the Battle on Snowshoes.",
+            "year": 1757,
+            "subtitle": "French and Indian War",
+            "url": "https://en.wikipedia.org/wiki/French_and_Indian_War",
+            "headline": "French and Indian forces ambush Rogers' Rangers in Battle on Snowshoes"
+        },
+        {
+            "originalText": "The Abbasid Caliphate crushed the Alid revolt when a rebel leader was mortally wounded in battle near Basra in present-day Iraq.",
+            "year": 763,
+            "subtitle": "Abbasid Caliphate",
+            "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
+            "headline": "Abbasid Caliphate crushes Alid revolt near Basra"
+        }
+    ]
+}
 
 },{}],2:[function(require,module,exports){
 "use strict";
