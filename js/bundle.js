@@ -1,5 +1,129 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-module.exports={ "dateLabel": "November 2", "issue": "Issue 307", "events": [{ "originalText": "The Chicago Cubs defeated the Cleveland Indians in the 2016 World Series, ending the longest championship drought in Major League Baseball history.", "year": 2016, "subtitle": "Chicago Cubs", "url": "https://en.wikipedia.org/wiki/Chicago_Cubs", "headline": "Chicago Cubs end championship drought by winning 2016 World Series" }, { "originalText": "At the season-ending Brazilian Grand Prix, Lewis Hamilton (pictured) overtook Timo Glock in the final corners of the race to become World Drivers' Champion by one point.", "year": 2008, "subtitle": "2008 Brazilian Grand Prix", "url": "https://en.wikipedia.org/wiki/2008_Brazilian_Grand_Prix", "headline": "Lewis Hamilton clinches World Drivers' Champion title at Brazilian Grand Prix" }, { "originalText": "In Tbilisi, Georgia, tens of thousands of people demonstrated  against the allegedly corrupt government of president Mikheil Saakashvili.", "year": 2007, "subtitle": "Tbilisi", "url": "https://en.wikipedia.org/wiki/Tbilisi", "headline": "Thousands protest alleged corruption in Tbilisi against president Mikheil Saakashvili" }, { "originalText": "Aboard Expedition 1, American astronaut William Shepherd and Russian cosmonauts Sergei Krikalev and Yuri Gidzenko became the first resident crew to arrive at the International Space Station.", "year": 2000, "subtitle": "Expedition 1", "url": "https://en.wikipedia.org/wiki/Expedition_1", "headline": "Expedition 1 crew arrives at International Space Station, marking historic moment" }, { "originalText": "Tropical Storm Linda made landfall in the Mekong Delta in Vietnam, causing more than 3,000 deaths.", "year": 1997, "subtitle": "Tropical Storm Linda (1997)", "url": "https://en.wikipedia.org/wiki/Tropical_Storm_Linda_(1997)", "headline": "Tropical Storm Linda causes over 3,000 deaths in Vietnam" }, { "originalText": "A lighting strike ruptured three oil tanks near Dronka, Egypt, causing a flood that killed 469 people.", "year": 1994, "subtitle": "1994 Dronka floods and lightning strike", "url": "https://en.wikipedia.org/wiki/1994_Dronka_floods_and_lightning_strike", "headline": "Lightning strike in Egypt leads to flood, claiming 469 lives" }, { "originalText": "Sky Television and British Satellite Broadcasting merged to form BSkyB, currently the largest pay-TV broadcaster in Europe.", "year": 1990, "subtitle": "Sky Television (1984–1990)", "url": "https://en.wikipedia.org/wiki/Sky_Television_(1984%E2%80%931990)", "headline": "Sky Television and British Satellite Broadcasting merge to form BSkyB" }, { "originalText": "The serial killer Velma Barfield became the first woman to be executed in the United States since 1962.", "year": 1984, "subtitle": "Velma Barfield", "url": "https://en.wikipedia.org/wiki/Velma_Barfield", "headline": "Velma Barfield executed, first woman in US since 1962" }, { "originalText": "President Ngô Đình Diệm of South Vietnam was assassinated, marking the culmination of a coup d'état led by Dương Văn Minh.", "year": 1963, "subtitle": "Ngo Dinh Diem", "url": "https://en.wikipedia.org/wiki/Ngo_Dinh_Diem", "headline": "President Ngô Đình Diệm assassinated in South Vietnam coup" }, { "originalText": "In the trial R v Penguin Books Ltd, publisher Penguin Books was acquitted of obscenity for the publication of Lady Chatterley's Lover by D. H. Lawrence.", "year": 1960, "subtitle": "R v Penguin Books Ltd", "url": "https://en.wikipedia.org/wiki/R_v_Penguin_Books_Ltd", "headline": "Publisher Penguin Books acquitted in Lady Chatterley's Lover trial" }, { "originalText": "A large number of people witnessed a fiery object in the sky near Levelland, Texas, which the United States Air Force said was ball lightning.", "year": 1957, "subtitle": "Levelland UFO case", "url": "https://en.wikipedia.org/wiki/Levelland_UFO_case", "headline": "Fiery object in sky near Levelland, Texas witnessed by many" }, { "originalText": "The Dutch–Indonesian Round Table Conference ended with the Netherlands agreeing to transfer sovereignty of the Dutch East Indies to the United States of Indonesia.", "year": 1949, "subtitle": "Dutch–Indonesian Round Table Conference", "url": "https://en.wikipedia.org/wiki/Dutch%E2%80%93Indonesian_Round_Table_Conference", "headline": "Dutch–Indonesian Round Table Conference transfers sovereignty to United States of Indonesia" }, { "originalText": "World War II: A U.S. Navy task force turned away an Imperial Japanese Navy formation at the Battle of Empress Augusta Bay, thus protecting the landings at Cape Torokina.", "year": 1943, "subtitle": "World War II", "url": "https://en.wikipedia.org/wiki/World_War_II", "headline": "US Navy task force repels Imperial Japanese Navy at Battle of Empress Augusta Bay" }, { "originalText": "The Australian military began a \"war against emus\" (man with dead emu pictured), flightless native birds blamed for widespread damage to crops in Western Australia.", "year": 1932, "subtitle": "Australian Defence Force", "url": "https://en.wikipedia.org/wiki/Australian_Defence_Force", "headline": "Australian military declares 'war against emus' to protect crops" }, { "originalText": "The British government issued the Balfour Declaration in support of a Jewish homeland in Palestine, then an Ottoman region with a small Jewish minority.", "year": 1917, "subtitle": "Balfour Declaration", "url": "https://en.wikipedia.org/wiki/Balfour_Declaration", "headline": "Balfour Declaration issued in support of Jewish homeland in Palestine" }, { "originalText": "Emperor Gaozu of Tang allowed the assassination of a khagan of the Western Turkic Khaganate by Eastern Turkic rivals, one of the earliest events in the Tang campaigns against the Western Turks.", "year": 619, "subtitle": "Emperor Gaozu of Tang", "url": "https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Tang", "headline": "Emperor Gaozu of Tang allows assassination in early Tang campaigns against Western Turks" }] }
+module.exports={
+    "dateLabel": "November 3",
+    "issue": "Issue 308",
+    "events": [
+        {
+            "originalText": "Abdullah Çatlı, a leader of the ultra-nationalist Grey Wolves, was killed in a car crash near Susurluk, Turkey, sparking a scandal that exposed the depth of the state's complicity in organized crime.",
+            "year": 1996,
+            "subtitle": "Abdullah Çatlı",
+            "url": "https://en.wikipedia.org/wiki/Abdullah_%C3%87atl%C4%B1",
+            "headline": "Grey Wolves Leader Abdullah Çatlı Killed in Car Crash Near Susurluk, Turkey"
+        },
+        {
+            "originalText": "U.S. president Richard Nixon made a plea for support from the \"silent majority\", referring to those Americans who did not join in the large demonstrations against the Vietnam War at the time.",
+            "year": 1969,
+            "subtitle": "Richard Nixon",
+            "url": "https://en.wikipedia.org/wiki/Richard_Nixon",
+            "headline": "President Nixon Appeals to 'Silent Majority' Amid Vietnam War Protests"
+        },
+        {
+            "originalText": "The Soviet Union launched Sputnik 2, carrying the space dog Laika as the first living creature to enter orbit around Earth.",
+            "year": 1957,
+            "subtitle": "Sputnik 2",
+            "url": "https://en.wikipedia.org/wiki/Sputnik_2",
+            "headline": "Soviet Union Launches Sputnik 2 with Space Dog Laika Aboard"
+        },
+        {
+            "originalText": "Suez Crisis: During an invasion of the Gaza Strip, Israeli soldiers shot and killed hundreds of Palestinian refugees and local inhabitants in Khan Yunis.",
+            "year": 1956,
+            "subtitle": "Suez Crisis",
+            "url": "https://en.wikipedia.org/wiki/Suez_Crisis",
+            "headline": "Israeli Soldiers Kill Hundreds in Gaza Strip Invasion During Suez Crisis"
+        },
+        {
+            "originalText": "The first film featuring the giant monster known as Godzilla was released nationwide in Japan.",
+            "year": 1954,
+            "subtitle": "Godzilla (1954 film)",
+            "url": "https://en.wikipedia.org/wiki/Godzilla_(1954_film)",
+            "headline": "First Godzilla Film Released Nationwide in Japan"
+        },
+        {
+            "originalText": "The Chicago Daily Tribune published the erroneous headline \"Dewey Defeats Truman\" (pictured) in its early morning edition shortly after incumbent U.S. president Harry S. Truman officially upset the heavily favored governor of New York Thomas Dewey in the presidential election.",
+            "year": 1948,
+            "subtitle": "Chicago Tribune",
+            "url": "https://en.wikipedia.org/wiki/Chicago_Tribune",
+            "headline": "Chicago Daily Tribune Mistakenly Prints 'Dewey Defeats Truman' Headline"
+        },
+        {
+            "originalText": "The Holocaust: The largest massacre of Jews by German forces began at Majdanek concentration camp (execution trenches pictured).",
+            "year": 1943,
+            "subtitle": "The Holocaust",
+            "url": "https://en.wikipedia.org/wiki/The_Holocaust",
+            "headline": "Largest Massacre of Jews by German Forces Begins at Majdanek Concentration Camp"
+        },
+        {
+            "originalText": "World War II: U.S. Marines and U.S. Army forces began an attempt to encircle and destroy a regiment of Imperial Japanese Army troops on Guadalcanal.",
+            "year": 1942,
+            "subtitle": "World War II",
+            "url": "https://en.wikipedia.org/wiki/World_War_II",
+            "headline": "U.S. Forces Attempt to Encircle and Destroy Japanese Troops on Guadalcanal"
+        },
+        {
+            "originalText": "Almost 98 percent of reported votes in a Greek referendum supported the restoration of George II as King of the Hellenes.",
+            "year": 1935,
+            "subtitle": "1935 Greek monarchy referendum",
+            "url": "https://en.wikipedia.org/wiki/1935_Greek_monarchy_referendum",
+            "headline": "Greek Referendum Supports Restoration of George II as King"
+        },
+        {
+            "originalText": "The Fashoda Incident ended with French forces withdrawing after several months of military stalemate with the British in Fashoda (now in South Sudan).",
+            "year": 1898,
+            "subtitle": "Fashoda Incident",
+            "url": "https://en.wikipedia.org/wiki/Fashoda_Incident",
+            "headline": "French Forces Withdraw from Fashoda After Military Stalemate with British"
+        },
+        {
+            "originalText": "Indigenous Mapuche began an uprising against the occupation of Araucanía by Chile.",
+            "year": 1881,
+            "subtitle": "Mapuche",
+            "url": "https://en.wikipedia.org/wiki/Mapuche",
+            "headline": "Indigenous Mapuche Uprising Against Chilean Occupation of Araucanía"
+        },
+        {
+            "originalText": "The current melody of Kimigayo, the national anthem of Japan, was adopted.",
+            "year": 1880,
+            "subtitle": "Kimigayo",
+            "url": "https://en.wikipedia.org/wiki/Kimigayo",
+            "headline": "Current Melody of Kimigayo National Anthem of Japan Adopted"
+        },
+        {
+            "originalText": "A new constitution drafted by Johan Rudolph Thorbecke was proclaimed, limiting the powers of the Dutch monarchy.",
+            "year": 1848,
+            "subtitle": "Constitution of the Netherlands",
+            "url": "https://en.wikipedia.org/wiki/Constitution_of_the_Netherlands",
+            "headline": "New Constitution Limiting Dutch Monarchy Powers Proclaimed"
+        },
+        {
+            "originalText": "French invasion of Russia: As Napoleon's Grande Armée began its retreat, its rear guard was defeated at the Battle of Vyazma.",
+            "year": 1812,
+            "subtitle": "French invasion of Russia",
+            "url": "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
+            "headline": "Napoleon's Grande Armée Defeated at Battle of Vyazma During French Invasion of Russia"
+        },
+        {
+            "originalText": "War of the Third Coalition: The Treaty of Potsdam was signed compelling Prussia to join the coalition if it failed to negotiate peace between Russia and France.",
+            "year": 1805,
+            "subtitle": "War of the Third Coalition",
+            "url": "https://en.wikipedia.org/wiki/War_of_the_Third_Coalition",
+            "headline": "Treaty of Potsdam Compels Prussia to Join Third Coalition"
+        },
+        {
+            "originalText": "French Revolution: Playwright, journalist and outspoken feminist Olympe de Gouges  was guillotined.",
+            "year": 1793,
+            "subtitle": "French Revolution",
+            "url": "https://en.wikipedia.org/wiki/French_Revolution",
+            "headline": "Feminist Olympe de Gouges Guillotined During French Revolution"
+        },
+        {
+            "originalText": "The Parliament of England passed the first Act of Supremacy, making King Henry VIII head of the Church of England, supplanting the pope and the Catholic Church.",
+            "year": 1534,
+            "subtitle": "Parliament of England",
+            "url": "https://en.wikipedia.org/wiki/Parliament_of_England",
+            "headline": "King Henry VIII Becomes Head of Church of England with First Act of Supremacy"
+        }
+    ]
+}
 
 },{}],2:[function(require,module,exports){
 "use strict";
